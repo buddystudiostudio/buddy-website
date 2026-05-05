@@ -120,13 +120,13 @@ export default function BuddyEnglishStudioWebsite() {
     "沖縄で対面、またはオンラインで気軽に英語を学びたい",
   ];
 
-  const seoKeywords = [
-    "沖縄 英語レッスン",
-    "沖縄 英会話",
-    "沖縄 TOEIC対策",
-    "ビジネス英語 オンライン",
-    "大人 英語 学び直し",
-  ];
+const seoKeywords = [
+  "沖縄・オンライン対応",
+  "TOEIC対策",
+  "ビジネス英語",
+  "大人の英語学び直し",
+  "英会話サポート",
+];
 
   const pricingPlans = [
     {
@@ -236,7 +236,7 @@ export default function BuddyEnglishStudioWebsite() {
     portraitLoaded ? (
       <img
         src={instructorPhoto}
-        alt="Buddy English Studio founder / instructor portrait"
+        alt="沖縄で英語コーチングとTOEIC対策を提供するBuddy English Studio講師"
         className="block h-full w-full object-cover object-center"
         loading="eager"
         decoding="async"
@@ -335,7 +335,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Recommended For</p>
             <h2 id="recommended-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              こんな方におすすめです。
+              沖縄で英語を学び直したい社会人の方へ
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
               Buddy English Studioは、ただ英語を話す練習をする場所ではありません。目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄での対面・オンライン対応のコーチング型英語レッスンです。
@@ -369,7 +369,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Why Buddy English Studio</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              TOEIC990点満点の知識と、<br />実務経験をかけ合わせた英語サポート。
+              TOEIC990点満点講師による、<br />ビジネス英語・TOEIC対策の個別サポート
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
@@ -420,7 +420,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div className="mx-auto mb-14 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Buddy Method</p>
             <h2 id="method-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              目的から逆算して、使える英語へ。
+              英語コーチングで、目的から逆算して学習設計
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
               資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。Buddy English Studioでは、学習を感覚ではなく整理されたステップで進めます。
@@ -445,7 +445,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div className="mx-auto mb-14 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Lesson Flow</p>
             <h2 id="lesson-flow-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              体験レッスンまでの流れ
+              沖縄・オンライン英語レッスンの体験までの流れ
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
               初めての方でも迷わないように、相談から体験、継続判断までシンプルに進めます。
@@ -476,7 +476,7 @@ export default function BuddyEnglishStudioWebsite() {
             <div className="max-w-2xl">
               <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-300">Services</p>
               <h2 id="services-heading" className="text-3xl font-black tracking-tight sm:text-4xl">
-                目的に合わせて、必要な英語に絞って学ぶ。
+                TOEIC対策・ビジネス英語・英会話を目的別に学ぶ
               </h2>
             </div>
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30">
@@ -510,7 +510,7 @@ export default function BuddyEnglishStudioWebsite() {
 <section className="bg-white py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
-      このレッスンで得られること
+      英語学習・英会話レッスンで得られること
     </h2>
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
@@ -542,7 +542,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Pricing</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              まずは体験レッスンから。
+              沖縄・オンライン対応の体験英語レッスン
             </h2>
           </div>
           <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
@@ -587,7 +587,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Founder Profile</p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
-              英語を「教える」だけでなく、<br />「仕事で使う」経験を。
+              外資IT・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
