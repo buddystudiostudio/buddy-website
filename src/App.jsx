@@ -504,7 +504,36 @@ export default function BuddyEnglishStudioWebsite() {
           </div>
         </div>
       </section>
+<section className="bg-white py-20">
+  <div className="mx-auto max-w-5xl px-5 text-center">
+    <h2 className="text-3xl font-black text-slate-900 mb-10">
+      このレッスンで得られること
+    </h2>
 
+    <div className="grid gap-6 md:grid-cols-3 text-left">
+      <div className="rounded-2xl bg-slate-50 p-6">
+        <p className="font-bold text-slate-800">学習の方向性が明確になる</p>
+        <p className="mt-2 text-sm text-slate-600">
+          何から始めればいいか分からない状態から、自分に合った進め方が見えてきます。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-6">
+        <p className="font-bold text-slate-800">継続できる学び方が分かる</p>
+        <p className="mt-2 text-sm text-slate-600">
+          無理なく続けられる方法を一緒に整理し、習慣化につなげます。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-6">
+        <p className="font-bold text-slate-800">仕事やTOEICに直結する英語力</p>
+        <p className="mt-2 text-sm text-slate-600">
+          実務経験ベースで、実際に使える英語にフォーカスします。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
       <section id="price" className="bg-white py-20 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-16 max-w-3xl text-center">
@@ -646,7 +675,7 @@ export default function BuddyEnglishStudioWebsite() {
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
-              LINEで体験レッスンを相談する
+              LINEで無料相談する
             </a>
             <a href={`mailto:${emailAddress}`} className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20">
               メールで問い合わせる
