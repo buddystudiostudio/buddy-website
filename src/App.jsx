@@ -60,7 +60,7 @@ export default function BuddyEnglishStudioWebsite() {
   const lessonFlow = [
     {
       step: "01",
-      title: "LINEで気軽に相談",
+      title: "LINEで無料相談",
       text: "『体験希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
     },
     {
@@ -142,7 +142,7 @@ export default function BuddyEnglishStudioWebsite() {
       price: "ポイント制",
       description: "ご予算・頻度に合わせて相談可能です",
       features: ["1対1の個別指導", "目的に合わせた内容設計", "英文メール・面接・資料相談も可", "オンライン・対面相談可"],
-      cta: "プラン詳細を聞く",
+      cta: "LINEで無料相談する",
       highlight: true,
     },
   ];
@@ -281,9 +281,12 @@ export default function BuddyEnglishStudioWebsite() {
               英語をやり直したいけど、<br />
               <span className="text-blue-600">何から始めればいいか分からない方へ。</span>
             </h1>
+            <p className="mt-4 text-base font-semibold text-blue-600">
+  「使える英語」まで、最短ルートで伴走します。
+</p>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
               TOEIC 990点満点、米国勤務経験、外資IT&コンサル経験をもとに、
-              あなたの目的に合わせて、英語学習の方向性から一緒に整理します。
+              あなたの目的に合わせて、英語学習の「何から・どの順番で」を一緒に整理します。
               沖縄での対面レッスン、全国対応のオンラインレッスンに対応しています。
             </p>
 <div className="mt-6 space-y-2 text-sm font-medium text-slate-700">
@@ -306,7 +309,7 @@ export default function BuddyEnglishStudioWebsite() {
               <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
               <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 神戸大学卒・米国勤務経験・TOEIC 990点満点</p>
               <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 目的整理から学習方針までサポート</p>
-              <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、体験レッスン枠には限りがあります</p>
+              <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、少人数限定です</p>
             </div>
           </div>
 
@@ -512,21 +515,21 @@ export default function BuddyEnglishStudioWebsite() {
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
       <div className="rounded-2xl bg-slate-50 p-6">
-        <p className="font-bold text-slate-800">学習の方向性が明確になる</p>
+        <p className="font-bold text-slate-800">何から始めるか迷わなくなる</p>
         <p className="mt-2 text-sm text-slate-600">
           何から始めればいいか分からない状態から、自分に合った進め方が見えてきます。
         </p>
       </div>
 
       <div className="rounded-2xl bg-slate-50 p-6">
-        <p className="font-bold text-slate-800">継続できる学び方が分かる</p>
+        <p className="font-bold text-slate-800">無理なく続けられるようになる</p>
         <p className="mt-2 text-sm text-slate-600">
           無理なく続けられる方法を一緒に整理し、習慣化につなげます。
         </p>
       </div>
 
       <div className="rounded-2xl bg-slate-50 p-6">
-        <p className="font-bold text-slate-800">仕事やTOEICに直結する英語力</p>
+        <p className="font-bold text-slate-800">「使える英語」が身につく</p>
         <p className="mt-2 text-sm text-slate-600">
           実務経験ベースで、実際に使える英語にフォーカスします。
         </p>
@@ -671,7 +674,7 @@ export default function BuddyEnglishStudioWebsite() {
             まずは40分の体験レッスンで、今の現在地と次の一歩を一緒に整理しましょう。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-            「体験希望です」だけでも大丈夫です。1対1で丁寧に対応するため、体験レッスン枠には限りがあります。目的や自身のレベルがわからなくても、お気軽にご相談ください。
+            「体験希望です」だけでも大丈夫です。1対1で丁寧に対応するため、体験レッスンには限りがあります。目的や自身のレベルがわからなくても、お気軽にご相談ください。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
