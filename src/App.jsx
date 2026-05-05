@@ -282,8 +282,8 @@ export default function BuddyEnglishStudioWebsite() {
               <span className="text-blue-600">活かせる力</span>へ。
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              英語を学び直したい方、TOEICスコアを上げたい方、仕事で英語を使いたい方へ。TOEIC 990点満点・米国勤務経験・外資ITでの実務経験をもとに、英語を「資格・仕事・人生」に活かすための1対1サポートを行います。
-              沖縄の対面レッスンにも、オンライン英語レッスンにも対応しています。
+              英語を学び直したい方、TOEICスコアを上げたい方、仕事で英語を使いたい方へ。TOEIC 990点満点・米国勤務経験・外資IT&コンサルティング会社での実務経験をもとに、英語を「資格・仕事・人生」に活かすための1対1サポートを行います。
+              沖縄の対面レッスンにも、オンラインレッスンにも対応しています。
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
@@ -296,7 +296,7 @@ export default function BuddyEnglishStudioWebsite() {
             <div className="mt-6 space-y-2 text-sm font-medium text-slate-500">
               <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
               <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 神戸大学卒・米国勤務経験・TOEIC 990点満点</p>
-              <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 英語の目的整理から学習方針までサポート</p>
+              <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 目的整理から学習方針までサポート</p>
               <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、体験レッスン枠には限りがあります</p>
             </div>
           </div>
@@ -326,7 +326,7 @@ export default function BuddyEnglishStudioWebsite() {
               こんな方におすすめです。
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Buddy English Studioは、ただ英語を話す練習をする場所ではありません。英語の目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄・オンライン対応の英語コーチング型レッスンです。
+              Buddy English Studioは、ただ英語を話す練習をする場所ではありません。目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄対面・オンライン対応の英語コーチング型レッスンです。
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {seoKeywords.map((keyword) => (
@@ -550,7 +550,7 @@ export default function BuddyEnglishStudioWebsite() {
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
-                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT・コンサルティング企業で15年以上のキャリアを積んできました。営業からマネジメントまで、現場で培った英語経験がベースです。
+                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT・コンサルティング企業で15年以上のキャリアを積んできました。営業からマネジメントまで、現場で培った経験がベースです。
               </p>
               <p>
                 TOEIC 990点満点は、あくまで英語の基礎体力の証明。本当に大切なのは、その英語を仕事・資格・人生にどう活かすかです。
