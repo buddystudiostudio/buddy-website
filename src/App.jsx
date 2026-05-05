@@ -134,7 +134,7 @@ export default function BuddyEnglishStudioWebsite() {
       price: "3,500",
       description: "40分のレッスン + 学習方針のミニ提案",
       features: ["現状のレベルチェック", "弱点と伸び代の整理", "今後の学習方針を提案", "無理な勧誘なし"],
-      cta: "LINEで体験を相談する",
+      cta: "LINEで無料相談する",
       highlight: false,
     },
     {
@@ -264,7 +264,7 @@ export default function BuddyEnglishStudioWebsite() {
             <a href="#profile" className="hover:text-blue-600">Founder</a>
           </nav>
           <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
-            体験レッスン相談
+            LINEで無料相談する
           </a>
         </div>
       </header>
@@ -296,7 +296,7 @@ export default function BuddyEnglishStudioWebsite() {
 </div>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
-                LINEで体験レッスンを相談する →
+                LINEで無料相談する
               </a>
               <a href="#flow" className="rounded-full bg-white px-8 py-4 text-center text-lg font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100">
                 体験までの流れを見る
@@ -355,7 +355,7 @@ export default function BuddyEnglishStudioWebsite() {
               ))}
             </div>
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="mt-6 block rounded-full bg-blue-600 px-6 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              自分に合うかLINEで相談する
+              LINEで無料相談する
             </a>
           </div>
         </div>
@@ -461,7 +461,7 @@ export default function BuddyEnglishStudioWebsite() {
           </div>
           <div className="mt-10 text-center">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="inline-flex rounded-full bg-slate-900 px-8 py-4 text-base font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              まずはLINEで相談する
+              LINEで無料相談する
             </a>
           </div>
         </div>
@@ -477,7 +477,7 @@ export default function BuddyEnglishStudioWebsite() {
               </h2>
             </div>
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30">
-              LINEで相談する →
+              LINEで無料相談する
             </a>
           </div>
           <div className="grid gap-8 lg:grid-cols-3">
