@@ -277,7 +277,7 @@ export default function BuddyEnglishStudioWebsite() {
             <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
               ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
             </div>
-            <h1 id="hero-heading" className="text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
+            <h1 id="hero-heading" className="text-5xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
               英語を、仕事と人生に<br />
               <span className="text-blue-600">活かせる力</span>へ。
             </h1>
