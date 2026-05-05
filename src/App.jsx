@@ -277,12 +277,12 @@ export default function BuddyEnglishStudioWebsite() {
             <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
               ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
             </div>
-            <h1 id="hero-heading" className="text-4xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
+            <h1 id="hero-heading" className="text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
               英語を、仕事と人生に<br />
               <span className="text-blue-600">活かせる力</span>へ。
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              英語を学び直したい大人、TOEICスコアを上げたい方、仕事で英語を使いたい方へ。TOEIC 990点満点・米国勤務経験・外資ITでの実務経験をもとに、英語を「資格・仕事・人生」に活かすための1対1サポートを行います。
+              英語を学び直したい方、TOEICスコアを上げたい方、仕事で英語を使いたい方へ。TOEIC 990点満点・米国勤務経験・外資ITでの実務経験をもとに、英語を「資格・仕事・人生」に活かすための1対1サポートを行います。
               沖縄の対面レッスンにも、オンライン英語レッスンにも対応しています。
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
