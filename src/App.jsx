@@ -285,9 +285,9 @@ export default function BuddyEnglishStudioWebsite() {
   「使える英語」まで、最短ルートで伴走します。
 </p>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              TOEIC 990点満点、米国勤務経験、外資IT&コンサル経験をもとに、
+              TOEIC 990点満点、米国勤務経験、外資IT&コンサル企業での実務経験をもとに、
               あなたの目的に合わせて、英語学習の「何から・どの順番で」を一緒に整理します。
-              沖縄での対面レッスン、全国対応のオンラインレッスンに対応しています。
+              沖縄での対面、全国対応のオンライン、両レッスン形式に対応しています。
             </p>
 <div className="mt-6 space-y-2 text-sm font-medium text-slate-700">
 <p className="text-sm font-bold text-slate-800">
