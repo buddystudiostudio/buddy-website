@@ -386,11 +386,13 @@ const seoKeywords = [
         </div>
       </section>
 
-      <section className="bg-white py-20 lg:py-24" aria-labelledby="faq-heading">
+      <section className="bg-white py-20 lg:py-24" aria-labelledby="features-heading">
         <div className="mx-auto max-w-5xl px-5">
           <div className="mb-12 text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Features</p>
-            <h2 className="text-3xl font-black text-slate-900">Buddy English Studioの特徴</h2>
+            <h2 id="features-heading" className="text-3xl font-black text-slate-900">
+  沖縄の英語コーチングとして選ばれる理由
+</h2>
           </div>
           <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-lg">
             <table className="w-full min-w-[720px] border-collapse text-left">
@@ -668,7 +670,7 @@ const seoKeywords = [
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
         <div className="relative z-10 mx-auto max-w-4xl px-5 text-center">
           <h2 className="mb-8 text-3xl font-black sm:text-4xl">
-            英語学習、一人で悩む時間は、<br />もう終わりにしませんか？
+            沖縄・オンラインの英語コーチングで、<br />英語学習の悩みを一緒に整理しませんか？
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg leading-8 text-slate-200">
             まずは40分の体験レッスンで、「何から始めるべきか」を一緒に明確にします。
