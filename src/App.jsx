@@ -107,7 +107,7 @@ export default function BuddyEnglishStudioWebsite() {
     "TOEIC 990点満点",
     "神戸大学卒",
     "米国勤務・留学経験",
-    "IT・外資系企業で15年以上",
+    "外資系IT・コンサルティング企業で15年以上",
     "沖縄の海と文化が好き",
     "海外スキューバダイビング経験",
   ];
@@ -566,7 +566,7 @@ export default function BuddyEnglishStudioWebsite() {
                 ))}
               </div>
               <p className="border-l-4 border-blue-600 py-2 pl-6 font-bold italic text-slate-900">
-                「一人で悩まずに相談できる、身近な伴走者になりたい。」
+                「一人で悩まずに相談できる、身近な伴走者でありたい。」
               </p>
             </div>
             <div className="mt-10 flex flex-wrap gap-3">
