@@ -369,7 +369,7 @@ export default function BuddyEnglishStudioWebsite() {
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Why Buddy English Studio</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              TOEIC 990点満点だけで終わらない、<br />実務経験に基づく英語サポート。
+              TOEIC990点満点の知識と、<br />実務経験をかけ合わせた英語サポート。
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
