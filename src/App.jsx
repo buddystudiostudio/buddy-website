@@ -668,13 +668,13 @@ export default function BuddyEnglishStudioWebsite() {
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
         <div className="relative z-10 mx-auto max-w-4xl px-5 text-center">
           <h2 className="mb-8 text-3xl font-black sm:text-4xl">
-            英語学習を一人で悩む時間を、<br />そろそろ終わらせましょう。
+            英語学習、一人で悩む時間は、<br />もう終わりにしませんか？
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg leading-8 text-slate-200">
-            まずは40分の体験レッスンで、今の現在地と次の一歩を一緒に整理しましょう。
+            まずは40分の体験レッスンで、「何から始めるべきか」を一緒に明確にします。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-            「体験希望です」だけでも大丈夫です。1対1で丁寧に対応するため、体験レッスンには限りがあります。目的や自身のレベルがわからなくても、お気軽にご相談ください。
+            「体験希望です」と送るだけでも大丈夫です。1対1で丁寧に対応するため、体験レッスンには限りがあります。目的や自身のレベルがわからなくても、お気軽にご相談ください。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
