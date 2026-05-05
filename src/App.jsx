@@ -278,9 +278,9 @@ export default function BuddyEnglishStudioWebsite() {
               ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
             </div>
             <h1 id="hero-heading" className="text-4xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
-              英語をやり直したいけど、<br />
-              <span className="text-blue-600">何から始めればいいか分からない方へ。</span>
-            </h1>
+  沖縄の英語コーチング｜TOEIC990講師がマンツーマン指導<br />
+  <span className="text-blue-600">英語をやり直したい方へ。何から始めるべきか一緒に整理します。</span>
+</h1>
             <p className="mt-4 text-base font-semibold text-blue-600">
   「使える英語」まで、最短ルートで伴走します。
 </p>
