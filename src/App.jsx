@@ -6,7 +6,7 @@ export default function BuddyEnglishStudioWebsite() {
   const trustStack = [
     {
       title: "TOEIC 990点満点",
-      description: "TOEIC満点の知見を活かし、英語力の現在地と伸ばす順番をわかりやすく整理します。",
+      description: "TOEIC満点の知見を活かし、現在の英語力と伸ばす順番をわかりやすく整理します。",
       icon: "🏆",
     },
     {
@@ -66,7 +66,7 @@ export default function BuddyEnglishStudioWebsite() {
     {
       step: "02",
       title: "体験レッスン",
-      text: "40分で英語の現在地、伸ばしたい場面、苦手ポイントを一緒に整理します。",
+      text: "40分で現在の英語力、伸ばしたい場面、苦手ポイントを一緒に整理します。",
     },
     {
       step: "03",
