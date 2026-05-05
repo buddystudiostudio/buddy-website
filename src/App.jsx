@@ -338,7 +338,7 @@ export default function BuddyEnglishStudioWebsite() {
               こんな方におすすめです。
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Buddy English Studioは、ただ英語を話す練習をする場所ではありません。目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄対面・オンライン対応の英語コーチング型レッスンです。
+              Buddy English Studioは、ただ英語を話す練習をする場所ではありません。目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄での対面・オンライン対応のコーチング型英語レッスンです。
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {seoKeywords.map((keyword) => (
