@@ -282,8 +282,8 @@ export default function BuddyEnglishStudioWebsite() {
               <span className="text-blue-600">活かせる力</span>へ。
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              英語を学び直したい方、TOEICスコアを上げたい方、仕事で英語を使いたい方へ。TOEIC 990点満点・米国勤務経験・外資IT&コンサルティング会社での実務経験をもとに、英語を「資格・仕事・人生」に活かすための1対1サポートを行います。
-              沖縄の対面レッスンにも、オンラインレッスンにも対応しています。
+              英語を学び直したい方、TOEICスコアを伸ばしたい方、仕事で英語を使えるようになりたい方へ。TOEIC 990点満点、米国勤務経験、外資IT&コンサルティング企業での実務経験をもとに、一人ひとりの目的に合わせて、英語を「資格」「仕事」「これからの人生」に活かすための1対1サポートを行います。
+              沖縄での対面レッスン、全国対応のオンラインレッスンに対応しています。
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
