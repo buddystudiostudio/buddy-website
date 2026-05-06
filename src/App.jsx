@@ -112,7 +112,7 @@ const profileHighlights = [
   "神戸大学卒",
   "米国勤務・留学経験",
   "外資系IT企業・外資系コンサルで15年以上",
-  "営業・パートナー営業・マネジメント経験",
+  "営業・コンサルティング・マネジメント経験",
   "目的整理から学習設計までサポート",
 ];
 
@@ -240,7 +240,7 @@ const seoKeywords = [
     portraitLoaded ? (
       <img
         src={instructorPhoto}
-        alt="沖縄で英語コーチングとTOEIC対策を提供するBuddy English Studio講師"
+        alt="沖縄で英語コーチングとTOEIC対策等を提供するBuddy English Studio講師"
         className="block h-full w-full object-cover object-center"
         loading="eager"
         decoding="async"
