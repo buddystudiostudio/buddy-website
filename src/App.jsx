@@ -259,15 +259,15 @@ const seoKeywords = [
             <p className="text-lg font-black tracking-tight text-slate-900">BUDDY ENGLISH STUDIO</p>
             <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">沖縄・オンライン対応の英語コーチング</p>
           </div>
-          <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
-<a href="/blog" className="hover:text-blue-600">Blog</a>
-            <a href="#why" className="hover:text-blue-600">Why Buddy</a>
-            <a href="#recommended" className="hover:text-blue-600">For You</a>
-            <a href="#services" className="hover:text-blue-600">Services</a>
-            <a href="#flow" className="hover:text-blue-600">Flow</a>
-            <a href="#price" className="hover:text-blue-600">Price</a>
-            <a href="#profile" className="hover:text-blue-600">Founder</a>
-          </nav>
+<nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
+  <a href="/blog" className="hover:text-blue-600">ブログ</a>
+  <a href="#why" className="hover:text-blue-600">選ばれる理由</a>
+  <a href="#recommended" className="hover:text-blue-600">こんな方へ</a>
+  <a href="#services" className="hover:text-blue-600">サービス</a>
+  <a href="#flow" className="hover:text-blue-600">流れ</a>
+  <a href="#price" className="hover:text-blue-600">料金</a>
+  <a href="#profile" className="hover:text-blue-600">講師紹介</a>
+</nav>
           <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
             LINEで無料相談する
           </a>
