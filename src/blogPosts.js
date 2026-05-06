@@ -4,7 +4,7 @@ export const blogPosts = [
     title:
       "TOEIC初心者は何から始めるべき？社会人の英語やり直しで最初にやるべき3つのこと",
     description:
-      "TOEIC初心者・英語をやり直したい社会人向けに、最初に取り組むべき勉強法をTOEIC990講師が解説します。",
+      "TOEIC初心者・英語をやり直したい社会人向けに、最初に取り組むべき勉強法をTOEIC990満点講師が解説します。",
     date: "2026-05-06",
     category: "TOEIC対策",
     content: [
