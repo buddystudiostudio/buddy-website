@@ -257,7 +257,7 @@ const seoKeywords = [
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <div>
             <p className="text-lg font-black tracking-tight text-slate-900">BUDDY ENGLISH STUDIO</p>
-            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">Okinawa & Online English Support</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">沖縄・オンライン対応の英語コーチング</p>
           </div>
           <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
 <a href="/blog" className="hover:text-blue-600">Blog</a>
