@@ -748,7 +748,7 @@ const seoKeywords = [
             まずは40分の体験レッスンで、「何から始めるべきか」を一緒に明確にします。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-            「体験希望です」と送るだけでも大丈夫です。1対1で丁寧に対応するため、現在、体験枠は限られています。目的や自身のレベルがわからなくても、お気軽にご相談ください。
+          LINE追加後は「体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。1対1で丁寧に対応するため、体験枠には限りがあります。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
