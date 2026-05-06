@@ -294,14 +294,7 @@ const seoKeywords = [
   沖縄での対面レッスン、全国対応のオンラインレッスンの両方に対応しています。
 </p>
 
-<div className="mt-6 space-y-2 text-sm font-medium text-slate-700">
-<p className="text-sm font-bold text-slate-800">
-    こんなお悩みありませんか？
-  </p>
-  <p>・英語をやり直したいけど、何から始めればいいか分からない</p>
-  <p>・仕事で英語が必要だけど、勉強が続かない</p>
-  <p>・自分に合った勉強方法を一度整理したい</p>
-</div>
+
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
                 LINEで無料相談する
