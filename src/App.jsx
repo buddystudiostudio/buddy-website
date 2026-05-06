@@ -108,7 +108,7 @@ export default function BuddyEnglishStudioWebsite() {
     "TOEIC 990点満点",
     "神戸大学卒",
     "米国勤務・留学経験",
-    "外資系IT・コンサルティング企業で15年以上",
+    "外資系IT・外資系コンサルティング企業で15年以上",
     "沖縄の海と文化が好き",
     "海外スキューバダイビング経験",
   ];
@@ -374,7 +374,7 @@ const seoKeywords = [
         <div className="mb-4 h-px bg-slate-200" />
         <p className="leading-8 text-slate-600">
           英文メール、会議、面接、プレゼンなど、実際のビジネス場面に合わせてサポートします。
-          外資IT・コンサルでの実務経験をもとに、自然で伝わる英語を一緒に磨きます。
+          外資IT・外資系コンサルでの実務経験をもとに、自然で伝わる英語を一緒に磨きます。
         </p>
       </div>
     </div>
@@ -640,11 +640,11 @@ const seoKeywords = [
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Founder Profile</p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
-              外資IT・コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
+              外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
-                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT・コンサルティング企業で15年以上のキャリアを積んできました。営業からマネジメントまで、現場で培った経験がベースです。
+                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT・外資系コンサルティング企業で15年以上のキャリアを積んできました。営業からマネジメントまで、現場で培った経験がベースです。
               </p>
               <p>
                 TOEIC 990点満点は、あくまで英語の基礎体力の証明。本当に大切なのは、その英語を仕事や人生にどう活かすかです。
