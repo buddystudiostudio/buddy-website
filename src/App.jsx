@@ -17,7 +17,7 @@ export default function BuddyEnglishStudioWebsite() {
     },
     {
       title: "IT・外資系企業で15年以上",
-      description: "営業・パートナー営業・マネジメントの現場経験を活かし、仕事で使う英語にも対応します。",
+      description: "営業・コンサルティング・マネジメントの現場経験を活かし、仕事で使う英語にも対応します。",
       icon: "💼",
     },
   ];
