@@ -107,14 +107,14 @@ export default function BuddyEnglishStudioWebsite() {
     },
   ];
 
-  const profileHighlights = [
-    "TOEIC 990点満点",
-    "神戸大学卒",
-    "米国勤務・留学経験",
-    "外資系IT企業・外資系コンサルティング企業で15年以上",
-    "沖縄の海と文化が好き",
-    "海外スキューバダイビング経験",
-  ];
+const profileHighlights = [
+  "TOEIC 990点満点",
+  "神戸大学卒",
+  "米国勤務・留学経験",
+  "外資系IT企業・外資系コンサルで15年以上",
+  "営業・パートナー営業・マネジメント経験",
+  "目的整理から学習設計までサポート",
+];
 
   const recommendedFor = [
     "英語をやり直したいけど、何から始めればいいかわからない",
@@ -288,7 +288,7 @@ const seoKeywords = [
   1対1でサポートします。
 </h1>
 <p className="mt-4 text-base font-semibold text-blue-600">
-  TOEIC990点満点・米国勤務経験・外資IT/コンサルでの実務経験をもとにサポート
+  TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験をもとにサポート
 </p>
 
 <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
@@ -308,7 +308,7 @@ const seoKeywords = [
             </div>
             <div className="mt-6 space-y-2 text-sm font-medium text-slate-500">
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
-<p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/コンサル実務経験</p>
+<p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験</p>
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 「体験希望」「相談したい」だけでLINE相談OK</p>
               <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、少人数限定です</p>
             </div>
@@ -478,9 +478,11 @@ const seoKeywords = [
             <h2 id="method-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               英語コーチングで、目的から逆算して学習設計
             </h2>
-            <p className="mt-5 text-lg leading-8 text-slate-600">
-              資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。Buddy English Studioでは、学習を感覚ではなく整理されたステップで進めます。
-            </p>
+<p className="mt-5 text-lg leading-8 text-slate-600">
+  資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。
+  Buddy English Studioでは、外資系企業での実務・マネジメント経験を活かし、
+  目的整理から学習設計まで、コーチング型でサポートします。
+</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {buddyMethod.map((item) => (
@@ -649,7 +651,7 @@ const seoKeywords = [
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
-                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT・外資系コンサルティング企業で15年以上のキャリアを積んできました。営業からマネジメントまで、現場で培った経験がベースです。
+                海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。営業・コンサルティング・マネジメントまで幅広く経験し、個人として英語を使う場面だけでなく、チームやお客様をリードする現場も経験してきました。
               </p>
               <p>
                 TOEIC 990点満点は、あくまで英語の基礎体力の証明。本当に大切なのは、その英語を仕事や人生にどう活かすかです。
