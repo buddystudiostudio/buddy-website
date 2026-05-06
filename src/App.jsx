@@ -293,7 +293,7 @@ const seoKeywords = [
   ビジネス英語、英会話をサポートします。
   沖縄での対面レッスン、全国対応のオンラインレッスンの両方に対応しています。
 </p>
-            </p>
+
 <div className="mt-6 space-y-2 text-sm font-medium text-slate-700">
 <p className="text-sm font-bold text-slate-800">
     こんなお悩みありませんか？
@@ -335,6 +335,59 @@ const seoKeywords = [
         </div>
       </section>
 
+{/* Problem Solution Section */}
+<section className="bg-white px-5 py-20">
+  <div className="mx-auto max-w-6xl">
+    <div className="mb-12 text-center">
+      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+        For You
+      </p>
+      <h2 className="text-3xl font-black text-slate-900 md:text-4xl">
+        こんなお悩みはありませんか？
+      </h2>
+      <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-600">
+        Buddy English Studioでは、英語の悩みを「何となく頑張る」で終わらせず、
+        目的に合わせて次にやることを一緒に整理します。
+      </p>
+    </div>
+
+    <div className="grid gap-6 md:grid-cols-3">
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          英語を勉強しているのに、会話になると止まってしまう
+        </p>
+        <div className="mb-4 h-px bg-slate-200" />
+        <p className="leading-8 text-slate-600">
+          文法や単語の確認だけでなく、実際に口から出す練習まで一緒に行います。
+          「わかる英語」から「使える英語」へつなげていきます。
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          TOEICのスコアを上げたいけれど、何から始めればいいかわからない
+        </p>
+        <div className="mb-4 h-px bg-slate-200" />
+        <p className="leading-8 text-slate-600">
+          現在のレベルや目標スコアに合わせて、優先順位を整理します。
+          単なる問題演習ではなく、伸びやすいポイントから対策します。
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          仕事で英語が必要だけど、自信を持って使えない
+        </p>
+        <div className="mb-4 h-px bg-slate-200" />
+        <p className="leading-8 text-slate-600">
+          英文メール、会議、面接、プレゼンなど、実際のビジネス場面に合わせてサポートします。
+          外資IT・コンサルでの実務経験をもとに、自然で伝わる英語を一緒に磨きます。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+    
       <section id="recommended" className="bg-white py-16 lg:py-20" aria-labelledby="recommended-heading">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
