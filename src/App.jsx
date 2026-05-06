@@ -721,9 +721,11 @@ const seoKeywords = [
         <div className="mx-auto grid max-w-5xl gap-8 px-5 md:grid-cols-[1fr_auto] md:items-center">
           <div>
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">LINE Contact</p>
-            <h2 className="text-3xl font-black text-slate-900">PCの方はQRコードからもご相談できます</h2>
+            <h2 className="text-3xl font-black text-slate-900">体験レッスン・ご相談はLINEから</h2>
             <p className="mt-4 leading-8 text-slate-600">
-              スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。「体験希望です」とだけでも大丈夫です。
+              スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
+「体験希望」または「相談したい」と送るだけで大丈夫です。
+目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
             </p>
           </div>
           <div className="mx-auto rounded-3xl bg-slate-50 p-5 shadow-lg ring-1 ring-slate-200">
