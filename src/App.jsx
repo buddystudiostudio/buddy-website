@@ -279,17 +279,20 @@ const seoKeywords = [
             <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
               ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
             </div>
-           <h1 id="hero-heading" className="text-4xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-  沖縄の英語コーチング<br />
-  <span className="text-blue-600">TOEIC990講師が、英語のやり直しをサポートします</span>
+<h1 id="hero-heading" className="text-4xl font-black leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+  英語を学び直したい方へ。<br />
+  <span className="text-blue-600">仕事・資格・日常英会話に使える英語を、</span><br />
+  1対1でサポートします。
 </h1>
-            <p className="mt-4 text-base font-semibold text-blue-600">
-  「使える英語」まで、最短ルートで伴走します。
+<p className="mt-4 text-base font-semibold text-blue-600">
+  TOEIC990点満点・米国勤務経験・外資IT/コンサルでの実務経験をもとにサポート
 </p>
-            <p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-              TOEIC 990点満点、米国勤務経験、外資IT・コンサル企業での実務経験をもとに、
-              あなたの目的に合わせて、英語学習の「何から・どの順番で」を一緒に整理します。
-              沖縄での対面レッスン、全国対応のオンラインにも対応しています。
+
+<p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
+  一人ひとりの目的やレベルに合わせて、英語の学び直し、TOEIC対策、
+  ビジネス英語、英会話をサポートします。
+  沖縄での対面レッスン、全国対応のオンラインレッスンの両方に対応しています。
+</p>
             </p>
 <div className="mt-6 space-y-2 text-sm font-medium text-slate-700">
 <p className="text-sm font-bold text-slate-800">
@@ -308,9 +311,9 @@ const seoKeywords = [
               </a>
             </div>
             <div className="mt-6 space-y-2 text-sm font-medium text-slate-500">
-              <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
-              <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 神戸大学卒・米国勤務経験・TOEIC 990点満点</p>
-              <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 目的整理から学習方針までサポート</p>
+<p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
+<p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/コンサル実務経験</p>
+<p className="flex items-center gap-2"><span className="text-green-500">✓</span> 「体験希望」「相談したい」だけでLINE相談OK</p>
               <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、少人数限定です</p>
             </div>
           </div>
