@@ -30,6 +30,9 @@ export default function BlogPost() {
         <h1 className="mb-5 text-4xl font-black leading-tight">
           {post.title}
         </h1>
+<p className="mb-4 text-sm font-bold text-slate-500">
+  TOEIC990満点・米国勤務経験を持つ講師が解説
+</p>
         <p className="mb-10 leading-8 text-slate-600">{post.description}</p>
 
         <div className="space-y-10">
