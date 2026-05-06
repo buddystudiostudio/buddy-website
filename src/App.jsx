@@ -624,7 +624,28 @@ const seoKeywords = [
           </div>
         </div>
       </section>
+
       
+      <section className="bg-slate-50 py-20">
+  <div className="mx-auto max-w-5xl px-5 text-center">
+    <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+      Blog
+    </p>
+    <h2 className="text-3xl font-black text-slate-900">
+      英語学習のヒントも発信しています
+    </h2>
+    <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
+      TOEIC対策、英語の学び直し、ビジネス英語について、実務経験とコーチング視点からわかりやすく解説しています。
+    </p>
+
+    <a
+      href="/blog"
+      className="mt-8 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+    >
+      ブログを読む
+    </a>
+  </div>
+</section>
       <section className="bg-white py-24">
         <div className="mx-auto max-w-4xl px-5">
           <div className="mb-12 text-center">
