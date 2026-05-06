@@ -32,8 +32,11 @@ export default function BlogPost() {
         </h1>
 <p className="mb-4 text-sm font-bold text-slate-500">
   TOEIC990満点・米国勤務経験を持つ講師が解説
+</p><p className="mb-2 leading-8 text-slate-600">{post.description}</p>
+
+<p className="mb-10 text-sm font-medium text-slate-400">
+  読了時間：{post.readingTime}
 </p>
-        <p className="mb-10 leading-8 text-slate-600">{post.description}</p>
 
         <div className="space-y-10">
           {post.content.map((section) => (
