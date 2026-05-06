@@ -7,6 +7,7 @@ export const blogPosts = [
       "TOEIC初心者・英語をやり直したい社会人向けに、最初に取り組むべき勉強法をTOEIC990満点講師が解説します。",
     date: "2026-05-06",
     category: "TOEIC対策",
+    readingTime: "約4分",
     content: [
       {
         heading: "英語をやり直したい。でも何から始めればいいかわからない",
