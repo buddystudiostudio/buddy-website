@@ -34,9 +34,15 @@ export default function Blog() {
               </p>
               <h2 className="mb-3 text-2xl font-black">{post.title}</h2>
               <p className="leading-7 text-slate-600">{post.description}</p>
-              <p className="mt-5 text-sm font-bold text-slate-400">
-                {post.date}
-              </p>
+<div className="mt-6 flex items-center justify-between">
+  <p className="text-sm font-medium text-slate-400">
+    読了時間：{post.readingTime}
+  </p>
+
+  <span className="font-bold text-blue-600">
+    続きを読む →
+  </span>
+</div>
             </Link>
           ))}
         </div>
