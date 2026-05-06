@@ -257,7 +257,7 @@ const seoKeywords = [
             <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">Okinawa & Online English Support</p>
           </div>
           <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
-            <a href="#blog" className="hover:text-blue-600">Blog</a>
+<a href="/blog" className="hover:text-blue-600">Blog</a>
             <a href="#why" className="hover:text-blue-600">Why Buddy</a>
             <a href="#recommended" className="hover:text-blue-600">For You</a>
             <a href="#services" className="hover:text-blue-600">Services</a>
