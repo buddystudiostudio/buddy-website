@@ -717,28 +717,49 @@ const seoKeywords = [
         </div>
       </section>
 
-      <section className="bg-white py-20">
-        <div className="mx-auto grid max-w-5xl gap-8 px-5 md:grid-cols-[1fr_auto] md:items-center">
-          <div>
-            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">LINE Contact</p>
-            <h2 className="text-3xl font-black text-slate-900">体験レッスン・ご相談はLINEから</h2>
-            <p className="mt-4 leading-8 text-slate-600">
-              スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
-「体験希望」または「相談したい」と送るだけで大丈夫です。
-目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
-            </p>
-          </div>
-          <div className="mx-auto rounded-3xl bg-slate-50 p-5 shadow-lg ring-1 ring-slate-200">
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" aria-label="Buddy English Studio LINEを開く">
-              <img
-                src={lineQrCode}
-                alt="LINEでBuddy English Studioに問い合わせるためのQRコード"
-                className="h-44 w-44 object-contain"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
+<section className="bg-white py-20">
+  <div className="mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
+    <div>
+      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+        LINE Contact
+      </p>
+
+      <h2 className="text-3xl font-black text-slate-900">
+        体験レッスン・ご相談はLINEから
+      </h2>
+
+      <p className="mt-4 leading-8 text-slate-600">
+        スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
+        「体験希望」または「相談したい」と送るだけで大丈夫です。
+        目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
+      </p>
+
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+      >
+        LINEで無料相談する
+      </a>
+    </div>
+
+    <div className="mx-auto text-center">
+      <div className="rounded-3xl bg-slate-50 p-5 shadow-lg ring-1 ring-slate-200">
+        <a href={lineUrl} target="_blank" rel="noopener noreferrer" aria-label="Buddy English Studio LINEを開く">
+          <img
+            src={lineQrCode}
+            alt="LINEでBuddy English Studioに問い合わせるためのQRコード"
+            className="h-44 w-44 object-contain"
+          />
+        </a>
+      </div>
+      <p className="mt-4 text-sm font-bold text-slate-500">
+        QRコードを読み取ってLINEを追加
+      </p>
+    </div>
+  </div>
+</section>
 
       <section className="relative overflow-hidden bg-slate-900 py-24 text-white">
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
