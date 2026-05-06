@@ -624,40 +624,6 @@ const seoKeywords = [
           </div>
         </div>
       </section>
-<section id="blog" className="bg-slate-50 py-20 lg:py-24">
-  <div className="mx-auto max-w-7xl px-5">
-    <div className="mx-auto mb-12 max-w-3xl text-center">
-      <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        Blog
-      </p>
-      <h2 className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-        英語学習・TOEIC対策ブログ
-      </h2>
-      <p className="mt-5 text-lg leading-8 text-slate-600">
-        TOEIC対策、英語の学び直し、ビジネス英語についてわかりやすく解説します。
-      </p>
-    </div>
-
-    <div className="grid gap-6 md:grid-cols-2">
-      {blogPosts.map((post) => (
-        <article key={post.slug} className="rounded-3xl bg-white p-7 shadow-sm ring-1 ring-slate-200">
-          <p className="mb-3 text-sm font-bold text-blue-600">{post.category}</p>
-          <h3 className="mb-3 text-2xl font-black text-slate-900">{post.title}</h3>
-          <p className="leading-7 text-slate-600">{post.description}</p>
-
-          <div className="mt-6 space-y-5">
-            {post.content.map((section) => (
-              <div key={section.heading}>
-                <h4 className="mb-2 text-lg font-black text-slate-900">{section.heading}</h4>
-                <p className="text-sm leading-7 text-slate-600">{section.body}</p>
-              </div>
-            ))}
-          </div>
-        </article>
-      ))}
-    </div>
-  </div>
-</section>
       
       <section className="bg-white py-24">
         <div className="mx-auto max-w-4xl px-5">
