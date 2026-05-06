@@ -57,7 +57,7 @@ export default function BlogPost() {
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white"
           >
-            LINEで無料相談する
+            LINEで気軽に相談する
           </a>
         </div>
       </article>
