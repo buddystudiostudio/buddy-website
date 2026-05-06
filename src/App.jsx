@@ -29,23 +29,26 @@ export default function BuddyEnglishStudioWebsite() {
     { feature: "相談しやすさ", buddy: "LINE・メールで気軽に相談可能", others: "問い合わせ方法や手続きがサービスにより異なる" },
   ];
 
-  const services = [
-    {
-      title: "ビジネス英語・キャリア",
-      text: "英文メール、外資系面接、会議、プレゼンなど、実際の仕事で使う英語を場面別に練習します。",
-      tag: "Popular",
-    },
-    {
-      title: "TOEIC® L&R 対策",
-      text: "目標スコアから逆算し、弱点分析・学習計画・実践演習まで、効率的に進めます。",
-      tag: "Score Up",
-    },
-    {
-      title: "大人の学び直し・英会話",
-      text: "基礎文法を整理しながら、知っている英語を実際に使える英語へ変えていきます。",
-      tag: "Beginner OK",
-    },
-  ];
+ const services = [
+  {
+    title: "ビジネス英語・キャリア",
+    text: "英文メール、外資系面接、会議、プレゼンなど、実際の仕事で使う英語を場面別に練習します。",
+    tag: "Popular",
+    point: "メール・会議・面接まで実践対応",
+  },
+  {
+    title: "TOEIC® L&R 対策",
+    text: "目標スコアから逆算し、弱点分析・学習計画・実践演習まで、効率的に進めます。",
+    tag: "Score Up",
+    point: "目標スコアから逆算して対策",
+  },
+  {
+    title: "大人の学び直し・英会話",
+    text: "基礎文法を整理しながら、知っている英語を実際に使える英語へ変えていきます。",
+    tag: "Beginner OK",
+    point: "初心者・学び直しも安心",
+  },
+];
 
   const serviceExamples = [
     "英文メール添削",
@@ -544,7 +547,9 @@ const seoKeywords = [
                 </span>
                 <h3 className="mb-5 text-2xl font-bold">{service.title}</h3>
                 <p className="mb-8 leading-7 text-slate-300">{service.text}</p>
-                <p className="text-sm font-bold text-white"><span className="text-blue-300">✓</span> 1対1の個別指導</p>
+<p className="text-sm font-bold text-white">
+  <span className="text-blue-300">✓</span> {service.point}
+</p>
               </div>
             ))}
           </div>
