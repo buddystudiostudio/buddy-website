@@ -640,7 +640,7 @@ const seoKeywords = [
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Founder Profile</p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
-              外資IT・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
+              外資IT・コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
