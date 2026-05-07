@@ -357,6 +357,8 @@ const seoKeywords = [
 
       {/* NEW MESSAGE SECTION HERE */}
 
+{/* Founder Message Section */}
+
 <section className="bg-white py-16">
   <div className="mx-auto max-w-4xl px-5 text-center">
 
@@ -364,35 +366,29 @@ const seoKeywords = [
       Message
     </p>
 
-    <h2 className="text-3xl font-black leading-[1.08] text-slate-900 sm:text-4xl">
-      英語を「頑張らなきゃ」で終わらせず、<br />
-      一緒に整理しながら進めていく場所へ。
+    <h2 className="text-3xl font-black leading-[1.15] text-slate-900 sm:text-4xl">
+      英語を一人で抱え込まず、<br />
+      目的に合わせて一緒に整理できる場所へ。
     </h2>
 
-   <div className="mx-auto mt-8 max-w-3xl space-y-6 text-lg leading-9 text-slate-600">
+    <div className="mx-auto mt-8 max-w-3xl space-y-6 text-left text-lg leading-9 text-slate-600 sm:text-center">
+      <p>
+        英語を頑張りたい気持ちはある。<br />
+        でも、「何から始めればいいかわからない」「続かない」「自信がない」。
+        そんな悩みを持つ方は少なくありません。
+      </p>
 
-  <p>
-    英語を頑張りたい気持ちはある。<br />
-    でも、
-    「何から始めればいいかわからない」<br />
-    「続かない」<br />
-    「自信がない」
-  </p>
+      <p>
+        私自身も、英語を資格・仕事・海外経験の中で使ってきたからこそ、
+        英語は単なる勉強ではなく、仕事や人生の選択肢を広げてくれるものだと感じています。
+      </p>
 
-  <p>
-    Buddy English Studioでは、
-    そんな状態からでも安心して相談できる場所を
-    作りたいと思っています。
-  </p>
-
-  <p>
-    TOEIC対策や英会話だけでなく、
-    一人ひとりの目的やペースを整理しながら、
-    英語を仕事・資格・人生に活かせるよう、
-    伴走型でサポートしています。
-  </p>
-
-</div>
+      <p>
+        Buddy English Studioは、英語が得意な人だけの場所ではありません。
+        学び直したい方、TOEICを伸ばしたい方、仕事で英語が必要になった方が、
+        安心して相談できる身近な伴走者でありたいと思っています。
+      </p>
+    </div>
 
   </div>
 </section>
