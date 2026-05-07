@@ -319,14 +319,9 @@ const seoKeywords = [
           </div>
 
           <div className="relative">
-            <div className="rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-950 p-10 text-white shadow-2xl lg:rotate-3">
-              <div className="flex min-h-[360px] items-center justify-center rounded-[2rem] border border-white/10 bg-white/5 text-center">
-                <div>
-                  <p className="text-6xl font-black tracking-tight">BUDDY</p>
-                  <p className="mt-4 text-sm font-bold uppercase tracking-[0.25em] text-blue-200">English Studio</p>
-                </div>
-              </div>
-            </div>
+<div className="aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200 lg:rotate-3">
+  <InstructorVisual />
+</div>
             <div className="absolute -bottom-6 left-4 rounded-2xl bg-white p-5 shadow-xl ring-1 ring-slate-100 sm:left-[-24px]">
               <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Instructor Score</p>
               <p className="text-2xl font-black text-slate-900">TOEIC 990</p>
