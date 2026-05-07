@@ -362,7 +362,7 @@ const seoKeywords = [
   <div className="aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200">
     <img
   src={heroImage}
-  alt="Buddy English Studio"
+  alt="沖縄の英語レッスン・TOEIC対策に対応するBuddy English Studio"
   className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
 />
   </div>
