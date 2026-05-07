@@ -291,23 +291,24 @@ const seoKeywords = [
             </div>
 <h1 id="hero-heading" className="text-4xl font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
   英語を学び直したい方へ。<br />
-  <span className="text-blue-600">仕事・資格・日常英会話に使える英語を、</span><br />
-  1対1でサポートします。
+  <span className="text-blue-600">TOEIC・ビジネス英語・英会話を、</span><br />
+  目的に合わせて1対1でサポートします。
 </h1>
 <p className="mt-4 text-base font-semibold text-blue-600">
-  TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験を活かしてサポート
+  TOEIC990点満点・米国勤務経験・外資IT/コンサルでの実務経験をもとに、
+  英語を「資格・仕事・日常」に活かす力へ。
 </p>
 
 <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-  英語の学び直し、TOEIC等各種試験・資格対策、ビジネス英語まで。
-  一人ひとりの目的に合わせて、沖縄・オンラインで、
-1対1で一緒に整理しながらサポートします。
+  「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
+  そんな方に向けて、現在地と目的を一緒に整理しながら、
+  沖縄・オンラインで無理なく続けられる英語学習をサポートします。
 </p>
 
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
-                LINEで無料相談する
+                まずはLINEで相談してみる
               </a>
               <a href="#flow" className="rounded-full bg-white px-8 py-4 text-center text-lg font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100">
                 体験までの流れを見る
