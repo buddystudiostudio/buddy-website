@@ -347,7 +347,7 @@ const seoKeywords = [
   <span className="text-blue-500">✓</span>
   英語が苦手な方・学び直しの方からのご相談も増えています
 </p>
-              <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、少人数限定です</p>
+              <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、体験レッスン枠には限りがあります</p>
             </div>
           </div>
 
@@ -752,7 +752,7 @@ const seoKeywords = [
             ))}
           </div>
           <p className="mt-10 text-center text-sm font-medium text-slate-500">
-            ※継続プランは目標・受講頻度・ご予算に応じて個別にご案内します。まずはご希望をお聞かせください。
+            ※継続プランは目標・受講頻度・ご予算に応じて個別にご案内します。1対1で丁寧に対応するため、受講枠には限りがあります。
           </p>
         </div>
       </section>
@@ -941,7 +941,7 @@ const seoKeywords = [
             まずは40分の体験レッスンで、「何から始めるべきか」を一緒に明確にします。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-          LINE追加後は「体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。1対1で丁寧に対応するため、体験枠には限りがあります。
+          LINE追加後は「体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、体験レッスン枠には限りがあります。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
