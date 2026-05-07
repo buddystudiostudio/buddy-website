@@ -117,12 +117,13 @@ const profileHighlights = [
 ];
 
   const recommendedFor = [
-    "英語をやり直したいけど、何から始めればいいかわからない",
-    "TOEICの点数を上げたいが、勉強方法が自己流になっている",
-    "仕事で英文メール・会議・プレゼン・面接に対応する必要がある",
-    "大手英会話スクールより、目的に合わせて個別に相談したい",
-    "沖縄で対面、またはオンラインで気軽に英語を学びたい",
-  ];
+  "英語を学び直したいけれど、何から始めればいいかわからない",
+  "TOEICの点数を上げたいが、勉強方法が自己流になっている",
+  "英会話に苦手意識があり、話そうとすると言葉が止まってしまう",
+  "仕事で英文メール・会議・プレゼン・面接に対応する必要がある",
+  "大手スクールより、目的や悩みに合わせて1対1で相談したい",
+  "沖縄で対面、またはオンラインで無理なく英語を続けたい",
+];
 
 const seoKeywords = [
   "沖縄・オンライン対応",
@@ -452,11 +453,12 @@ const seoKeywords = [
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Recommended For</p>
             <h2 id="recommended-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              沖縄で英語を学び直したい社会人の方へ
-            </h2>
+  こんな方に向いています
+</h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Buddy English Studioは、ただ英語を話す練習をする場所ではありません。目的を整理し、必要な力に絞って伸ばしたい方のための、沖縄での対面・オンライン対応のコーチング型英語レッスンです。
-            </p>
+  英語が得意な方だけでなく、学び直し・TOEIC対策・仕事で使う英語に不安がある方もご相談いただけます。
+  目的や現在地を一緒に整理しながら、必要な力に絞って1対1でサポートします。
+</p>
             <div className="mt-6 flex flex-wrap gap-2">
               {seoKeywords.map((keyword) => (
                 <span key={keyword} className="rounded-full bg-orange-50 px-3 py-1.5 text-xs font-bold text-orange-700 ring-1 ring-orange-100">
