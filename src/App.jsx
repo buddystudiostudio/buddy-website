@@ -5,22 +5,25 @@ export default function BuddyEnglishStudioWebsite() {
   const [portraitLoaded, setPortraitLoaded] = useState(true);
 
   const trustStack = [
-    {
-      title: "TOEIC 990点満点",
-      description: "TOEIC満点の知見を活かし、現在の英語力と伸ばす順番をわかりやすく整理します。",
-      icon: "🏆",
-    },
-    {
-      title: "米国勤務・留学経験",
-      description: "教科書だけでは学びにくい、実際の会話・仕事・異文化コミュニケーションもサポートします。",
-      icon: "🌎",
-    },
-    {
-      title: "IT・外資系企業で15年以上",
-      description: "営業・コンサルティング・マネジメントの現場経験を活かし、仕事で使う英語にも対応します。",
-      icon: "💼",
-    },
-  ];
+  {
+    title: "TOEIC 990点満点の知見",
+    description:
+      "ただ問題を解くだけでなく、現在地・弱点・目標スコアから逆算して、伸ばす順番を一緒に整理します。",
+    icon: "🏆",
+  },
+  {
+    title: "海外経験に基づく実践英語",
+    description:
+      "米国勤務・留学経験をもとに、教科書だけでは学びにくい会話・異文化理解・自然な伝え方もサポートします。",
+    icon: "🌎",
+  },
+  {
+    title: "外資IT・コンサルで使ってきた英語",
+    description:
+      "英文メール、会議、面接、プレゼンなど、実際のビジネス現場で必要になる英語を目的に合わせて練習します。",
+    icon: "💼",
+  },
+];
 
   const comparisonData = [
     { feature: "講師の特徴", buddy: "TOEIC 990点満点講師が設計・監修", others: "スクールにより講師経験や専門領域はばらばら" },
@@ -491,8 +494,16 @@ const seoKeywords = [
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Why Buddy English Studio</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              TOEIC990点満点講師による、<br />ビジネス英語・TOEIC対策の個別サポート
-            </h2>
+  英語を「教わる」だけで終わらせず、<br />
+  使う目的に合わせて一緒に設計します
+</h2>
+
+<p className="mt-5 text-lg leading-8 text-slate-600">
+  TOEIC対策、英会話、ビジネス英語。どれも大切なのは、
+  「何を、どの順番で、どんな場面で使うために学ぶのか」を整理すること。
+  Buddy English Studioでは、TOEIC満点の知見と外資系企業での実務経験をもとに、
+  一人ひとりに合わせた学習方針を一緒に作ります。
+</p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
             {trustStack.map((item) => (
