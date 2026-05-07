@@ -5,10 +5,28 @@ export const blogPosts = [
       "TOEIC初心者は何から始めるべき？社会人の英語やり直しで最初にやる3つのこと",
 description:
   "TOEIC初心者・英語をやり直したい社会人向けに、最初に取り組むべき勉強法をわかりやすく解説します。",
-    date: "2026-05-06",
-    category: "TOEIC対策",
-    readingTime: "約4分",
-    content: [
+date: "2026-05-06",
+category: "TOEIC対策",
+cluster: "TOEIC対策",
+readingTime: "約4分",
+relatedPosts: ["toeic-score-not-improving"],
+cta: {
+  title: "英語学習で何から始めるか迷っている方へ",
+  body:
+    "Buddy English Studioでは、TOEIC対策・英語の学び直し・ビジネス英語を、目的や現在地に合わせて1対1でサポートしています。",
+  buttonText: "まずはLINEで相談してみる",
+},
+content: [
+cluster: "TOEIC対策",
+readingTime: "約4分",
+relatedPosts: ["toeic-score-not-improving"],
+cta: {
+  title: "英語学習で何から始めるか迷っている方へ",
+  body:
+    "Buddy English Studioでは、TOEIC対策・英語の学び直し・ビジネス英語を、目的や現在地に合わせて1対1でサポートしています。",
+  buttonText: "まずはLINEで相談してみる",
+},
+content: [
       {
         heading: "英語をやり直したい。でも何から始めればいいかわからない",
         body:
@@ -44,9 +62,17 @@ description:
     description:
       "TOEICを勉強しているのにスコアが伸びない社会人向けに、よくある原因と見直すべき勉強法をわかりやすく解説します。",
     date: "2026-05-07",
-    category: "TOEIC対策",
-    readingTime: "約5分",
-    content: [
+category: "TOEIC対策",
+cluster: "TOEIC対策",
+readingTime: "約5分",
+relatedPosts: ["toeic-beginner-study-method"],
+cta: {
+  title: "TOEICの勉強法で迷っている方へ",
+  body:
+    "Buddy English Studioでは、TOEIC990点満点の知見をもとに、現在地や目標スコアに合わせた学習設計を1対1でサポートしています。",
+  buttonText: "まずはLINEで相談してみる",
+},
+content: [
       {
         heading: "勉強しているのに、なぜTOEICの点数が伸びないのか",
         body:
