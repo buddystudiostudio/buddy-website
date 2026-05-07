@@ -877,7 +877,7 @@ const seoKeywords = [
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-4 text-center text-base font-black text-white shadow-2xl transition hover:bg-blue-700"
+    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-center text-sm font-black text-white shadow-2xl transition hover:bg-blue-700"
   >
     LINEで無料相談する
   </a>
