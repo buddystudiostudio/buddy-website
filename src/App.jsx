@@ -268,10 +268,16 @@ const seoKeywords = [
   <a href="#flow" className="hover:text-blue-600">流れ</a>
   <a href="#price" className="hover:text-blue-600">料金</a>
   <a href="#profile" className="hover:text-blue-600">講師紹介</a>
-</nav>
-          <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
-            LINEで無料相談する
-          </a>
+</nav><div className="hidden md:block">
+  <a
+    href={lineUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
+  >
+    LINEで無料相談する
+  </a>
+</div>
         </div>
       </header>
 
