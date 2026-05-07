@@ -253,6 +253,10 @@ const seoKeywords = [
     )
   );
 
+  const latestBlogPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 3);
+  
   return (
     <main className="min-h-screen bg-slate-50 pb-24 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
@@ -746,24 +750,63 @@ const seoKeywords = [
       </section>
 
       
-      <section className="bg-slate-50 py-20">
-  <div className="mx-auto max-w-5xl px-5 text-center">
-    <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-      Blog
-    </p>
-    <h2 className="text-3xl font-black text-slate-900">
-      英語学習のヒントも発信しています
-    </h2>
-    <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
-      TOEIC対策、英語の学び直し、ビジネス英語について、実務経験とコーチング視点からわかりやすく解説しています。
-    </p>
+  <section className="bg-slate-50 py-20">
+  <div className="mx-auto max-w-6xl px-5">
+    <div className="mb-12 text-center">
+      <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+        Blog
+      </p>
 
-    <a
-      href="/blog"
-      className="mt-8 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
-    >
-      ブログを読む
-    </a>
+      <h2 className="text-3xl font-black text-slate-900">
+        英語学習のヒントも発信しています
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
+        TOEIC対策、英語の学び直し、ビジネス英語について、
+        実務経験とコーチング視点からわかりやすく解説しています。
+      </p>
+    </div>
+
+    <div className="grid gap-6 md:grid-cols-3">
+      {latestBlogPosts.map((post) => (
+        <a
+          key={post.slug}
+          href={`/blog/${post.slug}`}
+          className="group rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-xl"
+        >
+          <p className="mb-3 text-sm font-bold text-blue-600">
+            {post.cluster || post.category}
+          </p>
+
+          <h3 className="mb-3 text-xl font-black leading-7 text-slate-900 group-hover:text-blue-600">
+            {post.title}
+          </h3>
+
+          <p className="leading-7 text-slate-600">
+            {post.description}
+          </p>
+
+          <div className="mt-6 flex items-center justify-between gap-4">
+            <p className="text-sm font-medium text-slate-400">
+              読了時間：{post.readingTime}
+            </p>
+
+            <span className="shrink-0 text-sm font-bold text-blue-600">
+              続きを読む →
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div className="mt-10 text-center">
+      <a
+        href="/blog"
+        className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+      >
+        ブログ一覧を見る
+      </a>
+    </div>
   </div>
 </section>
       <section className="bg-white py-24">
