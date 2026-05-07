@@ -129,7 +129,8 @@ const profileHighlights = [
 ];
 
 const seoKeywords = [
-  "沖縄・オンライン対応",
+  "沖縄の英語レッスン",
+  "オンライン英語レッスン",
   "TOEIC対策",
   "ビジネス英語",
   "大人の英語学び直し",
@@ -266,7 +267,9 @@ const seoKeywords = [
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <div>
             <p className="text-lg font-black tracking-tight text-slate-900">BUDDY ENGLISH STUDIO</p>
-            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">沖縄・オンライン対応の英語コーチング</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">
+  沖縄・オンライン対応の英語レッスン／英語コーチング
+</p>
           </div>
 <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
   <a href="/blog" className="hover:text-blue-600">ブログ</a>
@@ -295,7 +298,7 @@ const seoKeywords = [
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
-              ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
+              ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
             </div>
 <h1 id="hero-heading" className="text-4xl font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
   英語を学び直したい方へ。<br />
@@ -313,6 +316,10 @@ const seoKeywords = [
   沖縄・オンラインで無理なく続けられる英語学習をサポートします。
 </p>
 
+<p className="mt-4 max-w-xl text-base leading-8 text-slate-600">
+  沖縄で英語レッスンを探している方へ、TOEIC対策・英会話・ビジネス英語を
+  目的に合わせてマンツーマンでサポートします。
+</p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
