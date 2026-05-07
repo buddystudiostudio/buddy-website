@@ -318,15 +318,15 @@ const seoKeywords = [
             </div>
           </div>
 
-          <div className="relative">
-<div className="aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200 lg:rotate-3">
-  <InstructorVisual />
+<div className="relative">
+  <div className="overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200">
+    <img
+      src={heroImage}
+      alt="Buddy English Studio"
+      className="w-full object-cover"
+    />
+  </div>
 </div>
-            <div className="absolute -bottom-6 left-4 rounded-2xl bg-white p-5 shadow-xl ring-1 ring-slate-100 sm:left-[-24px]">
-              <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Instructor Score</p>
-              <p className="text-2xl font-black text-slate-900">TOEIC 990</p>
-            </div>
-          </div>
         </div>
       </section>
 
