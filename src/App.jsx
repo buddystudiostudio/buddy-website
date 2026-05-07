@@ -355,7 +355,6 @@ const seoKeywords = [
         </div>
       </section>
 
-      {/* NEW MESSAGE SECTION HERE */}
 
 {/* Founder Message Section */}
 
