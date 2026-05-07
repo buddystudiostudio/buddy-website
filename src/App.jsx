@@ -278,7 +278,7 @@ const seoKeywords = [
       <section className="relative overflow-hidden bg-white py-16 lg:py-24" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
-        <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+        <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
               ⚡ 沖縄・対面・オンライン｜TOEIC 990点満点 × 米国勤務経験
