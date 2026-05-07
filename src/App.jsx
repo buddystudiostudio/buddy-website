@@ -330,8 +330,6 @@ const seoKeywords = [
         </div>
       </section>
 
-            </section>
-
       {/* NEW MESSAGE SECTION HERE */}
 
 <section className="bg-white py-16">
