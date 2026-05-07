@@ -292,10 +292,10 @@ const seoKeywords = [
   TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験を活かしてサポート
 </p>
 
-<p className="mt-8 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
-  一人ひとりの目的やレベルに合わせて、英語の学び直し、TOEIC対策、
-  ビジネス英語、英会話をサポートします。
-  沖縄での対面レッスン、全国対応のオンラインレッスンの両方に対応しています。
+<p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
+  英語の学び直し、TOEIC等各種試験・資格対策、ビジネス英語まで。
+  一人ひとりの目的に合わせて、沖縄・オンラインで、
+1対1で一緒に整理しながらサポートします。
 </p>
 
 
@@ -307,6 +307,23 @@ const seoKeywords = [
                 体験までの流れを見る
               </a>
             </div>
+<div className="mt-8 flex flex-wrap items-center gap-3 text-sm font-bold text-slate-500">
+  <span className="rounded-full bg-slate-100 px-4 py-2">
+    TOEIC 990点満点
+  </span>
+
+  <span className="rounded-full bg-slate-100 px-4 py-2">
+    米国勤務経験
+  </span>
+
+  <span className="rounded-full bg-slate-100 px-4 py-2">
+    外資IT・コンサル15年以上
+  </span>
+
+  <span className="rounded-full bg-slate-100 px-4 py-2">
+    沖縄・オンライン対応
+  </span>
+</div>
             <div className="mt-6 space-y-2 text-sm font-medium text-slate-500">
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験</p>
@@ -320,12 +337,12 @@ const seoKeywords = [
           </div>
 
 <div className="relative">
-  <div className="overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200">
+  <div className="aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200 lg:-rotate-1">
     <img
-      src={heroImage}
-      alt="Buddy English Studio"
-      className="w-full object-cover"
-    />
+  src={heroImage}
+  alt="Buddy English Studio"
+  className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
+/>
   </div>
 </div>
         </div>
@@ -340,34 +357,35 @@ const seoKeywords = [
       Message
     </p>
 
-    <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
+    <h2 className="text-3xl font-black leading-[1.08] text-slate-900 sm:text-4xl">
       英語を「頑張らなきゃ」で終わらせず、<br />
       一緒に整理しながら進めていく場所へ。
     </h2>
 
-    <div className="mx-auto mt-8 max-w-3xl space-y-6 text-lg leading-8 text-slate-600">
+   <div className="mx-auto mt-8 max-w-3xl space-y-6 text-lg leading-9 text-slate-600">
 
-      <p>
-        Buddy English Studioでは、
-        TOEIC対策や英会話だけでなく、
-        「何から始めればいいかわからない」
-        「英語に苦手意識がある」
-        という状態からでも安心して相談できることを大切にしています。
-      </p>
+  <p>
+    英語を頑張りたい気持ちはある。<br />
+    でも、
+    「何から始めればいいかわからない」<br />
+    「続かない」<br />
+    「自信がない」
+  </p>
 
-      <p>
-        TOEIC990点や米国勤務経験もありますが、
-        英語学習は、誰かと比べるものではなく、
-        一人ひとりの目的やペースに合わせて進めることが大切だと考えています。
-      </p>
+  <p>
+    Buddy English Studioでは、
+    そんな状態からでも安心して相談できる場所を
+    作りたいと思っています。
+  </p>
 
-      <p>
-        英語を通じて、
-        仕事・資格・人生の選択肢を少しずつ広げていけるよう、
-        伴走型でサポートしています。
-      </p>
+  <p>
+    TOEIC対策や英会話だけでなく、
+    一人ひとりの目的やペースを整理しながら、
+    英語を仕事・資格・人生に活かせるよう、
+    伴走型でサポートしています。
+  </p>
 
-    </div>
+</div>
 
   </div>
 </section>
