@@ -337,7 +337,7 @@ const seoKeywords = [
           </div>
 
 <div className="relative">
-  <div className="aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200 lg:-rotate-1">
+  <div className="aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200">
     <img
   src={heroImage}
   alt="Buddy English Studio"
