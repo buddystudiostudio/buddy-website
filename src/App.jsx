@@ -453,7 +453,52 @@ const seoKeywords = [
     </div>
   </div>
 </section>
-    
+
+{/* Social Proof Placeholder Section */}
+<section className="bg-slate-50 px-5 py-16">
+  <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-slate-200 md:p-10">
+    <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+      Student Stories
+    </p>
+
+    <h2 className="text-3xl font-black text-slate-900">
+      学習事例・受講生の声も、順次ご紹介予定です
+    </h2>
+
+    <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
+      Buddy English Studioでは、実際にご受講いただいた方の許可をいただいたうえで、
+      TOEIC対策・英語の学び直し・ビジネス英語の学習事例を順次掲載していく予定です。
+    </p>
+
+    <div className="mt-8 grid gap-4 text-left md:grid-cols-3">
+      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
+        <p className="font-black text-slate-900">TOEIC対策</p>
+        <p className="mt-2 text-sm leading-7 text-slate-600">
+          現在地と目標スコアを整理し、必要な学習の順番を一緒に明確にします。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
+        <p className="font-black text-slate-900">英語の学び直し</p>
+        <p className="mt-2 text-sm leading-7 text-slate-600">
+          英語が苦手な方でも、基礎から無理なく続けられる進め方を考えます。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
+        <p className="font-black text-slate-900">ビジネス英語</p>
+        <p className="mt-2 text-sm leading-7 text-slate-600">
+          メール・会議・面接など、実際に使う場面に合わせて練習します。
+        </p>
+      </div>
+    </div>
+
+    <p className="mx-auto mt-8 max-w-2xl rounded-2xl bg-blue-50 px-5 py-4 text-sm font-bold leading-7 text-blue-800 ring-1 ring-blue-100">
+      まずは体験レッスンで、現在の英語力・お悩み・目標を一緒に整理します。
+    </p>
+  </div>
+</section>
+      
       <section id="recommended" className="bg-white py-16 lg:py-20" aria-labelledby="recommended-heading">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
