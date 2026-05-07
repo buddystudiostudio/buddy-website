@@ -331,6 +331,51 @@ const seoKeywords = [
         </div>
       </section>
 
+            </section>
+
+      {/* NEW MESSAGE SECTION HERE */}
+
+<section className="bg-white py-16">
+  <div className="mx-auto max-w-4xl px-5 text-center">
+
+    <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+      Message
+    </p>
+
+    <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
+      英語を「頑張らなきゃ」で終わらせず、<br />
+      一緒に整理しながら進めていく場所へ。
+    </h2>
+
+    <div className="mx-auto mt-8 max-w-3xl space-y-6 text-lg leading-8 text-slate-600">
+
+      <p>
+        Buddy English Studioでは、
+        TOEIC対策や英会話だけでなく、
+        「何から始めればいいかわからない」
+        「英語に苦手意識がある」
+        という状態からでも安心して相談できることを大切にしています。
+      </p>
+
+      <p>
+        TOEIC990点や米国勤務経験もありますが、
+        英語学習は、誰かと比べるものではなく、
+        一人ひとりの目的やペースに合わせて進めることが大切だと考えています。
+      </p>
+
+      <p>
+        英語を通じて、
+        仕事・資格・人生の選択肢を少しずつ広げていけるよう、
+        伴走型でサポートしています。
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+{/* Problem Solution Section */}
+      
 {/* Problem Solution Section */}
 <section className="bg-white px-5 py-20">
   <div className="mx-auto max-w-6xl">
