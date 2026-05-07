@@ -310,6 +310,10 @@ const seoKeywords = [
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験</p>
 <p className="flex items-center gap-2"><span className="text-green-500">✓</span> 「体験希望」「相談したい」だけでLINE相談OK</p>
+              <p className="flex items-center gap-2">
+  <span className="text-blue-500">✓</span>
+  英語が苦手な方・学び直しの方からのご相談も増えています
+</p>
               <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、少人数限定です</p>
             </div>
           </div>
