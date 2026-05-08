@@ -1023,7 +1023,7 @@ const buddyLogo = "/buddy-logo.png";
         href={lineUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-6 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+        className="mt-6 mx-auto block w-fit rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 md:mx-0"
       >
         LINEで相談する
       </a>
