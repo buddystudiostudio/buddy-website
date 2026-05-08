@@ -54,7 +54,22 @@ export default function BlogPost() {
         <p className="mb-10 text-sm font-medium text-slate-400">
           更新日：{post.date} ・ 読了時間：{post.readingTime}
         </p>
-
+        
+    {post.heroImage && (
+      <figure className="mb-12 overflow-hidden rounded-3xl bg-slate-100 shadow-sm ring-1 ring-slate-200">
+        <img
+          src={post.heroImage}
+          alt={post.heroImageAlt || post.title}
+          className="h-64 w-full object-cover md:h-80"
+          />
+          {post.heroImageCaption && (
+            <figcaption className="px-5 py-4 text-sm leading-6 text-slate-500">
+              {post.heroImageCaption}
+            </figcaption>
+          )}
+        </figure>
+      )}
+        
         <div className="space-y-10">
           {post.content.map((section) => (
             <section key={section.heading}>
