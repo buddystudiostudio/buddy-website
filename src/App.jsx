@@ -300,7 +300,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-white py-12 lg:py-24" aria-labelledby="hero-heading">
+      <section className="relative overflow-hidden bg-white pt-10 pb-12 lg:py-24" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
