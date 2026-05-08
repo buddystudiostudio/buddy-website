@@ -143,7 +143,7 @@ const seoKeywords = [
       price: "3,500",
       description: "40分のレッスン + 学習方針のミニ提案",
       features: ["現状のレベルチェック", "弱点と伸び代の整理", "今後の学習方針を提案", "無理な勧誘なし"],
-      cta: "LINEで無料相談する",
+      cta: "LINEで相談する",
       highlight: false,
     },
     {
@@ -151,7 +151,7 @@ const seoKeywords = [
       price: "ポイント制",
       description: "ご予算・頻度に合わせて相談可能です",
       features: ["1対1の個別指導", "目的に合わせた内容設計", "英文メール・面接・資料相談も可", "オンライン・対面相談可"],
-      cta: "LINEで無料相談する",
+      cta: "LINEで相談する",
       highlight: true,
     },
   ];
