@@ -625,7 +625,7 @@ const seoKeywords = [
 <p className="mt-5 text-lg leading-8 text-slate-600">
   資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。
   目的整理から学習設計まで、
-  1対1で伴走します。
+  1対1の英語コーチングとして伴走します。
 </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
