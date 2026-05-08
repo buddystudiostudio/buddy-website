@@ -308,7 +308,7 @@ const buddyLogo = "/buddy-logo.png";
   <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div>
-<h1 id="hero-heading" className="text-[2.45rem] font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+<h1 className="text-[2.35rem] font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
 英語を学び直したい方へ。<br />
 <span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
 目的に合わせて1対1でサポートします。
