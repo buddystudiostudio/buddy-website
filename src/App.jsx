@@ -512,48 +512,69 @@ const buddyLogo = "/buddy-logo.png";
     </div>
   </div>
 </section>
-{/* Social Proof Placeholder Section */}
+{/* Social Proof / Trust Section */}
 <section className="bg-slate-50 px-5 py-16">
-  <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-slate-200 md:p-10">
-    <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-      Student Stories
-    </p>
+  <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
+    <div className="text-center">
+      <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+        Learning Support
+      </p>
 
-    <h2 className="text-3xl font-black text-slate-900">
-      学習事例・受講生の声も、順次ご紹介予定です
-    </h2>
+      <h2 className="text-3xl font-black leading-tight text-slate-900">
+        一人ひとりの目的に合わせて、<br className="hidden sm:block" />
+        学び方から一緒に整理します
+      </h2>
 
-    <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
-      Buddy English Studioでは、実際にご受講いただいた方の許可をいただいたうえで、
-      TOEIC対策・英語の学び直し・ビジネス英語の学習事例を順次掲載していく予定です。
-    </p>
+      <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
+        Buddy English Studioでは、TOEIC対策・英語の学び直し・ビジネス英語など、
+        目的や現在地に合わせて、必要な学習内容を一緒に整理します。
+        実際の学習事例や受講生の声も、許可をいただいたうえで順次ご紹介していく予定です。
+      </p>
+    </div>
 
-    <div className="mt-8 grid gap-4 text-left md:grid-cols-3">
-      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
-        <p className="font-black text-slate-900">TOEIC対策</p>
-        <p className="mt-2 text-sm leading-7 text-slate-600">
-          現在地と目標スコアを整理し、必要な学習の順番を一緒に明確にします。
+    <div className="mt-8 grid gap-4 md:grid-cols-3">
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+        <p className="mb-3 text-sm font-black text-blue-600">
+          Case 01
+        </p>
+        <p className="font-black text-slate-900">
+          TOEIC対策
+        </p>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          目標スコアと現在地を確認し、単語・文法・リスニング・演習の優先順位を整理します。
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
-        <p className="font-black text-slate-900">英語の学び直し</p>
-        <p className="mt-2 text-sm leading-7 text-slate-600">
-          英語が苦手な方でも、基礎から無理なく続けられる進め方を考えます。
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+        <p className="mb-3 text-sm font-black text-blue-600">
+          Case 02
+        </p>
+        <p className="font-black text-slate-900">
+          英語の学び直し
+        </p>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          英語が苦手な方でも、基礎の確認から会話練習まで、無理なく続けられる形に整えます。
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
-        <p className="font-black text-slate-900">ビジネス英語</p>
-        <p className="mt-2 text-sm leading-7 text-slate-600">
-          メール・会議・面接など、実際に使う場面に合わせて練習します。
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+        <p className="mb-3 text-sm font-black text-blue-600">
+          Case 03
+        </p>
+        <p className="font-black text-slate-900">
+          ビジネス英語
+        </p>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          メール・会議・面接・プレゼンなど、実際に英語を使う場面に合わせて練習します。
         </p>
       </div>
     </div>
 
-    <p className="mx-auto mt-8 max-w-2xl rounded-2xl bg-blue-50 px-5 py-4 text-sm font-bold leading-7 text-blue-800 ring-1 ring-blue-100">
-      まずは体験レッスンで、現在の英語力・お悩み・目標を一緒に整理します。
-    </p>
+    <div className="mt-8 rounded-2xl bg-blue-50 px-6 py-5 text-center ring-1 ring-blue-100">
+      <p className="text-sm font-bold leading-7 text-blue-800">
+        まずは体験レッスンで、現在の英語力・お悩み・目標を一緒に整理します。
+      </p>
+    </div>
   </div>
 </section>
       
