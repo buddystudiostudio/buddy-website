@@ -633,15 +633,15 @@ const buddyLogo = "/buddy-logo.png";
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">選ばれる理由</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-  英語を「教わる」だけで終わらせず、<br />
-  使う目的に合わせて一緒に設計します
+  なぜ、Buddy English Studioなのか
 </h2>
 
 <p className="mt-5 text-base leading-8 text-slate-600">
-  TOEIC対策、英会話、ビジネス英語。どれも大切なのは、
-  「何を、どの順番で、どんな場面で使うために学ぶのか」を整理すること。
-  Buddy English Studioでは、TOEIC満点の知見と外資系企業での実務経験をもとに、
-  一人ひとりに合わせた学習方針を一緒に作ります。
+  英語学習で大切なのは、ただレッスンを受けることではなく、
+  「自分に必要な英語」を見極め、正しい順番で続けることです。
+  Buddy English Studioでは、TOEIC 990点満点の知見、米国勤務・留学経験、
+  外資系IT・コンサルでの実務経験をもとに、
+  資格・仕事・英会話の目的に合わせて、学び方から一緒に整理します。
 </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
