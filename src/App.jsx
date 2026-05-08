@@ -28,7 +28,7 @@ export default function BuddyEnglishStudioWebsite() {
   const comparisonData = [
     { feature: "講師の特徴", buddy: "TOEIC 990点満点講師が設計・監修", others: "スクールにより講師経験や専門領域はばらばら" },
     { feature: "レッスン内容", buddy: "目的に合わせた個別設計・実務にも対応", others: "固定カリキュラムを中心に進行" },
-    { feature: "サポート", buddy: "1対1で目的整理から学習方針まで伴走", others: "レッスン時間内の学習が中心" },
+    { feature: "伴走スタイル", buddy: "1対1で目的整理から学習方針まで伴走", others: "レッスン時間内の学習が中心" },
     { feature: "相談しやすさ", buddy: "LINE・メールで気軽に相談可能", others: "問い合わせ方法や手続きがサービスにより異なる" },
   ];
 
@@ -134,7 +134,7 @@ const seoKeywords = [
   "TOEIC対策",
   "ビジネス英語",
   "大人の英語学び直し",
-  "英会話サポート",
+  "英会話レッスン",
 ];
 
   const pricingPlans = [
