@@ -534,7 +534,7 @@ const buddyLogo = "/buddy-logo.png";
             <h2 id="recommended-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
   こんな方に向いています
 </h2>
-            <p className="mt-5 text-lg leading-8 text-slate-600">
+            <p className="mt-5 text-base leading-8 text-slate-600">
   英語が得意な方だけでなく、学び直し・TOEIC対策・仕事で使う英語に不安がある方もご相談いただけます。
   目的や現在地を一緒に整理しながら、必要な力に絞って1対1でサポートします。
 </p>
@@ -571,7 +571,7 @@ const buddyLogo = "/buddy-logo.png";
   使う目的に合わせて一緒に設計します
 </h2>
 
-<p className="mt-5 text-lg leading-8 text-slate-600">
+<p className="mt-5 text-base leading-8 text-slate-600">
   TOEIC対策、英会話、ビジネス英語。どれも大切なのは、
   「何を、どの順番で、どんな場面で使うために学ぶのか」を整理すること。
   Buddy English Studioでは、TOEIC満点の知見と外資系企業での実務経験をもとに、
@@ -630,7 +630,7 @@ const buddyLogo = "/buddy-logo.png";
             <h2 id="method-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               英語コーチングで、目的から逆算して学習設計
             </h2>
-<p className="mt-5 text-lg leading-8 text-slate-600">
+<p className="mt-5 text-base leading-8 text-slate-600">
   資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。
   目的整理から学習設計まで、
   1対1の英語コーチングとして伴走します。
@@ -657,7 +657,7 @@ const buddyLogo = "/buddy-logo.png";
             <h2 id="lesson-flow-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               沖縄・オンライン英語レッスンの体験までの流れ
             </h2>
-            <p className="mt-5 text-lg leading-8 text-slate-600">
+            <p className="mt-5 text-base leading-8 text-slate-600">
               初めての方でも迷わないように、相談から体験、継続判断までシンプルに進めます。
             </p>
           </div>
