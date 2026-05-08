@@ -322,9 +322,11 @@ export const blogPosts = [
   {
     slug: "adult-english-relearning-start",
     title:
-      "大人の英語学び直しは何から始める？初心者が挫折しない進め方",
+      "title:
+        "大人の英語学び直しは何から始める？初心者向け英語レッスンの選び方",",
     description:
-      "大人・社会人が英語を学び直す時に、何から始めればよいのかを初心者向けに解説します。挫折しにくい勉強の順番と続け方を紹介します。",
+      description:
+        "大人・社会人が英語を学び直す時に何から始めればよいのか、初心者向けに解説します。挫折しにくい勉強法と英語レッスンの選び方を紹介します。",
     date: "2026-05-11",
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
@@ -339,7 +341,7 @@ export const blogPosts = [
       "toeic-self-study-vs-coaching",
     ],
     cta: {
-      title: "英語を学び直したい方へ",
+      title: "英語を学び直したい・レッスンを検討している方へ",
       body:
         "Buddy English Studioでは、大人・社会人の英語学び直しを、現在地や目的に合わせて1対1でサポートしています。TOEIC対策、ビジネス英語、英会話の基礎づくりまで、無理なく続けられる形で一緒に整理します。",
       buttonText: "まずはLINEで相談してみる",
