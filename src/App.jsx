@@ -311,11 +311,11 @@ const buddyLogo = "/buddy-logo.png";
 <h1 className="text-[2.35rem] font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
 英語を学び直したい方へ。<br />
 <span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
-目的に合わせて1対1でサポートします。
+目的に合わせて1対1で進めていきます。
 </h1>
 <p className="mt-4 text-base font-semibold text-blue-600">
   TOEIC990点満点・米国勤務経験をもとに、
-  外資IT/コンサルでの実務英語までサポートします。
+  外資IT/コンサルで使ってきた実務英語まで、実践的に伴走します。
 </p>
 
 <p className="mt-3 text-base leading-8 text-slate-600">
@@ -323,13 +323,12 @@ const buddyLogo = "/buddy-logo.png";
 </p>
 <p className="mt-6 max-w-xl text-base leading-8 text-slate-600">
   「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
-  そんな方に向けて、現在地と目的を一緒に整理しながら、
-  沖縄・オンラインで無理なく続けられる英語学習をサポートします。
+  そんな方に向けて、現在地と目的を一緒に整理しながら、沖縄・オンラインで無理なく続けられる学習設計を行います。
 </p>
 
 <p className="mt-4 max-w-xl text-base leading-8 text-slate-600">
   TOEIC対策・英会話・ビジネス英語まで、
-  目的に合わせてマンツーマンでサポートします。
+  目的に合わせてマンツーマンで対応します。
 </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
