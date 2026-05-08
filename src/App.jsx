@@ -14,7 +14,7 @@ export default function BuddyEnglishStudioWebsite() {
   {
     title: "海外経験に基づく実践英語",
     description:
-      "米国勤務・留学経験をもとに、教科書だけでは学びにくい会話・異文化理解・自然な伝え方もサポートします。",
+      "米国勤務・留学経験をもとに、教科書だけでは学びにくい会話・異文化理解・自然な伝え方も扱います。",
     icon: "🌎",
   },
   {
@@ -116,7 +116,7 @@ const profileHighlights = [
   "米国勤務・留学経験",
   "外資系IT企業・外資系コンサルで15年以上",
   "営業・コンサルティング・マネジメント経験",
-  "目的整理から学習設計までサポート",
+  "目的整理から学習設計まで対応",
 ];
 
   const recommendedFor = [
@@ -472,10 +472,10 @@ const buddyLogo = "/buddy-logo.png";
           仕事で英語が必要だけど、自信を持って使えない
         </p>
         <div className="mb-4 h-px bg-slate-200" />
-        <p className="leading-8 text-slate-600">
-          英文メール、会議、面接、プレゼンなど、実際のビジネス場面に合わせてサポートします。
-          実際のビジネス場面に合わせて、自然で伝わる英語を一緒に磨きます。
-        </p>
+<p className="leading-8 text-slate-600">
+  英文メール、会議、面接、プレゼンなど、実際のビジネス場面を想定して練習します。
+  自然で伝わる英語を一緒に磨きます。
+</p>
       </div>
     </div>
   </div>
@@ -535,7 +535,7 @@ const buddyLogo = "/buddy-logo.png";
 </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
   英語が得意な方だけでなく、学び直し・TOEIC対策・仕事で使う英語に不安がある方もご相談いただけます。
-  目的や現在地を一緒に整理しながら、必要な力に絞って1対1でサポートします。
+  目的や現在地を一緒に整理しながら、必要な力に絞って1対1で進めます。
 </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {seoKeywords.map((keyword) => (
@@ -800,7 +800,7 @@ const buddyLogo = "/buddy-logo.png";
   Founder Profile / Tada
 </p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
-              外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
+              外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語レッスン
             </h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
               <p>
