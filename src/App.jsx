@@ -300,15 +300,14 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-white pt-4 pb-10 lg:pt-6 lg:pb-12" aria-labelledby="hero-heading">
+      <section className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
 <div>
   <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
-  </div>
-<h1 className="text-[2.35rem] font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
+  </div><h1 className="text-[2rem] font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
   英語を、もう一度学びたい方へ <br />
   <span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
   目的に合わせて1対1でサポートします。
@@ -333,12 +332,12 @@ const buddyLogo = "/buddy-logo.png";
 </p>
 
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-  <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
-    まずはLINEで相談してみる
-  </a>
-              <a href="#flow" className="rounded-full bg-white px-8 py-4 text-center text-lg font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100">
-                体験までの流れを見る
-              </a>
+<a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg">
+  まずはLINEで相談してみる
+</a>
+             <a href="#flow" className="rounded-full bg-white px-7 py-3.5 text-center text-base font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100 sm:px-8 sm:py-4 sm:text-lg">
+  体験までの流れを見る
+</a>
             </div>
 <div className="mt-8 flex flex-wrap items-center gap-3 text-sm font-bold text-slate-500">
   <span className="rounded-full bg-slate-100 px-4 py-2">
