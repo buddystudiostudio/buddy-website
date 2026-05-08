@@ -308,6 +308,7 @@ const seoKeywords = [
 <p className="mt-4 text-base font-semibold text-blue-600">
   TOEIC990点満点・米国勤務経験・外資IT/コンサルでの実務経験をもとに、
   英語を「資格・仕事・日常」に活かす力へ。
+  英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
 </p>
 
 <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
@@ -401,6 +402,11 @@ const seoKeywords = [
         英語は単なる勉強ではなく、仕事や人生の選択肢を広げてくれるものだと感じています。
       </p>
 
+      <p>
+  「英語ができる人」になることより、
+  「英語を使って、自分の世界を少し広げられること」を大切にしています。
+</p>
+      
       <p>
         Buddy English Studioは、英語が得意な人だけの場所ではありません。
         学び直したい方、TOEICを伸ばしたい方、仕事で英語が必要になった方が、
