@@ -272,13 +272,13 @@ const seoKeywords = [
 </p>
           </div>
 <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
-  <a href="/blog" className="hover:text-blue-600">ブログ</a>
   <a href="#why" className="hover:text-blue-600">選ばれる理由</a>
   <a href="#recommended" className="hover:text-blue-600">こんな方へ</a>
   <a href="#services" className="hover:text-blue-600">サービス</a>
   <a href="#flow" className="hover:text-blue-600">流れ</a>
   <a href="#price" className="hover:text-blue-600">料金</a>
-  <a href="#profile" className="hover:text-blue-600">About</a>
+  <a href="#profile" className="hover:text-blue-600">代表プロフィール</a>
+  <a href="/blog" className="hover:text-blue-600">ブログ</a>
 </nav><div className="hidden md:block">
   <a
     href={lineUrl}
