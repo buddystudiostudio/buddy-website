@@ -433,55 +433,85 @@ const buddyLogo = "/buddy-logo.png";
   <div className="mx-auto max-w-6xl">
     <div className="mb-12 text-center">
       <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        For You
+        Your English Challenges
       </p>
+
       <h2 className="text-3xl font-black text-slate-900 md:text-4xl">
-        こんなお悩みはありませんか？
+        英語を頑張りたい。<br className="hidden sm:block" />
+        でも、こんなところで止まっていませんか？
       </h2>
+
       <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-600">
-        Buddy English Studioでは、英語の悩みを「何となく頑張る」で終わらせず、
-        目的に合わせて次にやることを一緒に整理します。
+        英語の悩みは、「努力不足」ではなく、目的・現在地・やる順番が整理できていないだけの場合もあります。
+        Buddy English Studioでは、一人ひとりの状況に合わせて、次にやることを一緒に明確にします。
       </p>
     </div>
 
     <div className="grid gap-6 md:grid-cols-3">
       <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
-        <p className="mb-4 text-lg font-bold text-slate-900">
-          英語を勉強しているのに話そうとすると、
-          頭が真っ白になってしまう
+        <p className="mb-3 text-sm font-black text-blue-600">
+          Speaking
         </p>
+
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          英語を勉強しているのに、話そうとすると言葉が出てこない
+        </p>
+
         <div className="mb-4 h-px bg-slate-200" />
+
         <p className="leading-8 text-slate-600">
-          文法や単語の確認だけでなく、実際に口から出す練習まで一緒に行います。
-          「わかる英語」から「使える英語」へつなげていきます。
+          文法や単語を「知っている」状態から、実際に口から出せる状態へ。
+          間違いを気にしすぎず、使う練習を重ねていきます。
         </p>
       </div>
 
       <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
-        <p className="mb-4 text-lg font-bold text-slate-900">
-          TOEICのスコアを上げたいけれど、何から始めればいいかわからない
+        <p className="mb-3 text-sm font-black text-blue-600">
+          TOEIC
         </p>
+
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          TOEICの点数を上げたいけれど、勉強方法が自己流になっている
+        </p>
+
         <div className="mb-4 h-px bg-slate-200" />
+
         <p className="leading-8 text-slate-600">
-          現在のレベルや目標スコアに合わせて、優先順位を整理します。
-          単なる問題演習ではなく、伸びやすいポイントから対策します。
+          目標スコアと現在地から逆算し、単語・文法・リスニング・演習の優先順位を整理します。
+          伸ばす順番を明確にして進めます。
         </p>
       </div>
 
       <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
-        <p className="mb-4 text-lg font-bold text-slate-900">
-          仕事で英語が必要だけど、自信を持って使えない
+        <p className="mb-3 text-sm font-black text-blue-600">
+          Business
         </p>
+
+        <p className="mb-4 text-lg font-bold text-slate-900">
+          仕事で英語が必要だけど、自信を持って対応できない
+        </p>
+
         <div className="mb-4 h-px bg-slate-200" />
-<p className="leading-8 text-slate-600">
-  英文メール、会議、面接、プレゼンなど、実際のビジネス場面を想定して練習します。
-  自然で伝わる英語を一緒に磨きます。
-</p>
+
+        <p className="leading-8 text-slate-600">
+          英文メール、会議、面接、プレゼンなど、実際の場面に合わせて練習します。
+          正しさだけでなく、相手に伝わる英語を一緒に磨きます。
+        </p>
       </div>
+    </div>
+
+    <div className="mt-10 text-center">
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+      >
+        今の悩みをLINEで相談する
+      </a>
     </div>
   </div>
 </section>
-
 {/* Social Proof Placeholder Section */}
 <section className="bg-slate-50 px-5 py-16">
   <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-slate-200 md:p-10">
