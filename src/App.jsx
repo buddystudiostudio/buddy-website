@@ -556,7 +556,7 @@ const buddyLogo = "/buddy-logo.png";
               ))}
             </div>
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="mt-6 block rounded-full bg-blue-600 px-6 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              LINEで無料相談する
+              LINEで相談する
             </a>
           </div>
         </div>
