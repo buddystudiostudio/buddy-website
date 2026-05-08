@@ -10,10 +10,10 @@ export const blogPosts = [
     cluster: "TOEIC対策",
     readingTime: "約4分",
     relatedPosts: [
-  "toeic-score-not-improving",
-  "toeic-600-study-method",
-  "toeic-self-study-vs-coaching",
-],
+      "toeic-score-not-improving",
+      "toeic-600-study-method",
+      "toeic-self-study-vs-coaching",
+    ],
     cta: {
       title: "英語学習で何から始めるか迷っている方へ",
       body:
@@ -60,10 +60,10 @@ export const blogPosts = [
     cluster: "TOEIC対策",
     readingTime: "約5分",
     relatedPosts: [
-  "toeic-beginner-study-method",
-  "toeic-600-study-method",
-  "toeic-self-study-vs-coaching",
-],
+      "toeic-beginner-study-method",
+      "toeic-600-study-method",
+      "toeic-self-study-vs-coaching",
+    ],
     cta: {
       title: "TOEICの勉強法で迷っている方へ",
       body:
@@ -120,10 +120,10 @@ export const blogPosts = [
     cluster: "TOEIC対策",
     readingTime: "約5分",
     relatedPosts: [
-  "toeic-beginner-study-method",
-  "toeic-score-not-improving",
-  "toeic-self-study-vs-coaching",
-],
+      "toeic-beginner-study-method",
+      "toeic-score-not-improving",
+      "toeic-self-study-vs-coaching",
+    ],
     cta: {
       title: "TOEIC600点を目指している方へ",
       body:
