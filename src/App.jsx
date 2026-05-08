@@ -292,7 +292,7 @@ const buddyLogo = "/buddy-logo.png";
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="rounded-full bg-slate-900 px-5 py-2.5 text-base font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
+    className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
   >
     LINEで無料相談する
   </a>
