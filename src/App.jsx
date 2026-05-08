@@ -399,7 +399,7 @@ const buddyLogo = "/buddy-logo.png";
 
 {/* Founder Message Section */}
 
-<section className="bg-white py-16">
+<section className="bg-white py-14 lg:py-16">
   <div className="mx-auto max-w-4xl px-5 text-center">
 
 <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -444,7 +444,7 @@ const buddyLogo = "/buddy-logo.png";
 
       
 {/* Problem Solution Section */}
-<section className="bg-white px-5 py-20">
+<section className="bg-white px-5 py-14 lg:py-20">
   <div className="mx-auto max-w-6xl">
     <div className="mb-12 text-center">
       <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -528,7 +528,7 @@ const buddyLogo = "/buddy-logo.png";
   </div>
 </section>
 {/* Social Proof / Trust Section */}
-<section className="bg-slate-50 px-5 py-16">
+<section className="bg-slate-50 px-5 py-14 lg:py-16">
   <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
     <div className="text-center">
       <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -630,7 +630,7 @@ const buddyLogo = "/buddy-logo.png";
 
       <section id="why" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="why-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-16 max-w-3xl text-center">
+          <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">選ばれる理由</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
   英語を「教わる」だけで終わらせず、<br />
@@ -691,7 +691,7 @@ const buddyLogo = "/buddy-logo.png";
 
       <section id="method" className="bg-white py-14 lg:py-24" aria-labelledby="method-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-14 max-w-3xl text-center">
+          <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Buddy Method</p>
             <h2 id="method-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               英語コーチングで、目的から逆算して学習設計
@@ -718,7 +718,7 @@ const buddyLogo = "/buddy-logo.png";
 
       <section id="flow" className="bg-blue-50/50 py-14 lg:py-24" aria-labelledby="lesson-flow-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-14 max-w-3xl text-center">
+          <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Lesson Flow</p>
             <h2 id="lesson-flow-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               沖縄・オンライン英語レッスンの体験までの流れ
@@ -817,7 +817,7 @@ const buddyLogo = "/buddy-logo.png";
 </section>
       <section id="price" className="bg-white py-14 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-16 max-w-3xl text-center">
+          <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Pricing</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               沖縄・オンライン対応の体験英語レッスン
@@ -961,7 +961,7 @@ const buddyLogo = "/buddy-logo.png";
     </div>
   </div>
 </section>
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-white py-14 lg:py-24">
         <div className="mx-auto max-w-4xl px-5">
           <div className="mb-12 text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">FAQ</p>
@@ -983,7 +983,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-<section className="bg-white py-20">
+<section className="bg-white py-14 lg:py-20">
   <div className="mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
     <div>
       <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -1027,7 +1027,7 @@ const buddyLogo = "/buddy-logo.png";
   </div>
 </section>
 
-      <section className="relative overflow-hidden bg-slate-900 py-20 lg:py-24 text-white">
+      <section className="relative overflow-hidden bg-slate-900 py-16 lg:py-24 text-white">
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
         <div className="relative z-10 mx-auto max-w-4xl px-5 text-center">
           <h2 className="mb-8 text-3xl font-black sm:text-4xl">
