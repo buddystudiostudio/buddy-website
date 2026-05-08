@@ -306,11 +306,13 @@ const seoKeywords = [
   目的に合わせて1対1でサポートします。
 </h1>
 <p className="mt-4 text-base font-semibold text-blue-600">
-  TOEIC990点満点・米国勤務経験・外資IT/コンサルでの実務経験をもとに、
-  英語を「資格・仕事・日常」に活かす力へ。
-  英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
+  TOEIC990点満点・米国勤務経験をもとに、
+  外資IT/コンサルでの実務英語までサポートします。
 </p>
 
+<p className="mt-3 text-base leading-8 text-slate-600">
+  英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
+</p>
 <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
   「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
   そんな方に向けて、現在地と目的を一緒に整理しながら、
@@ -437,7 +439,8 @@ const seoKeywords = [
     <div className="grid gap-6 md:grid-cols-3">
       <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
         <p className="mb-4 text-lg font-bold text-slate-900">
-          英語を勉強しているのに、会話になると止まってしまう
+          英語を勉強しているのに話そうとすると、
+          頭が真っ白になってしまう
         </p>
         <div className="mb-4 h-px bg-slate-200" />
         <p className="leading-8 text-slate-600">
@@ -621,8 +624,8 @@ const seoKeywords = [
             </h2>
 <p className="mt-5 text-lg leading-8 text-slate-600">
   資格対策も英会話も、最初に大切なのは「何を、どの順番で伸ばすか」。
-  Buddy English Studioでは、外資系企業での実務・マネジメント経験を活かし、
-  目的整理から学習設計まで、コーチング型でサポートします。
+  目的整理から学習設計まで、
+  1体1で伴走します。
 </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
