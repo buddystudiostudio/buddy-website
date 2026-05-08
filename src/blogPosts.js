@@ -329,6 +329,9 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
+    heroImage: "/road.jpeg",
+    heroImageAlt: "英語を学び直す道のりをイメージした写真",
+    heroImageCaption: "英語を学び直すのに、遅すぎることはありません。",
     relatedPosts: [
       "toeic-beginner-study-method",
       "toeic-600-study-method",
