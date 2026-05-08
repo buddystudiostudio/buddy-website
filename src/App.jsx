@@ -961,7 +961,7 @@ const buddyLogo = "/buddy-logo.png";
   </div>
 </section>
 
-      <section className="relative overflow-hidden bg-slate-900 py-24 text-white">
+      <section className="relative overflow-hidden bg-slate-900 py-20 lg:py-24 text-white">
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
         <div className="relative z-10 mx-auto max-w-4xl px-5 text-center">
           <h2 className="mb-8 text-3xl font-black sm:text-4xl">
@@ -1006,7 +1006,7 @@ const buddyLogo = "/buddy-logo.png";
       </footer>
 
 {/* Floating Mobile CTA */}
-<div className="fixed bottom-5 left-0 right-0 z-50 px-4 md:hidden">
+<div className="fixed bottom-3 left-0 right-0 z-50 px-4 md:hidden">
   <a
     href={lineUrl}
     target="_blank"
