@@ -321,7 +321,7 @@ const buddyLogo = "/buddy-logo.png";
 <p className="mt-3 text-base leading-8 text-slate-600">
   英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
 </p>
-<p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 sm:text-xl">
+<p className="mt-6 max-w-xl text-base leading-8 text-slate-600">
   「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
   そんな方に向けて、現在地と目的を一緒に整理しながら、
   沖縄・オンラインで無理なく続けられる英語学習をサポートします。
