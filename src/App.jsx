@@ -332,10 +332,10 @@ const buddyLogo = "/buddy-logo.png";
   目的に合わせてマンツーマンで対応します。
 </p>
 
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
-                自分に合う学習方法を相談する
-              </a>
+<div className="mt-10 flex flex-col gap-4 sm:flex-row">
+  <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-8 py-4 text-center text-lg font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200">
+    まずはLINEで相談してみる
+  </a>
               <a href="#flow" className="rounded-full bg-white px-8 py-4 text-center text-lg font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100">
                 体験までの流れを見る
               </a>
