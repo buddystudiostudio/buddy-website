@@ -467,7 +467,7 @@ const seoKeywords = [
         <div className="mb-4 h-px bg-slate-200" />
         <p className="leading-8 text-slate-600">
           英文メール、会議、面接、プレゼンなど、実際のビジネス場面に合わせてサポートします。
-          外資IT・外資系コンサルでの実務経験をもとに、自然で伝わる英語を一緒に磨きます。
+          実際のビジネス場面に合わせて、自然で伝わる英語を一緒に磨きます。
         </p>
       </div>
     </div>
