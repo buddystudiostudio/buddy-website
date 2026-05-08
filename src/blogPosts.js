@@ -63,6 +63,9 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約5分",
+    heroImage: "/toeic-not-improving-reflect.jpeg",
+    heroImageAlt: "TOEIC学習の伸び悩みを見直すイメージの写真",
+    heroImageCaption: "伸び悩みは、努力不足ではなく「進め方」を見直すサインかもしれません。",
     relatedPosts: [
       "toeic-beginner-study-method",
       "toeic-600-study-method",
@@ -328,7 +331,6 @@ export const blogPosts = [
       "大人の英語学び直しは何から始める？初心者向け英語レッスンの選び方",
     description:
       "大人・社会人が英語を学び直す時に何から始めればよいのか、初心者向けに解説します。挫折しにくい勉強法と英語レッスンの選び方を紹介します。",
-    
     date: "2026-05-11",
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
