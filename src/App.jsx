@@ -309,7 +309,7 @@ const buddyLogo = "/buddy-logo.png";
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div>
 <h1 className="text-[2.35rem] font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
-  英語を学び直したい社会人へ。 <br />
+  英語を学び直したい方へ。 <br />
   <span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
   目的に合わせて1対1でサポートします。
 </h1>
