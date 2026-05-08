@@ -303,9 +303,9 @@ const buddyLogo = "/buddy-logo.png";
       <section className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
-        <div className="relative mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+        <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
 <div>
-  <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
+  <div className="mb-5 inline-flex rounded-2xl bg-gradient-to-r from-blue-50 to-orange-50 px-3.5 py-2 text-xs font-bold leading-6 text-blue-800 ring-1 ring-blue-100 sm:rounded-full sm:px-4 sm:text-sm">
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div><h1 className="text-[2rem] font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
   英語を、もう一度学びたい方へ <br />
@@ -321,12 +321,12 @@ const buddyLogo = "/buddy-logo.png";
 <p className="mt-3 text-base leading-8 text-slate-600">
   英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
 </p>
-<p className="mt-6 max-w-xl text-base leading-8 text-slate-600">
+<p className="mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
   「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
   そんな方に向けて、現在地と目的を一緒に整理しながら、沖縄・オンラインで無理なく続けられる学習設計を行います。
 </p>
 
-<p className="mt-4 max-w-xl text-base leading-8 text-slate-600">
+<p className="mt-3 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
   TOEIC対策・英会話・ビジネス英語まで、
   目的に合わせてマンツーマンで対応します。
 </p>
@@ -339,42 +339,58 @@ const buddyLogo = "/buddy-logo.png";
   体験までの流れを見る
 </a>
             </div>
-<div className="mt-8 flex flex-wrap items-center gap-3 text-sm font-bold text-slate-500">
-  <span className="rounded-full bg-slate-100 px-4 py-2">
+<div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-bold text-slate-500 sm:mt-8 sm:gap-3 sm:text-sm">
+  <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
     TOEIC 990点満点
   </span>
 
-  <span className="rounded-full bg-slate-100 px-4 py-2">
+  <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
     米国勤務経験
   </span>
 
-  <span className="rounded-full bg-slate-100 px-4 py-2">
+  <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
     外資IT・コンサル15年以上
   </span>
 
-  <span className="rounded-full bg-slate-100 px-4 py-2">
+  <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
     沖縄・オンライン対応
   </span>
 </div>
-            <div className="mt-6 space-y-2 text-sm font-medium text-slate-500">
-<p className="flex items-center gap-2"><span className="text-green-500">✓</span> 体験レッスン 3,500円 / 40分・無理な勧誘なし</p>
-<p className="flex items-center gap-2"><span className="text-green-500">✓</span> TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験</p>
-<p className="flex items-center gap-2"><span className="text-green-500">✓</span> 「体験希望」「相談したい」だけでLINE相談OK</p>
-<p className="flex items-center gap-2">
-  <span className="text-blue-500">✓</span>
-  英語が苦手な方・学び直しの方からのご相談も増えています
-</p>
-              <p className="flex items-center gap-2"><span className="text-orange-500">✓</span> 1対1で丁寧に対応するため、体験レッスン枠には限りがあります</p>
-            </div>
+            <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
+  <p className="flex items-start gap-2">
+    <span className="mt-0.5 text-green-500">✓</span>
+    体験レッスン 3,500円 / 40分・無理な勧誘なし
+  </p>
+
+  <p className="flex items-start gap-2">
+    <span className="mt-0.5 text-green-500">✓</span>
+    TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験
+  </p>
+
+  <p className="flex items-start gap-2">
+    <span className="mt-0.5 text-green-500">✓</span>
+    「体験希望」「相談したい」だけでLINE相談OK
+  </p>
+
+  <p className="flex items-start gap-2">
+    <span className="mt-0.5 text-blue-500">✓</span>
+    英語が苦手な方・学び直しの方からのご相談も増えています
+  </p>
+
+  <p className="flex items-start gap-2">
+    <span className="mt-0.5 text-orange-500">✓</span>
+    1対1で丁寧に対応するため、体験レッスン枠には限りがあります
+  </p>
+</div>
           </div>
 
 <div className="relative">
-  <div className="aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-slate-200">
+  <div className="aspect-[16/10] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
     <img
-  src={heroImage}
-  alt="沖縄の英語レッスン・TOEIC対策に対応するBuddy English Studio"
-  className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
-/>
+      src={heroImage}
+      alt="沖縄の英語レッスン・TOEIC対策に対応するBuddy English Studio"
+      className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
+    />
   </div>
 </div>
         </div>
@@ -612,7 +628,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section id="why" className="bg-slate-50 py-20 lg:py-24" aria-labelledby="why-heading">
+      <section id="why" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="why-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">選ばれる理由</p>
@@ -642,7 +658,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section className="bg-white py-20 lg:py-24" aria-labelledby="features-heading">
+      <section className="bg-white py-14 lg:py-24" aria-labelledby="features-heading">
         <div className="mx-auto max-w-5xl px-5">
           <div className="mb-12 text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Features</p>
@@ -673,7 +689,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section id="method" className="bg-white py-20 lg:py-24" aria-labelledby="method-heading">
+      <section id="method" className="bg-white py-14 lg:py-24" aria-labelledby="method-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-14 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Buddy Method</p>
@@ -700,7 +716,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section id="flow" className="bg-blue-50/50 py-20 lg:py-24" aria-labelledby="lesson-flow-heading">
+      <section id="flow" className="bg-blue-50/50 py-14 lg:py-24" aria-labelledby="lesson-flow-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-14 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Lesson Flow</p>
@@ -730,7 +746,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section id="services" className="bg-slate-900 py-20 text-white lg:py-24" aria-labelledby="services-heading">
+      <section id="services" className="bg-slate-900 py-14 text-white lg:py-24" aria-labelledby="services-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div className="max-w-2xl">
@@ -769,7 +785,7 @@ const buddyLogo = "/buddy-logo.png";
           </div>
         </div>
       </section>
-<section className="bg-white py-20">
+<section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
       英語学習を通じて、少しずつ変わっていけること
@@ -799,7 +815,7 @@ const buddyLogo = "/buddy-logo.png";
     </div>
   </div>
 </section>
-      <section id="price" className="bg-white py-20 lg:py-24" aria-labelledby="price-heading">
+      <section id="price" className="bg-white py-14 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Pricing</p>
@@ -835,7 +851,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </section>
 
-      <section id="profile" className="bg-slate-50 py-20 lg:py-24" aria-labelledby="profile-heading">
+      <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
         <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
@@ -886,7 +902,7 @@ const buddyLogo = "/buddy-logo.png";
       </section>
 
       
-  <section className="bg-slate-50 py-20">
+  <section className="bg-slate-50 py-14 lg:py-20">
   <div className="mx-auto max-w-6xl px-5">
     <div className="mb-12 text-center">
       <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -945,7 +961,7 @@ const buddyLogo = "/buddy-logo.png";
     </div>
   </div>
 </section>
-      <section className="bg-white py-24">
+      <section className="bg-white py-16 lg:py-24">
         <div className="mx-auto max-w-4xl px-5">
           <div className="mb-12 text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">FAQ</p>
