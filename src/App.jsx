@@ -309,13 +309,14 @@ const buddyLogo = "/buddy-logo.png";
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div>
 <h1 className="text-[2.35rem] font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.6rem]">
-英語を学び直したい方へ。<br />
-<span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
-目的に合わせて1対1で進めていきます。
+  英語を学び直したい社会人へ。 <br />
+  <span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
+  目的に合わせて1対1でサポートします。
 </h1>
+
 <p className="mt-4 text-base font-semibold text-blue-600">
-  TOEIC990点満点・米国勤務経験をもとに、
-  外資IT/コンサルで使ってきた実務英語まで、実践的に伴走します。
+  TOEIC990点満点・米国勤務経験・外資IT／コンサルでの実務経験をもとに、
+  英語を「資格・仕事・人生」に活かすための学習をサポートします。
 </p>
 
 <p className="mt-3 text-base leading-8 text-slate-600">
