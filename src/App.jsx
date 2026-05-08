@@ -305,7 +305,7 @@ const buddyLogo = "/buddy-logo.png";
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
 <div>
-  <div className="mb-5 flex items-center gap-3">
+  <div className="mb-5 hidden items-center gap-3 sm:flex">
     <img
       src={buddyLogo}
       alt="Buddy English Studio logo"
