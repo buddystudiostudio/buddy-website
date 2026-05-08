@@ -300,7 +300,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-white py-16 lg:py-24" aria-labelledby="hero-heading">
+      <section className="relative overflow-hidden bg-white py-12 lg:py-24" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
@@ -325,10 +325,10 @@ const buddyLogo = "/buddy-logo.png";
   <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div>
-<h1 id="hero-heading" className="text-4xl font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-  英語を学び直したい方へ。<br />
-  <span className="text-blue-600">TOEIC・ビジネス英語・英会話を、</span><br />
-  目的に合わせて1対1でサポートします。
+<h1 id="hero-heading" className="text-[2.45rem] font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+英語を学び直したい方へ。<br />
+<span className="text-blue-600">TOEICも、仕事の英語も、英会話も。</span><br />
+目的に合わせて1対1でサポートします。
 </h1>
 <p className="mt-4 text-base font-semibold text-blue-600">
   TOEIC990点満点・米国勤務経験をもとに、
@@ -1032,7 +1032,7 @@ const buddyLogo = "/buddy-logo.png";
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-center text-sm font-black text-white shadow-2xl transition hover:bg-blue-700"
+    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-2.5 text-center text-sm font-black text-white shadow-2xl transition hover:bg-blue-700"
   >
     LINEで相談する
   </a>
