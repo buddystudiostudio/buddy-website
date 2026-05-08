@@ -305,23 +305,7 @@ const buddyLogo = "/buddy-logo.png";
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
 <div>
-  <div className="mb-5 hidden items-center gap-3 sm:flex">
-    <img
-      src={buddyLogo}
-      alt="Buddy English Studio logo"
-      className="h-11 w-auto object-contain"
-    />
-
-    <div>
-      <p className="text-sm font-black uppercase tracking-[0.18em] text-blue-600">
-        Buddy English Studio
-      </p>
-      <p className="text-xs font-bold text-slate-500">
-        Okinawa / Online English Coaching
-      </p>
-    </div>
-  </div>
-
+ 
   <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
     ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
   </div>
