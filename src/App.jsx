@@ -328,7 +328,7 @@ const buddyLogo = "/buddy-logo.png";
 </p>
 
 <p className="mt-4 max-w-xl text-base leading-8 text-slate-600">
-  沖縄で英語レッスンを探している方へ、TOEIC対策・英会話・ビジネス英語を
+  TOEIC対策・英会話・ビジネス英語まで、
   目的に合わせてマンツーマンでサポートします。
 </p>
 
