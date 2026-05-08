@@ -217,8 +217,9 @@ const seoKeywords = [
 
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
-  const instructorPhoto = "/instructor-portrait.png";
-  const heroImage = "/hero-image.png";
+const instructorPhoto = "/instructor-portrait.png";
+const heroImage = "/hero-image.png";
+const buddyLogo = "/buddy-logo.png";
 
   const InstructorFallback = () => (
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-800 p-8 text-white">
