@@ -292,7 +292,7 @@ const buddyLogo = "/buddy-logo.png";
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
+    className="rounded-full bg-slate-900 px-5 py-2.5 text-base font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
   >
     LINEで無料相談する
   </a>
@@ -1002,15 +1002,11 @@ const buddyLogo = "/buddy-logo.png";
     </p>
   </div>
 </div>
-          <div className="flex gap-6 text-sm font-bold text-slate-500">
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">LINE</a>
-            <a href={`mailto:${emailAddress}`} className="hover:text-blue-600">Email</a>
-          </div>
         </div>
       </footer>
 
 {/* Floating Mobile CTA */}
-<div className="fixed bottom-4 left-0 right-0 z-50 px-4 md:hidden">
+<div className="fixed bottom-5 left-0 right-0 z-50 px-4 md:hidden">
   <a
     href={lineUrl}
     target="_blank"
