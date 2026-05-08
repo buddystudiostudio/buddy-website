@@ -272,8 +272,8 @@ const seoKeywords = [
 </p>
           </div>
 <nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
+   <a href="#recommended" className="hover:text-blue-600">こんな方へ</a>
   <a href="#why" className="hover:text-blue-600">選ばれる理由</a>
-  <a href="#recommended" className="hover:text-blue-600">こんな方へ</a>
   <a href="#services" className="hover:text-blue-600">サービス</a>
   <a href="#flow" className="hover:text-blue-600">流れ</a>
   <a href="#price" className="hover:text-blue-600">料金</a>
@@ -714,7 +714,7 @@ const seoKeywords = [
 <section className="bg-white py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
-      英語学習・英会話レッスンで得られること
+      英語を通じて、少しずつ広がっていくこと
     </h2>
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
