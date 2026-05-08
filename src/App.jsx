@@ -674,7 +674,7 @@ const buddyLogo = "/buddy-logo.png";
           </div>
           <div className="mt-10 text-center">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="inline-flex rounded-full bg-slate-900 px-8 py-4 text-base font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              LINEで無料相談する
+              LINEで相談する
             </a>
           </div>
         </div>
