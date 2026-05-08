@@ -50,9 +50,9 @@ export default function BlogPost() {
         </p>
 
         <p className="mb-2 leading-8 text-slate-600">{post.description}</p>
-
+        
         <p className="mb-10 text-sm font-medium text-slate-400">
-          読了時間：{post.readingTime}
+          更新日：{post.date} ・ 読了時間：{post.readingTime}
         </p>
 
         <div className="space-y-10">
