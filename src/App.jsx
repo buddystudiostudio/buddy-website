@@ -380,7 +380,7 @@ const seoKeywords = [
   Message
 </p>
 
-<p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-slate-500">
+<p className="mb-3 text-sm font-bold uppercase tracking-[0.1em] text-slate-500">
   Hi, I’m Tada
 </p>
 
