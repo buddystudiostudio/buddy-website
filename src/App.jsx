@@ -67,7 +67,7 @@ export default function BuddyEnglishStudioWebsite() {
   const lessonFlow = [
     {
       step: "01",
-      title: "LINEで無料相談",
+      title: "LINEで相談",
       text: "『体験希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
     },
     {
@@ -294,7 +294,7 @@ const buddyLogo = "/buddy-logo.png";
     rel="noopener noreferrer"
     className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
   >
-    LINEで無料相談する
+    LINEで相談する
   </a>
 </div>
         </div>
@@ -1013,7 +1013,7 @@ const buddyLogo = "/buddy-logo.png";
     rel="noopener noreferrer"
     className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-2.5 text-center text-sm font-black text-white shadow-2xl transition hover:bg-blue-700"
   >
-    LINEで相談する
+    まずはLINEで相談
   </a>
 </div>
 
