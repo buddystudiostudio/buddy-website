@@ -304,10 +304,27 @@ const buddyLogo = "/buddy-logo.png";
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
-          <div>
-            <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
-              ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
-            </div>
+<div>
+  <div className="mb-5 flex items-center gap-3">
+    <img
+      src={buddyLogo}
+      alt="Buddy English Studio logo"
+      className="h-11 w-auto object-contain"
+    />
+
+    <div>
+      <p className="text-sm font-black uppercase tracking-[0.18em] text-blue-600">
+        Buddy English Studio
+      </p>
+      <p className="text-xs font-bold text-slate-500">
+        Okinawa / Online English Coaching
+      </p>
+    </div>
+  </div>
+
+  <div className="mb-6 inline-flex rounded-full bg-gradient-to-r from-blue-50 to-orange-50 px-4 py-2 text-sm font-bold text-blue-800 ring-1 ring-blue-100">
+    ⚡ 沖縄の英語レッスン・オンライン対応｜TOEIC 990点満点 × 米国勤務経験
+  </div>
 <h1 id="hero-heading" className="text-4xl font-black leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
   英語を学び直したい方へ。<br />
   <span className="text-blue-600">TOEIC・ビジネス英語・英会話を、</span><br />
@@ -986,10 +1003,22 @@ const buddyLogo = "/buddy-logo.png";
 
       <footer className="border-t border-slate-200 bg-white py-12">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 md:flex-row">
-          <div className="text-center md:text-left">
-            <p className="text-lg font-black tracking-tight text-slate-900">BUDDY ENGLISH STUDIO</p>
-            <p className="mt-2 text-sm text-slate-500">© 2026 Buddy English Studio. All rights reserved.</p>
-          </div>
+          <div className="flex items-center gap-3 text-center md:text-left">
+  <img
+    src={buddyLogo}
+    alt="Buddy English Studio logo"
+    className="h-12 w-auto object-contain"
+  />
+
+  <div>
+    <p className="text-sm font-bold text-slate-500">
+      沖縄・オンライン対応の英語レッスン／英語コーチング
+    </p>
+    <p className="mt-2 text-sm text-slate-500">
+      © 2026 Buddy English Studio. All rights reserved.
+    </p>
+  </div>
+</div>
           <div className="flex gap-6 text-sm font-bold text-slate-500">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">LINE</a>
             <a href={`mailto:${emailAddress}`} className="hover:text-blue-600">Email</a>
