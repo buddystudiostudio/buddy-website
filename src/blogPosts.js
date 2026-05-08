@@ -193,6 +193,9 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約5分",
+    heroImage: "/toeic-self-study-coaching-road.jpeg",
+    heroImageAlt: "TOEICの独学と英語コーチングの選び方をイメージした道の写真",
+    heroImageCaption: "大切なのは、独学かコーチングかではなく「今の自分に合っているか」です。",
     relatedPosts: [
       "toeic-beginner-study-method",
       "toeic-score-not-improving",
