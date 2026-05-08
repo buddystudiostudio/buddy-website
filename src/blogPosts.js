@@ -9,6 +9,9 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約4分",
+    heroImage: "/beginner-road-start.jpeg",
+    heroImageAlt: "英語学習のスタートをイメージした道の写真",
+    heroImageCaption: "英語学習は、現在地を知るところから始まります。",
     relatedPosts: [
       "toeic-score-not-improving",
       "toeic-600-study-method",
