@@ -270,7 +270,7 @@ const buddyLogo = "/buddy-logo.png";
   <img
     src={buddyLogo}
     alt="Buddy English Studio logo"
-    className="h-12 w-auto object-contain"
+    className="h-10 w-auto object-contain"
   />
 
   <div className="hidden sm:block">
