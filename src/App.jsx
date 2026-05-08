@@ -714,7 +714,7 @@ const seoKeywords = [
 <section className="bg-white py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
-      英語を通じて、少しずつ広がっていくこと
+      英語学習を通じて、少しずつ変わっていけること
     </h2>
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
