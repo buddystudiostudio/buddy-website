@@ -263,7 +263,7 @@ const buddyLogo = "/buddy-logo.png";
     .slice(0, 3);
   
   return (
-    <main className="min-h-screen bg-slate-50 pb-24 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
+    <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
 <a href="/" className="flex items-center gap-3">
