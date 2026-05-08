@@ -690,7 +690,7 @@ const buddyLogo = "/buddy-logo.png";
               </h2>
             </div>
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30">
-              LINEで無料相談する
+              LINEで相談する
             </a>
           </div>
           <div className="grid gap-8 lg:grid-cols-3">
@@ -940,7 +940,7 @@ const buddyLogo = "/buddy-logo.png";
         rel="noopener noreferrer"
         className="mt-6 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
       >
-        LINEで無料相談する
+        LINEで相談する
       </a>
     </div>
 
@@ -975,7 +975,7 @@ const buddyLogo = "/buddy-logo.png";
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
-              LINEで無料相談する
+              体験レッスンをLINEで相談する
             </a>
             <a href={`mailto:${emailAddress}`} className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20">
               メールで問い合わせる
