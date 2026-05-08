@@ -557,7 +557,7 @@ const seoKeywords = [
       <section id="why" className="bg-slate-50 py-20 lg:py-24" aria-labelledby="why-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-16 max-w-3xl text-center">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Why Buddy English Studio</p>
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">選ばれる理由</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
   英語を「教わる」だけで終わらせず、<br />
   使う目的に合わせて一緒に設計します
