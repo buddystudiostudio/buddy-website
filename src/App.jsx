@@ -278,7 +278,7 @@ const seoKeywords = [
   <a href="#services" className="hover:text-blue-600">サービス</a>
   <a href="#flow" className="hover:text-blue-600">流れ</a>
   <a href="#price" className="hover:text-blue-600">料金</a>
-  <a href="#profile" className="hover:text-blue-600">講師紹介</a>
+  <a href="#profile" className="hover:text-blue-600">About</a>
 </nav><div className="hidden md:block">
   <a
     href={lineUrl}
@@ -780,7 +780,9 @@ const seoKeywords = [
             </div>
           </div>
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Founder Profile</p>
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.12em] text-blue-600">
+  Founder Profile / Tada
+</p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
               外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語サポート
             </h2>
