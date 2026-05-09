@@ -60,7 +60,7 @@ export default function BlogPost() {
         <img
           src={post.heroImage}
           alt={post.heroImageAlt || post.title}
-          className="h-64 w-full object-cover md:h-80"
+          className="w-full rounded-3xl"
           />
           {post.heroImageCaption && (
             <figcaption className="px-5 py-4 text-sm leading-6 text-slate-500">
