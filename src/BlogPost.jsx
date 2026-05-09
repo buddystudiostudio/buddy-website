@@ -32,12 +32,12 @@ export default function BlogPost() {
 
   return (
     <main className="min-h-screen bg-white px-5 py-14 sm:py-20 text-slate-900">
-      <article className="mx-auto max-w-3xl">
-        <Link to="/blog" className="mb-8 inline-block font-bold text-blue-600">
+      <article className="mx-auto max-w-2xl">
+        <Link to="/blog" className="mb-8 inline-block font-bold text-blue-500">
           ← ブログ一覧へ戻る
         </Link>
 
-        <p className="mb-3 text-sm font-bold text-blue-600">
+        <p className="mb-3 text-sm font-bold text-blue-500">
           {post.cluster || post.category}
         </p>
 
@@ -70,7 +70,7 @@ export default function BlogPost() {
         </figure>
       )}
         
-        <div className="space-y-10">
+        <div className="space-y-14">
           {post.content.map((section) => (
             <section key={section.heading}>
               <h2 className="mb-4 text-[1.65rem] font-black leading-tight sm:text-2xl">{section.heading}</h2>
@@ -113,7 +113,7 @@ export default function BlogPost() {
                   to={`/blog/${relatedPost.slug}`}
                   className="block rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100 transition hover:-translate-y-1 hover:shadow-md"
                 >
-                  <p className="mb-2 text-sm font-bold text-blue-600">
+                  <p className="mb-2 text-sm font-bold text-blue-500">
                     {relatedPost.cluster || relatedPost.category}
                   </p>
 
