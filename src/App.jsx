@@ -232,7 +232,7 @@ const buddyLogo = "/buddy-logo.png";
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-800 p-8 text-white">
       <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-blue-500/25 blur-3xl" />
       <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-cyan-300/10 blur-3xl" />
-      <div className="relative z-10 w-full max-w-sm rounded-[2rem] border border-white/15 bg-white/10 p-8 text-center shadow-2xl backdrop-blur">
+      <div className="relative z-10 w-full max-w-sm rounded-[2rem] border border-white/15 bg-white/10 p-8 text-center shadow-2xl backdrop-blur-xl">
         <div className="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-blue-100 to-white text-5xl shadow-xl ring-4 ring-white/20">
           👤
         </div>
@@ -294,14 +294,18 @@ const buddyLogo = "/buddy-logo.png";
   <a href="#price" className="hover:text-blue-600">料金</a>
   <a href="#profile" className="hover:text-blue-600">代表プロフィール</a>
   <a href="/blog" className="hover:text-blue-600">ブログ</a>
-  <button
+
+</nav>
+
+<button
   onClick={() => setMenuOpen(true)}
-  className="md:hidden rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100"
+  className="lg:hidden rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100"
   aria-label="Open Menu"
 >
   ☰
 </button>
-</nav><div className="hidden md:block">
+
+<div className="hidden lg:block">
   <a
     href={lineUrl}
     target="_blank"
@@ -396,8 +400,9 @@ const buddyLogo = "/buddy-logo.png";
   英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
 </p>
 <p className="mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-  「何から始めればいいかわからない」「続かない」「仕事で英語が必要になった」。
-  そんな方に向けて、現在地と目的を一緒に整理しながら、沖縄・オンラインで無理なく続けられる学習設計を行います。
+  TOEIC対策・英会話・ビジネス英語まで、
+  目的や現在地を整理しながら、
+  沖縄・オンラインで無理なく続けられる学習設計を行います。
 </p>
 
 <p className="mt-3 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
@@ -481,7 +486,7 @@ const buddyLogo = "/buddy-logo.png";
 </p>
 
 <p className="mb-3 text-sm font-bold uppercase tracking-[0.1em] text-slate-500">
-  Hi, I’m Tada
+  Message from Tada
 </p>
 
 <h2 className="text-3xl font-black leading-[1.15] text-slate-900 sm:text-4xl">
@@ -615,9 +620,13 @@ const buddyLogo = "/buddy-logo.png";
       </h2>
 
       <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
-        Buddy English Studioでは、TOEIC対策・英語の学び直し・ビジネス英語など、
-        目的や現在地に合わせて、必要な学習内容を一緒に整理します。
-        実際の学習事例や受講生の声も、許可をいただいたうえで順次ご紹介していく予定です。
+Buddy English Studioでは、
+TOEIC対策・英語の学び直し・ビジネス英語など、
+目的や現在地に合わせて、
+必要な学習内容を一緒に整理します。
+
+受講生の声や学習事例も、
+許可をいただいたうえで順次ご紹介予定です。
       </p>
     </div>
 
@@ -1164,7 +1173,7 @@ const buddyLogo = "/buddy-logo.png";
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-2.5 text-center text-sm font-black text-white shadow-2xl transition hover:bg-blue-700"
+    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 ..."
   >
     まずはLINEで相談
   </a>
