@@ -3,6 +3,7 @@ import { blogPosts } from "./blogPosts";
 
 export default function BuddyEnglishStudioWebsite() {
   const [portraitLoaded, setPortraitLoaded] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const trustStack = [
   {
@@ -293,6 +294,13 @@ const buddyLogo = "/buddy-logo.png";
   <a href="#price" className="hover:text-blue-600">料金</a>
   <a href="#profile" className="hover:text-blue-600">代表プロフィール</a>
   <a href="/blog" className="hover:text-blue-600">ブログ</a>
+  <button
+  onClick={() => setMenuOpen(true)}
+  className="md:hidden rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100"
+  aria-label="Open Menu"
+>
+  ☰
+</button>
 </nav><div className="hidden md:block">
   <a
     href={lineUrl}
@@ -305,6 +313,66 @@ const buddyLogo = "/buddy-logo.png";
 </div>
         </div>
       </header>
+      {menuOpen && (
+  <div className="fixed inset-0 z-[100] bg-white px-6 py-8 md:hidden">
+
+    <div className="mb-10 flex items-center justify-between">
+      <p className="text-lg font-black text-slate-900">
+        Buddy English Studio
+      </p>
+
+      <button
+        onClick={() => setMenuOpen(false)}
+        className="text-3xl font-light text-slate-700"
+        aria-label="Close Menu"
+      >
+        ×
+      </button>
+    </div>
+
+    <nav className="flex flex-col gap-6 text-lg font-bold text-slate-800">
+
+      <a href="#recommended" onClick={() => setMenuOpen(false)}>
+        こんな方へ
+      </a>
+
+      <a href="#why" onClick={() => setMenuOpen(false)}>
+        選ばれる理由
+      </a>
+
+      <a href="#services" onClick={() => setMenuOpen(false)}>
+        サービス
+      </a>
+
+      <a href="#flow" onClick={() => setMenuOpen(false)}>
+        体験までの流れ
+      </a>
+
+      <a href="#price" onClick={() => setMenuOpen(false)}>
+        料金について
+      </a>
+
+      <a href="#profile" onClick={() => setMenuOpen(false)}>
+        プロフィール
+      </a>
+
+      <a href="/blog" onClick={() => setMenuOpen(false)}>
+        ブログ
+      </a>
+
+    </nav>
+
+    <a
+      href={lineUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute bottom-8 left-6 right-6 rounded-full bg-blue-600 py-4 text-center text-base font-black text-white shadow-xl"
+    >
+      LINEで相談する
+    </a>
+
+  </div>
+)}
 
       <section className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12" aria-labelledby="hero-heading">
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
