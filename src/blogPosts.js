@@ -494,7 +494,7 @@ export const blogPosts = [
       relatedPosts: [
         "english-relearning-for-beginners",
         "adult-english-relearning-start",
-        "toeic-beginner-study-method",
+        "business-english-where-to-start",
         "toeic-self-study-vs-coaching",
       ],
     cta: {
