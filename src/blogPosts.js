@@ -343,8 +343,8 @@ export const blogPosts = [
     heroImageCaption: "英語を学び直すのに、遅すぎることはありません。",
     relatedPosts: [
       "english-relearning-for-beginners",
+      "english-conversation-words-not-coming-out",
       "toeic-beginner-study-method",
-      "toeic-600-study-method",
       "toeic-listening-beginner",
       "toeic-self-study-vs-coaching",
     ],
