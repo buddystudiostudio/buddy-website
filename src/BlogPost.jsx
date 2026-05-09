@@ -81,7 +81,7 @@ export default function BlogPost() {
           ))}
         </div>
 
-        <div className="mt-14 rounded-3xl bg-blue-50 p-8 text-center ring-1 ring-blue-100">
+        <div className="mt-14 rounded-3xl bg-sky-50 p-8 text-center ring-1 ring-sky-100">
           <h2 className="text-xl sm:text-2xl font-black">
             {cta.title}
           </h2>
