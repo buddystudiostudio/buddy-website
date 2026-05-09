@@ -31,7 +31,7 @@ export default function BlogPost() {
   };
 
   return (
-    <main className="min-h-screen bg-white px-5 py-20 text-slate-900">
+    <main className="min-h-screen bg-white px-5 py-14 sm:py-20 text-slate-900">
       <article className="mx-auto max-w-3xl">
         <Link to="/blog" className="mb-8 inline-block font-bold text-blue-600">
           ← ブログ一覧へ戻る
@@ -41,7 +41,7 @@ export default function BlogPost() {
           {post.cluster || post.category}
         </p>
 
-        <h1 className="mb-5 text-4xl font-black leading-tight">
+        <h1 className="mb-5 text-3xl font-black leading-tight sm:text-4xl">
           {post.title}
         </h1>
 
@@ -57,11 +57,11 @@ export default function BlogPost() {
         
     {post.heroImage && (
       <figure className="mb-12 overflow-hidden rounded-3xl bg-slate-100 shadow-sm ring-1 ring-slate-200">
-        <img
-          src={post.heroImage}
-          alt={post.heroImageAlt || post.title}
-          className="w-full rounded-3xl"
-          />
+<img
+  src={post.heroImage}
+  alt={post.heroImageAlt || post.title}
+  className="w-full"
+/>
           {post.heroImageCaption && (
             <figcaption className="px-5 py-4 text-sm leading-6 text-slate-500">
               {post.heroImageCaption}
@@ -73,14 +73,16 @@ export default function BlogPost() {
         <div className="space-y-10">
           {post.content.map((section) => (
             <section key={section.heading}>
-              <h2 className="mb-4 text-2xl font-black">{section.heading}</h2>
-              <p className="leading-8 text-slate-700">{section.body}</p>
+              <h2 className="mb-4 text-[1.65rem] font-black leading-tight sm:text-2xl">{section.heading}</h2>
+              <p className="text-[15px] leading-8 text-slate-700 sm:text-base">
+  {section.body}
+</p>
             </section>
           ))}
         </div>
 
         <div className="mt-14 rounded-3xl bg-blue-50 p-8 text-center ring-1 ring-blue-100">
-          <h2 className="text-2xl font-black">
+          <h2 className="text-xl sm:text-2xl font-black">
             {cta.title}
           </h2>
 
