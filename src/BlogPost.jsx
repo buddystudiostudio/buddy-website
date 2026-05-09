@@ -94,7 +94,7 @@ export default function BlogPost() {
             href="https://lin.ee/t4d7Mdw"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:bg-blue-700"
+            className="mt-6 inline-block rounded-full bg-sky-600 px-8 py-4 font-bold text-white shadow-lg transition hover:bg-sky-700"
           >
             {cta.buttonText}
           </a>
