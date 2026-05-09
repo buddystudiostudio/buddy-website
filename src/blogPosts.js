@@ -413,6 +413,9 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
+    heroImage: "/english-beginner-friendly.jpeg",
+heroImageAlt: "英語が苦手な社会人でも相談しやすい雰囲気の写真",
+heroImageCaption: "英語が苦手でも大丈夫。まずは安心して始められる形を一緒に考えましょう。",
     relatedPosts: [
       "adult-english-relearning-start",
       "toeic-beginner-study-method",
