@@ -218,9 +218,10 @@ const seoKeywords = [
     },
   ];
 
-  const lineUrl = "https://lin.ee/t4d7Mdw";
-  const emailAddress = "buddyenglishstudio@gmail.com";
-  const lineQrCode = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Flin.ee%2Ft4d7Mdw";
+const lineUrl = "https://lin.ee/t4d7Mdw";
+const emailAddress = "buddyenglishstudio@gmail.com";
+const instagramUrl = "https://www.instagram.com/buddyenglishstudio/";
+const lineQrCode = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Flin.ee%2Ft4d7Mdw";
 
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
@@ -1146,26 +1147,50 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 bg-white py-12">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 md:flex-row">
-          <div className="flex items-center gap-3 text-center md:text-left">
-  <img
-    src={buddyLogo}
-    alt="Buddy English Studio logo"
-    className="h-12 w-auto object-contain"
-  />
+<footer className="border-t border-slate-200 bg-white py-12">
+  <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 md:flex-row">
+    <div className="flex items-center gap-3 text-center md:text-left">
+      <img
+        src={buddyLogo}
+        alt="Buddy English Studio logo"
+        className="h-12 w-auto object-contain"
+      />
 
-  <div>
-    <p className="text-sm font-bold text-slate-500">
-      沖縄・オンライン対応の英語レッスン／英語コーチング
-    </p>
-    <p className="mt-2 text-sm text-slate-500">
-      © 2026 Buddy English Studio. All rights reserved.
-    </p>
+      <div>
+        <p className="text-sm font-bold text-slate-500">
+          沖縄・オンライン対応の英語レッスン／英語コーチング
+        </p>
+        <p className="mt-2 text-sm text-slate-500">
+          © 2026 Buddy English Studio. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
+      <a href="/blog" className="transition hover:text-blue-600">
+        Blog
+      </a>
+
+      <a
+        href={instagramUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="transition hover:text-blue-600"
+      >
+        Instagram
+      </a>
+
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="transition hover:text-blue-600"
+      >
+        LINE
+      </a>
+    </div>
   </div>
-</div>
-        </div>
-      </footer>
+</footer>
 
 {/* Floating Mobile CTA */}
 <div className="fixed bottom-3 left-0 right-0 z-50 px-4 md:hidden">
