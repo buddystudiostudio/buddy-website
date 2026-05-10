@@ -299,13 +299,15 @@ const buddyLogo = "/buddy-logo.png";
 </nav>
 
 <button
+  type="button"
   onClick={() => setMenuOpen(true)}
   className="lg:hidden rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100"
   aria-label="Open Menu"
+  aria-expanded={menuOpen}
 >
   ☰
 </button>
-
+          
 <div className="hidden lg:block">
   <a
     href={lineUrl}
@@ -319,7 +321,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </header>
       {menuOpen && (
-  <div className="fixed inset-0 z-[100] bg-white px-6 py-8 md:hidden">
+  <div className="fixed inset-0 z-[100] bg-white px-6 py-8 lg:hidden">
 
     <div className="mb-10 flex items-center justify-between">
       <p className="text-lg font-black text-slate-900">
