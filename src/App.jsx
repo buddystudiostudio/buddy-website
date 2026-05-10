@@ -998,7 +998,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </section>
 
       
-  <section className="bg-slate-50 py-14 lg:py-20">
+<section className="bg-slate-50 py-14 lg:py-20">
   <div className="mx-auto max-w-6xl px-5">
     <div className="mb-12 text-center">
       <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
@@ -1006,12 +1006,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </p>
 
       <h2 className="text-3xl font-black text-slate-900">
-        英語学習のヒントも発信しています
+        英語学習のお悩み別ガイド
       </h2>
 
       <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
-        TOEIC対策、英語の学び直し、ビジネス英語について、
-        実務経験とコーチング視点からわかりやすく解説しています。
+        TOEIC、英会話、ビジネス英語、英語の学び直しなど、
+        よくある悩みへの考え方をわかりやすくまとめています。
       </p>
     </div>
 
@@ -1052,7 +1052,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         href="/blog"
         className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
       >
-        ブログ一覧を見る
+        英語学習ガイドを見る
       </a>
     </div>
   </div>
