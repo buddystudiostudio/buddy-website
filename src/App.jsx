@@ -5,6 +5,11 @@ export default function BuddyEnglishStudioWebsite() {
   const [portraitLoaded, setPortraitLoaded] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const sectionLabelClass =
+    "mb-4 text-xs font-bold uppercase tracking-[0.28em] text-blue-600";
+  const darkSectionLabelClass =
+    "mb-4 text-xs font-bold uppercase tracking-[0.28em] text-blue-300";
+  
   const trustStack = [
   {
     title: "TOEIC 990点満点の知見",
@@ -484,8 +489,8 @@ const buddyLogo = "/buddy-logo.png";
 <section className="bg-white py-14 lg:py-16">
   <div className="mx-auto max-w-4xl px-5 text-center">
 
-<p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-  Message
+<p className={sectionLabelClass}>
+  MESSAGE
 </p>
 
 <p className="mb-3 text-sm font-bold uppercase tracking-[0.1em] text-slate-500">
@@ -529,9 +534,9 @@ const buddyLogo = "/buddy-logo.png";
 <section className="bg-white px-5 py-14 lg:py-20">
   <div className="mx-auto max-w-6xl">
     <div className="mb-12 text-center">
-      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        Your English Challenges
-      </p>
+<p className={sectionLabelClass}>
+  YOUR ENGLISH CHALLENGES
+</p>
 
       <h2 className="text-3xl font-black text-slate-900 md:text-4xl">
         英語を頑張りたい。<br className="hidden sm:block" />
@@ -613,9 +618,9 @@ const buddyLogo = "/buddy-logo.png";
 <section className="bg-slate-50 px-5 py-14 lg:py-16">
   <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
     <div className="text-center">
-      <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        Learning Support
-      </p>
+<p className={sectionLabelClass}>
+  LEARNING SUPPORT
+</p>
 
       <h2 className="text-3xl font-black leading-tight text-slate-900">
         一人ひとりの目的に合わせて、<br className="hidden sm:block" />
@@ -682,7 +687,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section id="recommended" className="bg-white py-16 lg:py-20" aria-labelledby="recommended-heading">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Recommended For</p>
+            <p className={sectionLabelClass}>RECOMMENDED FOR</p>
             <h2 id="recommended-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
   こんな方に向いています
 </h2>
@@ -717,7 +722,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section id="why" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="why-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">選ばれる理由</p>
+            <p className={sectionLabelClass}>WHY BUDDY</p>
             <h2 id="why-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
   なぜ、Buddy English Studioなのか
 </h2>
@@ -747,7 +752,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section className="bg-white py-14 lg:py-24" aria-labelledby="features-heading">
         <div className="mx-auto max-w-5xl px-5">
           <div className="mb-12 text-center">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Features</p>
+            <p className={sectionLabelClass}>FEATURES</p>
             <h2 id="features-heading" className="text-3xl font-black text-slate-900">
   沖縄の英語コーチングとして選ばれる理由
 </h2>
@@ -778,7 +783,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section id="method" className="bg-white py-14 lg:py-24" aria-labelledby="method-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-600">Buddy Method</p>
+            <p className={sectionLabelClass}>BUDDY METHOD</p>
             <h2 id="method-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               英語コーチングで、目的から逆算して学習設計
             </h2>
@@ -805,7 +810,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section id="flow" className="bg-blue-50/50 py-14 lg:py-24" aria-labelledby="lesson-flow-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Lesson Flow</p>
+            <p className={sectionLabelClass}>LESSON FLOW</p>
             <h2 id="lesson-flow-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               沖縄・オンライン英語レッスンの体験までの流れ
             </h2>
@@ -836,7 +841,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         <div className="mx-auto max-w-7xl px-5">
           <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div className="max-w-2xl">
-              <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-300">Services</p>
+              <p className={darkSectionLabelClass}>SERVICES</p>
               <h2 id="services-heading" className="text-3xl font-black tracking-tight sm:text-4xl">
                 TOEIC対策・ビジネス英語・英会話を目的別に学ぶ
               </h2>
@@ -860,7 +865,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             ))}
           </div>
           <div className="mt-10 rounded-[2rem] bg-white/5 p-6 ring-1 ring-white/10">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-300">Other Topics</p>
+            <p className={darkSectionLabelClass}>OTHER TOPICS</p>
             <div className="flex flex-wrap gap-3">
               {serviceExamples.map((item) => (
                 <span key={item} className="rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-slate-200">
@@ -904,7 +909,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section id="price" className="bg-white py-14 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">Pricing</p>
+            <p className={sectionLabelClass}>PRICING</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               沖縄・オンライン対応の体験英語レッスン
             </h2>
@@ -949,8 +954,8 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             </div>
           </div>
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.12em] text-blue-600">
-  Founder Profile / Tada
+<p className={sectionLabelClass}>
+  FOUNDER PROFILE
 </p>
             <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
               外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語レッスン
@@ -1004,9 +1009,9 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 <section className="bg-slate-50 py-14 lg:py-20">
   <div className="mx-auto max-w-6xl px-5">
     <div className="mb-12 text-center">
-      <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        Blog
-      </p>
+<p className={sectionLabelClass}>
+  BLOG
+</p>
 
       <h2 className="text-3xl font-black text-slate-900">
         英語学習のお悩み別ガイド
@@ -1063,7 +1068,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section className="bg-white py-14 lg:py-24">
         <div className="mx-auto max-w-4xl px-5">
           <div className="mb-12 text-center">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">FAQ</p>
+            <p className={sectionLabelClass}>FAQ</p>
             <h2 id="faq-heading" className="text-3xl font-black text-slate-900">よくあるご質問</h2>
           </div>
           <div className="space-y-4">
@@ -1084,10 +1089,10 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
-    <div>
-      <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-        LINE Contact
-      </p>
+<div>
+  <p className={sectionLabelClass}>
+    LINE CONTACT
+  </p>
 
       <h2 className="text-3xl font-black text-slate-900">
         体験レッスン・ご相談はLINEから
