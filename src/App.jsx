@@ -1205,7 +1205,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 ..."
+    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
   >
     まずはLINEで相談
   </a>
