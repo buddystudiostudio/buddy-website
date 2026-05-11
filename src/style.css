@@ -1,115 +1,123 @@
 /*
-  Import variable font families from Google Fonts. We explicitly request the
-  variable axes for Inter, Noto Sans JP and Source Serif 4 so that we can
-  control weight and optical size through CSS. The `display=swap` parameter
-  ensures text remains visible during font loading by using a fallback font
-  and swapping in the custom font when it finishes loading. See
-  https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization
-  for details.
+  Buddy English Studio — V8 Lite+ typography foundation
+
+  This file keeps the implementation intentionally lightweight:
+  - variable font loading
+  - global font stack
+  - calm Japanese/English reading defaults
+  - safe typography tokens
+  - no aggressive global h1/h2/h3 resizing
+
+  Important:
+  We avoid global heading size overrides because the site already uses
+  Tailwind classes in App.jsx and BlogPost.jsx. Heavy global heading rules
+  can unintentionally enlarge card titles, related article titles, and
+  smaller UI headings.
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+JP:wght@200..900&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*
-  Global design tokens
-
-  We define a handful of custom properties on the root element to centralize
-  typography and spacing values. This makes it easy to tweak the overall
-  rhythm of the site without hunting through JSX files. These variables
-  establish sensible defaults for font families, base font size, line height
-  and a simple spacing scale. Because many elements inherit from these
-  variables, adjusting them here will cascade throughout the application.
-*/
 :root {
-  /* Primary sans-serif stack. Inter is used for Latin characters and
-     Noto Sans JP for Japanese. They will fall back to the system sans
-     stack if either font fails to load. */
-  --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
-  /* Secondary serif stack for occasional human‑voice elements (e.g.
-     founder notes or long‑form narrative content). Source Serif 4 pairs
-     nicely with the sans stack and supports optical sizing. */
-  --font-serif: 'Source Serif 4', 'Noto Serif JP', serif;
+  --font-sans: 'Inter', 'Noto Sans JP', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Source Serif 4', 'Noto Serif JP', Georgia, serif;
 
-  /* Base font size. Tailwind uses 1rem = 16px by default. Adjusting this
-     value will resize the entire typographic scale proportionally. */
-  --font-base-size: 16px;
-  /* Base line height used for normal paragraph text. A slightly relaxed
-     value improves readability for long passages. */
-  --line-height-base: 1.625;
+  --tracking-calm: 0.02em;
+  --tracking-cta: 0.05em;
 
-  /* Simple spacing scale derived from a 4px unit. These variables are
-     consumed in custom CSS rules below to maintain a consistent vertical
-     rhythm throughout the site. */
-  --space-xs: 0.5rem;   /* 8px */
-  --space-sm: 0.75rem;  /* 12px */
-  --space-md: 1rem;     /* 16px */
-  --space-lg: 1.5rem;   /* 24px */
-  --space-xl: 2rem;     /* 32px */
+  --leading-body: 1.75;
+  --leading-compact: 1.35;
+  --leading-reading: 1.9;
+
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-soft: #595959;
+  --error-supportive: #B45C38;
 }
 
-/*
-  Base element styles
-
-  Tailwind resets some default browser styles, but we further refine the
-  typography here to reflect the V8 lite+ system. Heading elements are
-  normalized to a consistent scale with fluid sizing using the `clamp()`
-  function. Paragraphs use the base line height and spacing variables for
-  breathing room. Finally, the body element sets our global font-family
-  using the sans stack and applies the base font size.
-*/
 @layer base {
   html {
-    font-size: var(--font-base-size);
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
   }
+
   body {
     font-family: var(--font-sans);
-    line-height: var(--line-height-base);
+    font-feature-settings: 'kern' 1;
     -webkit-font-smoothing: antialiased;
-    color: theme('colors.slate.900');
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
-  h1 {
-    /* Fluid responsive sizing: scales between 2.25rem and 3rem based on
-       viewport width. This uses clamp() to ensure the text grows at an
-       appropriate rate on larger screens without becoming overwhelming on
-       mobile devices. */
-    font-size: clamp(2.25rem, 5vw + 1rem, 3rem);
-    font-weight: 800;
-    line-height: 1.15;
-    margin-bottom: var(--space-lg);
-    font-family: var(--font-sans);
-  }
-  h2 {
-    font-size: clamp(1.75rem, 3vw + 1rem, 2.25rem);
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: var(--space-md);
-    font-family: var(--font-sans);
-  }
-  h3 {
-    font-size: clamp(1.5rem, 2vw + 1rem, 1.875rem);
-    font-weight: 700;
-    line-height: 1.3;
-    margin-bottom: var(--space-sm);
-    font-family: var(--font-sans);
-  }
-  h4 {
-    font-size: clamp(1.25rem, 1.5vw + 1rem, 1.5rem);
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: var(--space-sm);
-    font-family: var(--font-sans);
-  }
+
+  /*
+    Japanese reading comfort:
+    Keep paragraphs calm and readable, but do not force extra margins
+    that may fight with Tailwind spacing utilities.
+  */
   p {
-    margin-bottom: var(--space-md);
-    line-height: var(--line-height-base);
+    line-height: var(--leading-body);
   }
-  /* Utility class for using the serif font stack. Apply
-     className="font-serif" or className="serif" to elements that should
-     use the human‑voice typeface defined above. */
-  .serif {
+
+  /*
+    Keep heading rhythm composed without overriding Tailwind font sizes.
+    This preserves existing visual hierarchy while improving rendering.
+  */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-sans);
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+
+  a,
+  button {
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  :focus-visible {
+    outline: 2px solid rgba(37, 99, 235, 0.55);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /*
+    Optional utility classes for future Buddy Vault / Blueprint / Founder Note
+    sections. They are safe to add now and only apply when explicitly used.
+  */
+  .buddy-reading {
+    line-height: var(--leading-reading);
+    color: var(--text-secondary);
+  }
+
+  .buddy-serif {
     font-family: var(--font-serif);
+    line-height: 1.6;
+  }
+
+  .buddy-eyebrow {
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .buddy-cta {
+    letter-spacing: var(--tracking-cta);
+  }
+
+  .buddy-blueprint-anchor {
+    border-top: 1px solid rgb(226 232 240);
+    padding-top: 1.5rem;
+  }
+
+  .success-mark {
+    font-weight: 500;
   }
 }
