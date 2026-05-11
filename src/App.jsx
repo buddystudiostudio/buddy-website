@@ -1074,15 +1074,16 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                 「今月は会話練習を多めに」「面接前は回答レビューを多めに」など、目的に合わせて柔軟に利用できます。
               </p>
             </div>
-            <div className="rounded-[1.75rem] bg-blue-50 p-6 ring-1 ring-blue-100">
-              <h3 className="mb-2 text-base font-black text-slate-900">学習の見える化</h3>
-              <p>
-                学習ロードマップ・進捗・レビュー内容は、Buddy Vaultで見える化します。毎月の進捗と次の打ち手を確認しながら進めます。
-              </p>
-              <p className="mt-3 text-xs font-bold text-blue-700">
-                英文レビューなどの非同期サポートは、通常、決まったレビュー時間内に対応します。
-              </p>
-            </div>
+<div className="rounded-[1.75rem] bg-blue-50 p-6 ring-1 ring-blue-100">
+  <h3 className="mb-2 text-base font-black text-slate-900">学習の見える化</h3>
+  <p>
+    目標・進め方・復習内容を整理しやすいように、必要に応じてBuddy Vaultのテンプレートを共有します。
+    レッスン内で進捗を確認しながら、次にやることを一緒に明確にします。
+  </p>
+  <p className="mt-3 text-xs font-bold text-blue-700">
+    英文レビューなどの非同期サポートは、通常、決まったレビュー時間内に対応します。
+  </p>
+</div>
             <div className="rounded-[1.75rem] bg-orange-50 p-6 ring-1 ring-orange-100">
               <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
               <p>入会金 ¥11,000。開業記念キャンペーン中につき、現在は無料です。</p>
