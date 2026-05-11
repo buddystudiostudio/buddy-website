@@ -168,17 +168,17 @@ const seoKeywords = [
       highlight: false,
       cta: "このプランを相談する",
     },
-    {
-      name: "スタンダードプラン",
-      price: "¥44,000 / 月",
-      sub: "月8pt利用可 + Blueprint",
-      note: "目安：週1回ペースの1対1セッション",
-      description:
-        "継続して伸ばしたい社会人向け。毎月の進捗と次の打ち手を見える化しながら進めます。",
-      badge: "迷ったらこちら",
-      highlight: true,
-      cta: "スタンダードについて相談する",
-    },
+{
+  name: "スタンダードプラン",
+  price: "¥44,000 / 月",
+  sub: "月8pt利用可 + Blueprint",
+  note: "目安：週1回ペースの1対1セッション",
+  description:
+    "継続して伸ばしたい社会人向け。レッスン内で進捗を確認しながら、次にやることを明確にして進めます。",
+  badge: "迷ったらこちら",
+  highlight: true,
+  cta: "スタンダードについて相談する",
+},
     {
       name: "ビジネス実践プラン",
       price: "¥54,000 / 月",
@@ -997,7 +997,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-600">MONTHLY PLANS</p>
             <h3 className="mt-3 text-2xl font-black text-slate-900 sm:text-3xl">継続プラン</h3>
             <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-slate-600">
-              迷ったら、まずはスタンダードプランがおすすめです。毎月の進捗と次の打ち手を見える化しながら、無理なく継続できます。
+              迷ったら、まずはスタンダードプランがおすすめです。レッスン内で進捗と次の一歩を確認しながら、無理なく継続できます。
             </p>
           </div>
 
