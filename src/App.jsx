@@ -40,12 +40,12 @@ export default function BuddyEnglishStudioWebsite() {
   {
     feature: "レッスン内容",
     buddy: "目的・レベル・生活リズムに合わせて個別設計",
-    others: "固定カリキュラムを中心に進行",
+    others: "決まったカリキュラムに沿って進むことが多い",
   },
   {
     feature: "伴走スタイル",
     buddy: "レッスン外の学習方針まで一緒に整理",
-    others: "レッスン時間内の学習が中心",
+    others: "レッスン時間内の学習が中心になりやすい",
   },
   {
     feature: "相談しやすさ",
@@ -857,7 +857,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           Buddy English Studio
         </th>
         <th className="min-w-[300px] p-5 font-bold">
-          一般的な英語スクールの例
+          一般的な英語スクールの一例
         </th>
       </tr>
     </thead>
