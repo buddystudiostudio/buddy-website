@@ -1,3 +1,115 @@
+/*
+  Import variable font families from Google Fonts. We explicitly request the
+  variable axes for Inter, Noto Sans JP and Source Serif 4 so that we can
+  control weight and optical size through CSS. The `display=swap` parameter
+  ensures text remains visible during font loading by using a fallback font
+  and swapping in the custom font when it finishes loading. See
+  https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization
+  for details.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+JP:wght@200..900&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  Global design tokens
+
+  We define a handful of custom properties on the root element to centralize
+  typography and spacing values. This makes it easy to tweak the overall
+  rhythm of the site without hunting through JSX files. These variables
+  establish sensible defaults for font families, base font size, line height
+  and a simple spacing scale. Because many elements inherit from these
+  variables, adjusting them here will cascade throughout the application.
+*/
+:root {
+  /* Primary sans-serif stack. Inter is used for Latin characters and
+     Noto Sans JP for Japanese. They will fall back to the system sans
+     stack if either font fails to load. */
+  --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
+  /* Secondary serif stack for occasional human‑voice elements (e.g.
+     founder notes or long‑form narrative content). Source Serif 4 pairs
+     nicely with the sans stack and supports optical sizing. */
+  --font-serif: 'Source Serif 4', 'Noto Serif JP', serif;
+
+  /* Base font size. Tailwind uses 1rem = 16px by default. Adjusting this
+     value will resize the entire typographic scale proportionally. */
+  --font-base-size: 16px;
+  /* Base line height used for normal paragraph text. A slightly relaxed
+     value improves readability for long passages. */
+  --line-height-base: 1.625;
+
+  /* Simple spacing scale derived from a 4px unit. These variables are
+     consumed in custom CSS rules below to maintain a consistent vertical
+     rhythm throughout the site. */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 0.75rem;  /* 12px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+}
+
+/*
+  Base element styles
+
+  Tailwind resets some default browser styles, but we further refine the
+  typography here to reflect the V8 lite+ system. Heading elements are
+  normalized to a consistent scale with fluid sizing using the `clamp()`
+  function. Paragraphs use the base line height and spacing variables for
+  breathing room. Finally, the body element sets our global font-family
+  using the sans stack and applies the base font size.
+*/
+@layer base {
+  html {
+    font-size: var(--font-base-size);
+  }
+  body {
+    font-family: var(--font-sans);
+    line-height: var(--line-height-base);
+    -webkit-font-smoothing: antialiased;
+    color: theme('colors.slate.900');
+  }
+  h1 {
+    /* Fluid responsive sizing: scales between 2.25rem and 3rem based on
+       viewport width. This uses clamp() to ensure the text grows at an
+       appropriate rate on larger screens without becoming overwhelming on
+       mobile devices. */
+    font-size: clamp(2.25rem, 5vw + 1rem, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: var(--space-lg);
+    font-family: var(--font-sans);
+  }
+  h2 {
+    font-size: clamp(1.75rem, 3vw + 1rem, 2.25rem);
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: var(--space-md);
+    font-family: var(--font-sans);
+  }
+  h3 {
+    font-size: clamp(1.5rem, 2vw + 1rem, 1.875rem);
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-sans);
+  }
+  h4 {
+    font-size: clamp(1.25rem, 1.5vw + 1rem, 1.5rem);
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-sans);
+  }
+  p {
+    margin-bottom: var(--space-md);
+    line-height: var(--line-height-base);
+  }
+  /* Utility class for using the serif font stack. Apply
+     className="font-serif" or className="serif" to elements that should
+     use the human‑voice typeface defined above. */
+  .serif {
+    font-family: var(--font-serif);
+  }
+}
