@@ -436,14 +436,32 @@ const buddyLogo = "/buddy-logo.png";
   <div className="mb-5 inline-flex rounded-2xl bg-gradient-to-r from-blue-50 to-orange-50 px-3.5 py-2 text-xs font-bold leading-6 text-blue-800 ring-1 ring-blue-100 sm:rounded-full sm:px-4 sm:text-sm">
     ⚡ 英語コーチング｜TOEIC 990点満点 × 米国勤務経験
   </div>
-  <h1 className="text-[2rem] font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-[3.45rem]">
-  英語を、<span className="whitespace-nowrap">もう一度学びたい方へ。</span>
-  <br />
-  <span className="text-blue-600">
-    TOEICも、<span className="whitespace-nowrap">仕事の英語も、</span>英会話も。
+  <h1 className="font-black tracking-tight text-slate-900">
+  {/* Mobile */}
+  <span className="block text-[2rem] leading-[1.12] sm:hidden">
+    英語を、<br />
+    もう一度学びたい方へ。
+    <br />
+    <span className="text-blue-600">
+      TOEICも、<br />
+      仕事の英語も、<br />
+      英会話も。
+    </span>
+    <br />
+    目的に合わせて、<br />
+    1対1でサポートします。
   </span>
-  <br />
-  目的に合わせて、1対1でサポートします。
+
+  {/* Tablet / Desktop */}
+  <span className="hidden leading-[1.08] sm:block sm:text-5xl lg:text-[3.25rem]">
+    英語を、もう一度学びたい方へ。
+    <br />
+    <span className="text-blue-600">
+      TOEICも、仕事の英語も、英会話も。
+    </span>
+    <br />
+    目的に合わせて、1対1でサポートします。
+  </span>
 </h1>
 
 <p className="mt-4 text-base font-semibold text-blue-600">
