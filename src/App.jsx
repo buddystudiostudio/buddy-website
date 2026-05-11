@@ -517,7 +517,7 @@ const buddyLogo = "/buddy-logo.png";
   <div className="aspect-[16/10] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
     <img
       src={heroImage}
-      alt="沖縄の英語レッスン・TOEIC対策に対応するBuddy English Studio"
+      alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
       className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
     />
   </div>
