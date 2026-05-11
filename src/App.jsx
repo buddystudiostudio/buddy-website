@@ -261,7 +261,7 @@ const seoKeywords = [
     },
     {
       q: "入会金はありますか？",
-      a: "入会金は\u00a0\u00a011,000\u00a0円です。開業記念キャンペーン中につき、現在は無料です。",
+      a: "現在、キャンペーンとして入会金は無料です。",
     },
   ];
 
@@ -1084,13 +1084,10 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     英文レビューなどの非同期サポートは、通常、決まったレビュー時間内に対応します。
   </p>
 </div>
-            <div className="rounded-[1.75rem] bg-orange-50 p-6 ring-1 ring-orange-100">
-              <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
-              <p>入会金 ¥11,000。開業記念キャンペーン中につき、現在は無料です。</p>
-              <p className="mt-3 text-xs font-bold text-orange-700">
-                月額料金そのものを値引きせず、開業初期の特典として入会金を無料にしています。
-              </p>
-            </div>
+<div className="rounded-[1.75rem] bg-slate-50 p-6 ring-1 ring-slate-200">
+  <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
+  <p>現在、キャンペーンとして入会金は無料です。</p>
+</div>
           </div>
         </div>
       </section>
