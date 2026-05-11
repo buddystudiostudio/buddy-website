@@ -831,25 +831,38 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </h2>
           </div>
           <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-lg">
-            <table className="w-full min-w-[720px] border-collapse text-left">
-              <thead>
-                <tr className="bg-slate-900 text-white">
-                  <th className="p-5 font-bold">比較ポイント</th>
-                  <th className="bg-blue-600 p-5 font-bold">Buddy English Studio</th>
-                  <th className="p-5 font-bold">一般的なスクールで多い形</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-200">
-                {comparisonData.map((row) => (
-                  <tr key={row.feature} className="hover:bg-slate-50">
-                    <td className="p-5 font-bold text-slate-700">{row.feature}</td>
-                    <td className="bg-blue-50/40 p-5 font-bold text-blue-700">{row.buddy}</td>
-                    <td className="p-5 text-slate-500">{row.others}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+  <table className="w-full min-w-[760px] border-collapse text-left">
+    <thead>
+      <tr className="bg-slate-900 text-white">
+        <th className="w-[170px] min-w-[170px] whitespace-nowrap p-5 font-bold">
+          比較ポイント
+        </th>
+        <th className="min-w-[290px] bg-blue-600 p-5 font-bold">
+          Buddy English Studio
+        </th>
+        <th className="min-w-[300px] p-5 font-bold">
+          一般的なスクールで多い形
+        </th>
+      </tr>
+    </thead>
+
+    <tbody className="divide-y divide-slate-200">
+      {comparisonData.map((row) => (
+        <tr key={row.feature} className="hover:bg-slate-50">
+          <td className="w-[170px] min-w-[170px] whitespace-nowrap p-5 font-bold text-slate-700">
+            {row.feature}
+          </td>
+          <td className="min-w-[290px] bg-blue-50/40 p-5 font-bold leading-7 text-blue-700">
+            {row.buddy}
+          </td>
+          <td className="min-w-[300px] p-5 leading-7 text-slate-500">
+            {row.others}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
         </div>
       </section>
 
