@@ -453,20 +453,22 @@ const buddyLogo = "/buddy-logo.png";
   </span>
 
   {/* Tablet / Desktop */}
-  <span className="hidden leading-[1.08] sm:block sm:text-5xl lg:text-[3.05rem] xl:text-[3.35rem]">
+  <span className="hidden leading-[1.08] sm:block sm:text-5xl lg:text-[3.05rem] xl:text-[3.05rem]">
     英語を、もう一度
     <br />
     学びたい方へ。
     <br />
     <span className="text-blue-600">
-      TOEICも、仕事の英語も、
+      TOEICも、
+      <br />
+      仕事の英語も、
       <br />
       英会話も。
     </span>
     <br />
-    目的に合わせて、1対1で
+    目的に合わせて、
     <br />
-    サポートします。
+    1対1でサポートします。
   </span>
 </h1>
 
