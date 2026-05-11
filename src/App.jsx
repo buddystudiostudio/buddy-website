@@ -78,11 +78,11 @@ export default function BuddyEnglishStudioWebsite() {
     {
       step: "01",
       title: "LINEで相談",
-      text: "『初回診断希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
+      text: "『初回体験希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
     },
     {
       step: "02",
-      title: "初回診断セッション",
+      title: "初回体験・診断セッション",
       text: "50分で現在の英語力、目標、弱点を確認し、30〜90日間の学習ロードマップと最適なプランをご提案します。",
     },
     {
@@ -93,7 +93,7 @@ export default function BuddyEnglishStudioWebsite() {
     {
       step: "04",
       title: "継続するか判断",
-      text: "診断後にゆっくり検討できます。無理な勧誘はありません。",
+      text: "体験後にゆっくり検討できます。無理な勧誘はありません。",
     },
   ];
 
@@ -148,12 +148,12 @@ const seoKeywords = [
 ];
 
   const diagnosticPlan = {
-    name: "初回診断セッション",
+    name: "初回体験・診断セッション",
     price: "¥3,500",
     sub: "50分",
     badge: "まずはここから",
     description:
-      "事前アンケートをもとに、現在地・目標・弱点を50分で整理します。30〜90日間の学習ロードマップとおすすめプランをご提案します。初回診断のみのご利用も可能です。",
+      "事前アンケートをもとに、現在地・目標・弱点を50分で整理します。30〜90日間の学習ロードマップとおすすめプランをご提案します。初回体験のみのご利用も可能です。",
   };
 
   const monthlyPlans = [
@@ -224,8 +224,8 @@ const seoKeywords = [
       a: "はい。英文メール、英語面接、会議、プレゼンなど、実際の仕事で使う英語にも対応可能です。",
     },
     {
-      q: "初回診断後にすぐ申し込む必要はありますか？",
-      a: "ありません。無理な勧誘はありませんので、診断後にゆっくりご検討いただけます。",
+      q: "初回体験後にすぐ申し込む必要はありますか？",
+      a: "ありません。無理な勧誘はありませんので、体験後にゆっくりご検討いただけます。",
     },
     {
       q: "オンラインと対面、どちらが良いですか？",
@@ -253,7 +253,7 @@ const seoKeywords = [
     },
     {
       q: "問い合わせ時は何を書けばいいですか？",
-      a: "『初回診断希望です』だけでも大丈夫です。目的やレベルが決まっていなくても、お気軽にご相談ください。",
+      a: "『初回体験希望です』だけでも大丈夫です。目的やレベルが決まっていなくても、お気軽にご相談ください。",
     },
     {
       q: "ポイントはどのように使えますか？",
@@ -462,7 +462,7 @@ const buddyLogo = "/buddy-logo.png";
 
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg">
-  まずは初回診断を相談してみる
+  まずは初回体験を相談してみる
 </a>
              <a href="#flow" className="rounded-full bg-white px-7 py-3.5 text-center text-base font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100 sm:px-8 sm:py-4 sm:text-lg">
   体験までの流れを見る
@@ -488,7 +488,7 @@ const buddyLogo = "/buddy-logo.png";
             <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-green-500">✓</span>
-    初回診断セッション 3,500円 / 50分・無理な勧誘なし
+    初回体験・診断セッション 3,500円 / 50分・無理な勧誘なし
   </p>
 
   <p className="flex items-start gap-2">
@@ -498,7 +498,7 @@ const buddyLogo = "/buddy-logo.png";
 
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-green-500">✓</span>
-    「初回診断希望」「相談したい」だけでLINE相談OK
+    「初回体験希望」「相談したい」だけでLINE相談OK
   </p>
 
   <p className="flex items-start gap-2">
@@ -508,7 +508,7 @@ const buddyLogo = "/buddy-logo.png";
 
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-orange-500">✓</span>
-    1対1で丁寧に対応するため、初回診断枠には限りがあります
+    1対1で丁寧に対応するため、初回体験枠には限りがあります
   </p>
 </div>
           </div>
@@ -720,7 +720,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
     <div className="mt-8 rounded-2xl bg-blue-50 px-6 py-5 text-center ring-1 ring-blue-100">
       <p className="text-sm font-bold leading-7 text-blue-800">
-        まずは初回診断セッションで、現在の英語力・お悩み・目標を一緒に整理します。
+        まずは初回体験・診断セッションで、現在の英語力・お悩み・目標を一緒に整理します。
       </p>
     </div>
   </div>
@@ -978,7 +978,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                   {diagnosticPlan.description}
                 </p>
                 <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-xs font-bold leading-6 text-blue-700 ring-1 ring-blue-100 sm:text-sm">
-                  48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
+                  48時間以内に月額プランへお申し込みの場合、初回体験料¥3,500を初月料金に充当します。
                 </p>
               </div>
               <a
@@ -987,7 +987,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                 rel="noopener noreferrer"
                 className="inline-flex justify-center rounded-full bg-blue-600 px-7 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
               >
-                まずは初回診断を相談する
+                まずは初回体験を相談する
               </a>
             </div>
           </div>
@@ -1244,12 +1244,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </p>
 
       <h2 className="text-3xl font-black text-slate-900">
-        初回診断・ご相談はLINEから
+        初回体験・ご相談はLINEから
       </h2>
 
       <p className="mt-4 leading-8 text-slate-600">
         スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
-        「初回診断希望」または「相談したい」と送るだけで大丈夫です。
+        「初回体験希望」または「相談したい」と送るだけで大丈夫です。
         目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
       </p>
 
@@ -1287,14 +1287,14 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             沖縄・オンラインの英語コーチングで、<br />英語学習の悩みを一緒に整理しませんか？
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg leading-8 text-slate-200">
-            まずは50分の初回診断セッションで、「何から始めるべきか」を一緒に明確にします。
+            まずは50分の初回体験・診断セッションで、「何から始めるべきか」を一緒に明確にします。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-          LINE追加後は「初回診断希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、初回診断枠には限りがあります。
+          LINE追加後は「初回体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、初回体験枠には限りがあります。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
-              初回診断をLINEで相談する
+              初回体験をLINEで相談する
             </a>
             <a href={`mailto:${emailAddress}`} className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20">
               メールで問い合わせる
@@ -1356,7 +1356,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     rel="noopener noreferrer"
     className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
   >
-    まずは初回診断を相談
+    まずは初回体験を相談
   </a>
 </div>
 
