@@ -1314,7 +1314,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
       <div>
         <p className="text-sm font-bold text-slate-500">
-          沖縄・オンライン対応の英語レッスン／英語コーチング
+          沖縄・オンライン対応｜英語コーチング・英語レッスン
         </p>
         <p className="mt-2 text-sm text-slate-500">
           © 2026 Buddy English Studio. All rights reserved.
