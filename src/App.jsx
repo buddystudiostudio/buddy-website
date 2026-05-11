@@ -78,7 +78,7 @@ export default function BuddyEnglishStudioWebsite() {
     {
       step: "01",
       title: "LINEで相談",
-      text: "『体験希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
+      text: "『初回診断希望です』だけでも大丈夫です。目的や現在のお悩みが決まっていなくても問題ありません。",
     },
     {
       step: "02",
@@ -147,20 +147,16 @@ const seoKeywords = [
   "英会話レッスン",
 ];
 
-  // Define the pricing and offer structure based on the latest strategy.
-  // Each plan includes a name, price, sub‐label (points and typical usage), a
-  // description explaining who it’s for, an optional badge for emphasis, and a
-  // flag to highlight the recommended plan. Prices include tax.
-  const pricingPlans = [
-    {
-      name: "初回診断セッション",
-      price: "¥3,500",
-      sub: "50分",
-      description:
-        "英語学習の方向性を整理したい方へ。現在地・目標・弱点を確認し、30〜90日間の学習ロードマップをご提案します。",
-      badge: "まずはここから",
-      highlight: false,
-    },
+  const diagnosticPlan = {
+    name: "初回診断セッション",
+    price: "¥3,500",
+    sub: "50分",
+    badge: "まずはここから",
+    description:
+      "事前アンケートをもとに、現在地・目標・弱点を50分で整理します。30〜90日間の学習ロードマップとおすすめプランをご提案します。初回診断のみのご利用も可能です。",
+  };
+
+  const monthlyPlans = [
     {
       name: "スタートプラン",
       price: "¥28,000 / 月",
@@ -168,8 +164,9 @@ const seoKeywords = [
       note: "目安：月2回の1対1セッション",
       description:
         "英語学習を再スタートしたい方向け。最初の3か月で、目標・弱点・学習リズムを整理します。",
-      badge: "",
+      badge: "学び直しの第一歩",
       highlight: false,
+      cta: "このプランを相談する",
     },
     {
       name: "スタンダードプラン",
@@ -178,30 +175,32 @@ const seoKeywords = [
       note: "目安：週1回ペースの1対1セッション",
       description:
         "継続して伸ばしたい社会人向け。毎月の進捗と次の打ち手を見える化しながら進めます。",
-      badge: "おすすめ",
+      badge: "迷ったらこちら",
       highlight: true,
+      cta: "スタンダードについて相談する",
     },
     {
       name: "ビジネス実践プラン",
       price: "¥54,000 / 月",
       sub: "月8pt利用可",
-      note: "目安：4回の実践セッション、または8回の英文レビュー",
+      note: "目安：4回の実践セッション、または8回の英文レビュー、または組み合わせ",
       description:
         "会議・メール・面接・プレゼン・英文資料など、実務に合わせて使える英語をサポートします。",
       badge: "仕事で使う方向け",
       highlight: false,
-    },
-    {
-      name: "短期集中プラン",
-      price: "¥74,000 / 月",
-      sub: "月12pt利用可",
-      note: "目安：週1〜2回ペースで集中的に対策",
-      description:
-        "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して進めます。",
-      badge: "短期集中",
-      highlight: false,
+      cta: "このプランを相談する",
     },
   ];
+
+  const intensivePlan = {
+    name: "短期集中プラン",
+    price: "¥74,000 / 月",
+    sub: "月12pt利用可",
+    note: "目安：週1〜2回ペースで集中的に対策",
+    description:
+      "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して集中的に進めます。",
+    badge: "期限がある方向け",
+  };
 
   const faqs = [
     {
@@ -225,8 +224,8 @@ const seoKeywords = [
       a: "はい。英文メール、英語面接、会議、プレゼンなど、実際の仕事で使う英語にも対応可能です。",
     },
     {
-      q: "体験レッスン後にすぐ申し込む必要はありますか？",
-      a: "ありません。無理な勧誘はありませんので、体験後にゆっくりご検討いただけます。",
+      q: "初回診断後にすぐ申し込む必要はありますか？",
+      a: "ありません。無理な勧誘はありませんので、診断後にゆっくりご検討いただけます。",
     },
     {
       q: "オンラインと対面、どちらが良いですか？",
@@ -242,7 +241,7 @@ const seoKeywords = [
     },
     {
       q: "支払い方法はどうなりますか？",
-      a: "体験レッスンや継続プランの詳細とあわせて、事前にわかりやすくご案内します。ご希望があればLINEでご相談ください。",
+      a: "初回診断や継続プランの詳細とあわせて、事前にわかりやすくご案内します。ご希望があればLINEでご相談ください。",
     },
     {
       q: "キャンセルや日程変更はできますか？",
@@ -254,7 +253,7 @@ const seoKeywords = [
     },
     {
       q: "問い合わせ時は何を書けばいいですか？",
-      a: "『体験希望です』だけでも大丈夫です。目的やレベルが決まっていなくても、お気軽にご相談ください。",
+      a: "『初回診断希望です』だけでも大丈夫です。目的やレベルが決まっていなくても、お気軽にご相談ください。",
     },
     {
       q: "ポイントはどのように使えますか？",
@@ -463,7 +462,7 @@ const buddyLogo = "/buddy-logo.png";
 
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg">
-  まずはLINEで相談してみる
+  まずは初回診断を相談してみる
 </a>
              <a href="#flow" className="rounded-full bg-white px-7 py-3.5 text-center text-base font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100 sm:px-8 sm:py-4 sm:text-lg">
   体験までの流れを見る
@@ -489,7 +488,7 @@ const buddyLogo = "/buddy-logo.png";
             <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-green-500">✓</span>
-    体験レッスン 3,500円 / 40分・無理な勧誘なし
+    初回診断セッション 3,500円 / 50分・無理な勧誘なし
   </p>
 
   <p className="flex items-start gap-2">
@@ -499,7 +498,7 @@ const buddyLogo = "/buddy-logo.png";
 
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-green-500">✓</span>
-    「体験希望」「相談したい」だけでLINE相談OK
+    「初回診断希望」「相談したい」だけでLINE相談OK
   </p>
 
   <p className="flex items-start gap-2">
@@ -509,7 +508,7 @@ const buddyLogo = "/buddy-logo.png";
 
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-orange-500">✓</span>
-    1対1で丁寧に対応するため、体験レッスン枠には限りがあります
+    1対1で丁寧に対応するため、初回診断枠には限りがあります
   </p>
 </div>
           </div>
@@ -721,7 +720,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
     <div className="mt-8 rounded-2xl bg-blue-50 px-6 py-5 text-center ring-1 ring-blue-100">
       <p className="text-sm font-bold leading-7 text-blue-800">
-        まずは体験レッスンで、現在の英語力・お悩み・目標を一緒に整理します。
+        まずは初回診断セッションで、現在の英語力・お悩み・目標を一緒に整理します。
       </p>
     </div>
   </div>
@@ -949,59 +948,119 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     </div>
   </div>
 </section>
-      <section id="price" className="bg-white py-14 pb-32 lg:py-24" aria-labelledby="price-heading">
+      <section id="price" className="bg-white pt-14 pb-32 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-10 max-w-4xl text-center lg:mb-16">
+          <div className="mx-auto mb-10 max-w-4xl text-center lg:mb-14">
             <p className={sectionLabelClass}>PRICE / PLANS</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               料金・プラン
             </h2>
-            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
               英語を、スコアにも仕事にもつなげる。目的・現在地・弱点に合わせて、30〜90日間の進め方を一緒に整理します。
             </p>
           </div>
-          {/* Pricing cards */}
-          <div className="mx-auto grid gap-5 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
-            {pricingPlans.map((plan) => (
+
+          {/* 1. Diagnostic gateway */}
+          <div className="mx-auto max-w-5xl rounded-[2rem] bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm ring-1 ring-blue-100 sm:p-8 lg:p-10">
+            <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
+              <div>
+                <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
+                  {diagnosticPlan.badge}
+                </span>
+                <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
+                  {diagnosticPlan.name}
+                </h3>
+                <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <p className="text-3xl font-black text-slate-900 sm:text-4xl">{diagnosticPlan.price}</p>
+                  <p className="text-sm font-bold text-slate-600">{diagnosticPlan.sub}</p>
+                </div>
+                <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
+                  {diagnosticPlan.description}
+                </p>
+                <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-xs font-bold leading-6 text-blue-700 ring-1 ring-blue-100 sm:text-sm">
+                  48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
+                </p>
+              </div>
+              <a
+                href={lineUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex justify-center rounded-full bg-blue-600 px-7 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+              >
+                まずは初回診断を相談する
+              </a>
+            </div>
+          </div>
+
+          {/* 2. Monthly plan comparison */}
+          <div className="mx-auto mt-14 max-w-4xl text-center">
+            <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-600">MONTHLY PLANS</p>
+            <h3 className="mt-3 text-2xl font-black text-slate-900 sm:text-3xl">継続プラン</h3>
+            <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-slate-600">
+              迷ったら、まずはスタンダードプランがおすすめです。毎月の進捗と次の打ち手を見える化しながら、無理なく継続できます。
+            </p>
+          </div>
+
+          <div className="mx-auto mt-8 grid gap-5 lg:grid-cols-3 lg:items-stretch">
+            {monthlyPlans.map((plan) => (
               <div
                 key={plan.name}
-                className={`flex flex-col justify-between rounded-[1.75rem] p-6 sm:rounded-[2rem] sm:p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
+                className={`relative flex flex-col justify-between rounded-[1.75rem] p-6 sm:rounded-[2rem] sm:p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl lg:-mt-4 lg:scale-[1.03]" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
               >
                 <div>
-                  <div className="mb-3 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
-                    <h3 className="text-xl font-black tracking-tight">{plan.name}</h3>
-                    {plan.badge && (
-                      <span
-                        className={`rounded-full px-3 py-1 text-xs font-bold ${plan.highlight ? "bg-blue-700 text-white" : "bg-blue-100 text-blue-800"}`}
-                      >
-                        {plan.badge}
-                      </span>
-                    )}
-                  </div>
-                  <div className="mb-3">
+                  {plan.badge && (
+                    <span className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-black ${plan.highlight ? "bg-blue-600 text-white" : "bg-blue-100 text-blue-800"}`}>
+                      {plan.badge}
+                    </span>
+                  )}
+                  <h4 className="text-xl font-black tracking-tight">{plan.name}</h4>
+                  <div className="mt-3">
                     <p className="text-[2rem] font-black leading-tight sm:text-3xl">{plan.price}</p>
-                    {plan.sub && (
-                      <p className={`mt-1 text-sm font-bold ${plan.highlight ? "text-slate-400" : "text-slate-600"}`}>{plan.sub}</p>
-                    )}
-                    {plan.note && (
-                      <p className={`text-xs italic ${plan.highlight ? "text-slate-400" : "text-slate-500"}`}>{plan.note}</p>
-                    )}
+                    <p className={`mt-1 text-sm font-bold ${plan.highlight ? "text-slate-300" : "text-slate-600"}`}>{plan.sub}</p>
+                    <p className={`mt-1 text-xs italic ${plan.highlight ? "text-slate-400" : "text-slate-500"}`}>{plan.note}</p>
                   </div>
-                  <p className={`mb-6 text-sm leading-7 ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>{plan.description}</p>
+                  <p className={`mt-5 text-sm leading-7 ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>{plan.description}</p>
                 </div>
                 <a
                   href={lineUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`mt-auto hidden w-full rounded-full py-4 text-center font-bold sm:block ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
+                  className={`mt-8 hidden w-full rounded-full py-4 text-center font-black sm:block ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
                 >
-                  このプランを相談する
+                  {plan.cta}
                 </a>
               </div>
             ))}
           </div>
-          {/* Point and membership notes */}
-          <div className="mx-auto mt-10 grid max-w-4xl gap-5 text-sm leading-7 text-slate-600 sm:mt-12">
+
+          {/* 3. Intensive sprint */}
+          <div className="mx-auto mt-10 max-w-5xl rounded-[2rem] bg-slate-50 p-6 ring-1 ring-slate-200 sm:p-8">
+            <div className="grid gap-5 lg:grid-cols-[1fr_auto] lg:items-center">
+              <div>
+                <span className="mb-3 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
+                  {intensivePlan.badge}
+                </span>
+                <h3 className="text-2xl font-black text-slate-900">{intensivePlan.name}</h3>
+                <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <p className="text-3xl font-black text-slate-900">{intensivePlan.price}</p>
+                  <p className="text-sm font-bold text-slate-600">{intensivePlan.sub}</p>
+                </div>
+                <p className="mt-1 text-xs italic text-slate-500">{intensivePlan.note}</p>
+                <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">{intensivePlan.description}</p>
+              </div>
+              <a
+                href={lineUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 sm:inline-flex"
+              >
+                このプランを相談する
+              </a>
+            </div>
+          </div>
+
+          {/* 4. Supporting explanation cards */}
+          <div className="mx-auto mt-10 grid max-w-5xl gap-5 text-sm leading-7 text-slate-600 lg:grid-cols-3">
             <div className="rounded-[1.75rem] bg-slate-50 p-6 ring-1 ring-slate-200">
               <h3 className="mb-2 text-base font-black text-slate-900">ポイントの使い方</h3>
               <p>
@@ -1016,16 +1075,24 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
               </p>
             </div>
             <div className="rounded-[1.75rem] bg-blue-50 p-6 ring-1 ring-blue-100">
+              <h3 className="mb-2 text-base font-black text-slate-900">学習の見える化</h3>
+              <p>
+                学習ロードマップ・進捗・レビュー内容は、Buddy Vaultで見える化します。毎月の進捗と次の打ち手を確認しながら進めます。
+              </p>
+              <p className="mt-3 text-xs font-bold text-blue-700">
+                英文レビューなどの非同期サポートは、通常、決まったレビュー時間内に対応します。
+              </p>
+            </div>
+            <div className="rounded-[1.75rem] bg-orange-50 p-6 ring-1 ring-orange-100">
               <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
               <p>入会金 ¥11,000。開業記念キャンペーン中につき、現在は無料です。</p>
-              <p className="mt-3 text-xs font-bold text-blue-700">
-                ※48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
+              <p className="mt-3 text-xs font-bold text-orange-700">
+                月額料金そのものを値引きせず、開業初期の特典として入会金を無料にしています。
               </p>
             </div>
           </div>
         </div>
       </section>
-
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
         <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
           <div className="relative">
@@ -1179,12 +1246,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </p>
 
       <h2 className="text-3xl font-black text-slate-900">
-        体験レッスン・ご相談はLINEから
+        初回診断・ご相談はLINEから
       </h2>
 
       <p className="mt-4 leading-8 text-slate-600">
         スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
-        「体験希望」または「相談したい」と送るだけで大丈夫です。
+        「初回診断希望」または「相談したい」と送るだけで大丈夫です。
         目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
       </p>
 
@@ -1222,14 +1289,14 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             沖縄・オンラインの英語コーチングで、<br />英語学習の悩みを一緒に整理しませんか？
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg leading-8 text-slate-200">
-            まずは40分の体験レッスンで、「何から始めるべきか」を一緒に明確にします。
+            まずは50分の初回診断セッションで、「何から始めるべきか」を一緒に明確にします。
           </p>
           <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-          LINE追加後は「体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、体験レッスン枠には限りがあります。
+          LINE追加後は「初回診断希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、初回診断枠には限りがあります。
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
-              体験レッスンをLINEで相談する
+              初回診断をLINEで相談する
             </a>
             <a href={`mailto:${emailAddress}`} className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20">
               メールで問い合わせる
@@ -1291,7 +1358,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     rel="noopener noreferrer"
     className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
   >
-    まずはLINEで相談
+    まずは初回診断を相談
   </a>
 </div>
 
