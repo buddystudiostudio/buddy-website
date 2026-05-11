@@ -562,7 +562,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "english-study-continuation-road.jpeg",
+    heroImage: "/english-study-continuation-road.jpeg",
     heroImageAlt: "忙しい社会人が英語学習を無理なく続けるイメージの写真",
     heroImageCaption: "英語学習は、気合いよりも「続けられる形」を作ることが大切です。",
     relatedPosts: [
