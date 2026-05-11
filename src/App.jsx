@@ -335,48 +335,47 @@ const buddyLogo = "/buddy-logo.png";
   
   return (
     <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
-      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-<a href="/" className="flex items-center gap-3">
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4">
+<a href="/" className="flex shrink-0 items-center gap-3">
   <img
     src={buddyLogo}
     alt="Buddy English Studio logo"
     className="h-12 w-auto object-contain"
   />
 
-  <div className="hidden sm:block">
-    <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">
+  <div className="hidden 2xl:block">
+    <p className="whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">
       沖縄・オンライン対応｜英語コーチング・英語レッスン
     </p>
   </div>
 </a>
-<nav className="hidden gap-7 text-sm font-bold text-slate-600 lg:flex">
-   <a href="#recommended" className="hover:text-blue-600">こんな方へ</a>
-  <a href="#why" className="hover:text-blue-600">選ばれる理由</a>
-  <a href="#services" className="hover:text-blue-600">サービス</a>
-  <a href="#flow" className="hover:text-blue-600">流れ</a>
-  <a href="#price" className="hover:text-blue-600">料金</a>
-  <a href="#profile" className="hover:text-blue-600">代表プロフィール</a>
-  <a href="/blog" className="hover:text-blue-600">ブログ</a>
-
+<nav className="hidden flex-nowrap items-center gap-5 text-sm font-bold text-slate-600 xl:flex">
+  <a href="#recommended" className="whitespace-nowrap hover:text-blue-600">こんな方へ</a>
+  <a href="#why" className="whitespace-nowrap hover:text-blue-600">選ばれる理由</a>
+  <a href="#services" className="whitespace-nowrap hover:text-blue-600">サービス</a>
+  <a href="#flow" className="whitespace-nowrap hover:text-blue-600">流れ</a>
+  <a href="#price" className="whitespace-nowrap hover:text-blue-600">料金</a>
+  <a href="#profile" className="whitespace-nowrap hover:text-blue-600">代表プロフィール</a>
+  <a href="/blog" className="whitespace-nowrap hover:text-blue-600">ブログ</a>
 </nav>
 
 <button
   type="button"
   onClick={() => setMenuOpen(true)}
-  className="lg:hidden rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100"
+  className="shrink-0 rounded-full p-2 text-2xl font-bold text-slate-700 transition hover:bg-slate-100 xl:hidden"
   aria-label="Open Menu"
   aria-expanded={menuOpen}
 >
   ☰
 </button>
           
-<div className="hidden lg:block">
+<div className="hidden shrink-0 xl:block">
   <a
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
+    className="inline-flex shrink-0 whitespace-nowrap rounded-full bg-slate-900 px-4 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
   >
     LINEで相談する
   </a>
@@ -384,7 +383,7 @@ const buddyLogo = "/buddy-logo.png";
         </div>
       </header>
       {menuOpen && (
-  <div className="fixed inset-0 z-[100] bg-white px-6 py-8 lg:hidden">
+  <div className="fixed inset-0 z-[100] bg-white px-6 py-8 xl:hidden">
 
     <div className="mb-10 flex items-center justify-between">
       <p className="text-lg font-black text-slate-900">
