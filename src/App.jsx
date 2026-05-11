@@ -454,22 +454,23 @@ const buddyLogo = "/buddy-logo.png";
 
   {/* Tablet / Desktop */}
 <span className="hidden leading-[1.1] sm:block sm:text-[2.65rem] lg:text-[2.85rem] xl:text-[3rem]">
-  英語を、もう一度
-  <br />
-  学びたい方へ。
-  <br />
-  <span className="text-blue-600">
-    TOEICも、
+    英語を、もう一度
     <br />
-    仕事の英語も、
+    学びたい方へ。
     <br />
-    英会話も。
+    <span className="text-blue-600">
+      TOEICも、
+      <br />
+      仕事の英語も、
+      <br />
+      英会話も。
+    </span>
+    <br />
+    目的に合わせて、
+    <br />
+    1対1でサポートします。
   </span>
-  <br />
-  目的に合わせて、
-  <br />
-  1対1でサポートします。
-</span>
+</h1>
 
 <p className="mt-4 text-base font-semibold text-blue-600">
   TOEIC990点満点・米国勤務経験・外資IT／コンサルでの実務経験をもとに、
