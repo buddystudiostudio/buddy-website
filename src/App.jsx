@@ -32,11 +32,27 @@ export default function BuddyEnglishStudioWebsite() {
 ];
 
   const comparisonData = [
-    { feature: "講師の特徴", buddy: "TOEIC 990点満点講師が設計・監修", others: "スクールにより講師経験や専門領域はばらばら" },
-    { feature: "レッスン内容", buddy: "目的に合わせた個別設計・実務にも対応", others: "固定カリキュラムを中心に進行" },
-    { feature: "伴走スタイル", buddy: "1対1で目的整理から学習方針まで伴走", others: "レッスン時間内の学習が中心" },
-    { feature: "相談しやすさ", buddy: "LINE・メールで気軽に相談可能", others: "問い合わせ方法や手続きがサービスにより異なる" },
-  ];
+  {
+    feature: "講師の特徴",
+    buddy: "TOEIC 990点満点の講師が担当",
+    others: "スクールにより講師経験や専門領域はばらばら",
+  },
+  {
+    feature: "レッスン内容",
+    buddy: "目的に合わせた個別設計・実務にも対応",
+    others: "固定カリキュラムを中心に進行",
+  },
+  {
+    feature: "伴走スタイル",
+    buddy: "1対1で目的整理から学習方針まで伴走",
+    others: "レッスン時間内の学習が中心",
+  },
+  {
+    feature: "相談しやすさ",
+    buddy: "LINE・メールで気軽に相談可能",
+    others: "問い合わせ方法や手続きがサービスにより異なる",
+  },
+];
 
  const services = [
   {
@@ -831,13 +847,13 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </h2>
           </div>
           <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-lg">
-  <table className="w-full min-w-[760px] border-collapse text-left">
+  <table className="w-full min-w-[840px] border-collapse text-left">
     <thead>
       <tr className="bg-slate-900 text-white">
         <th className="w-[170px] min-w-[170px] whitespace-nowrap p-5 font-bold">
           比較ポイント
         </th>
-        <th className="min-w-[290px] bg-blue-600 p-5 font-bold">
+        <th className="min-w-[320px] bg-blue-600 p-5 font-bold">
           Buddy English Studio
         </th>
         <th className="min-w-[300px] p-5 font-bold">
@@ -852,7 +868,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           <td className="w-[170px] min-w-[170px] whitespace-nowrap p-5 font-bold text-slate-700">
             {row.feature}
           </td>
-          <td className="min-w-[290px] bg-blue-50/40 p-5 font-bold leading-7 text-blue-700">
+          <td className="min-w-[320px] whitespace-nowrap bg-blue-50/40 p-5 font-bold leading-7 text-blue-700">
             {row.buddy}
           </td>
           <td className="min-w-[300px] p-5 leading-7 text-slate-500">
