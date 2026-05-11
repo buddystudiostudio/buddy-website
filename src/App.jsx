@@ -70,6 +70,10 @@ export default function BuddyEnglishStudioWebsite() {
     "留学・海外準備",
   ];
 
+  // Update the lesson flow to reflect the new diagnostic session. The diagnostic
+  // session is 50 minutes and is used to create a 30–90 day roadmap and
+  // recommend the best plan. Step labels and descriptions have been updated
+  // accordingly.
   const lessonFlow = [
     {
       step: "01",
@@ -78,18 +82,18 @@ export default function BuddyEnglishStudioWebsite() {
     },
     {
       step: "02",
-      title: "体験レッスン",
-      text: "40分で現在の英語力、伸ばしたい場面、苦手ポイントを一緒に整理します。",
+      title: "初回診断セッション",
+      text: "50分で現在の英語力、目標、弱点を確認し、30〜90日間の学習ロードマップと最適なプランをご提案します。",
     },
     {
       step: "03",
-      title: "学習方針を提案",
+      title: "最適なプランを提案",
       text: "TOEIC、英会話、ビジネス英語など、目標から逆算して取り組む順番を明確にします。",
     },
     {
       step: "04",
       title: "継続するか判断",
-      text: "体験後にゆっくり検討できます。無理な勧誘はありません。",
+      text: "診断後にゆっくり検討できます。無理な勧誘はありません。",
     },
   ];
 
@@ -143,28 +147,59 @@ const seoKeywords = [
   "英会話レッスン",
 ];
 
+  // Define the pricing and offer structure based on the latest strategy.
+  // Each plan includes a name, price, sub‐label (points and typical usage), a
+  // description explaining who it’s for, an optional badge for emphasis, and a
+  // flag to highlight the recommended plan. Prices include tax.
   const pricingPlans = [
     {
-      name: "体験レッスン",
-      price: "3,500",
-      description: "40分のレッスン + 学習方針のミニ提案",
-      features: ["現状のレベルチェック", "弱点と伸び代の整理", "今後の学習方針を提案", "無理な勧誘なし"],
-      cta: "LINEで相談する",
+      name: "初回診断セッション",
+      price: "¥3,500",
+      sub: "50分",
+      description:
+        "英語学習の方向性を整理したい方へ。現在地・目標・弱点を確認し、30〜90日間の学習ロードマップとおすすめプランをご提案します。初回診断のみのご利用も可能です。無理な勧誘はありません。",
+      badge: "まずはここから",
       highlight: false,
     },
     {
-      name: "継続プラン",
-      price: "ポイント制",
-      description: "回数・頻度・目的に合わせて個別にご案内します",
-      features: [
-  "1対1の個別指導",
-  "目的に合わせた内容設計",
-  "英文メール・面接・資料相談も可",
-  "オンライン・対面相談可",
-  "料金は体験後にわかりやすくご案内",
-],
-      cta: "LINEで相談する",
+      name: "スタートプラン",
+      price: "¥28,000 / 月",
+      sub: "月4pt利用可",
+      note: "目安：月2回の1対1セッション",
+      description:
+        "英語学習を再スタートしたい方向け。最初の3か月で、目標・弱点・学習リズムを整理し、Buddy Method Foundationsを作ります。",
+      badge: "",
+      highlight: false,
+    },
+    {
+      name: "スタンダードプラン",
+      price: "¥44,000 / 月",
+      sub: "月8pt利用可 + Blueprint",
+      note: "目安：週1回ペースの1対1セッション",
+      description:
+        "継続して伸ばしたい社会人向け。毎月の進捗と次の打ち手を見える化しながら、TOEIC・仕事・キャリアにつながる英語力を育てます。",
+      badge: "おすすめ",
       highlight: true,
+    },
+    {
+      name: "ビジネス実践プラン",
+      price: "¥54,000 / 月",
+      sub: "月8pt利用可",
+      note: "目安：4回の実践セッション、または8回の英文レビュー",
+      description:
+        "会議・メール・面接・プレゼン・英文資料など、実務に合わせて使える英語をサポートします。",
+      badge: "仕事で使う方向け",
+      highlight: false,
+    },
+    {
+      name: "短期集中プラン",
+      price: "¥74,000 / 月",
+      sub: "月12pt利用可",
+      note: "目安：週1〜2回ペースで集中的に対策",
+      description:
+        "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して集中的に進めます。",
+      badge: "短期集中",
+      highlight: false,
     },
   ];
 
@@ -220,6 +255,14 @@ const seoKeywords = [
     {
       q: "問い合わせ時は何を書けばいいですか？",
       a: "『体験希望です』だけでも大丈夫です。目的やレベルが決まっていなくても、お気軽にご相談ください。",
+    },
+    {
+      q: "ポイントはどのように使えますか？",
+      a: "各プランには毎月使えるポイントが含まれています。1対1セッションには2pt、英文レビューや面接回答レビュー・資料チェックには1pt〜で利用できます。目的に合わせて柔軟に組み合わせ可能です。",
+    },
+    {
+      q: "入会金はありますか？",
+      a: "入会金は\u00a0\u00a011,000\u00a0円です。開業記念キャンペーン中につき、現在は無料です。",
     },
   ];
 
@@ -908,37 +951,78 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </section>
       <section id="price" className="bg-white py-14 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-16">
-            <p className={sectionLabelClass}>PRICING</p>
+          <div className="mx-auto mb-10 max-w-4xl text-center lg:mb-16">
+            <p className={sectionLabelClass}>PRICE / PLANS</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              沖縄・オンライン対応の体験英語レッスン
+              料金・プラン
             </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+              英語を、スコアにも仕事にもつなげる。目的・現在地・弱点に合わせて最適な学習プランをご提案します。まずは初回診断セッションで、30〜90日間の進め方を一緒に整理します。
+            </p>
           </div>
-          <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
+          {/* Pricing cards */}
+          <div className="mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <div key={plan.name} className={`rounded-[2rem] p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}>
-                <h3 className="mb-2 text-xl font-bold">{plan.name}</h3>
-                <div className="mb-4 flex items-baseline gap-1">
-                  <span className="text-4xl font-black">{plan.price === "ポイント制" ? plan.price : `¥${plan.price}`}</span>
-                  {plan.price !== "ポイント制" && <span className={`text-sm font-bold ${plan.highlight ? "text-slate-400" : "text-slate-500"}`}>（税込）</span>}
+              <div
+                key={plan.name}
+                className={`flex flex-col justify-between rounded-[2rem] p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
+              >
+                <div>
+                  <div className="mb-2 flex items-center justify-between">
+                    <h3 className="text-xl font-bold">{plan.name}</h3>
+                    {plan.badge && (
+                      <span
+                        className={`ml-2 rounded-full px-3 py-1 text-xs font-bold ${plan.highlight ? "bg-blue-700 text-white" : "bg-blue-100 text-blue-800"}`}
+                      >
+                        {plan.badge}
+                      </span>
+                    )}
+                  </div>
+                  <div className="mb-3">
+                    <p className="text-3xl font-black">{plan.price}</p>
+                    {plan.sub && (
+                      <p className={`mt-1 text-sm font-bold ${plan.highlight ? "text-slate-400" : "text-slate-600"}`}>{plan.sub}</p>
+                    )}
+                    {plan.note && (
+                      <p className={`text-xs italic ${plan.highlight ? "text-slate-400" : "text-slate-500"}`}>{plan.note}</p>
+                    )}
+                  </div>
+                  <p className={`mb-6 text-sm leading-7 ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>{plan.description}</p>
                 </div>
-                <p className={`mb-8 text-sm leading-7 ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>{plan.description}</p>
-                <ul className="mb-10 space-y-4">
-                  {plan.features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-3 text-sm font-bold">
-                      <span className={plan.highlight ? "text-blue-300" : "text-blue-600"}>✓</span> {feature}
-                    </li>
-                  ))}
-                </ul>
-                <a href={lineUrl} target="_blank" rel="noopener noreferrer" className={`block w-full rounded-full py-4 text-center font-bold ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}>
-                  {plan.cta}
+                <a
+                  href={lineUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`mt-auto block w-full rounded-full py-4 text-center font-bold ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
+                >
+                  LINEで相談する
                 </a>
               </div>
             ))}
           </div>
-          <p className="mt-10 text-center text-sm font-medium text-slate-500">
-            ※継続プランの料金・回数・頻度は、目的やご希望に合わせて体験後にご案内します。対面レッスンの場合、場所により別途費用が発生する場合があります。1対1で丁寧に対応するため、受講枠には限りがあります。
-          </p>
+          {/* Point and membership notes */}
+          <div className="mx-auto mt-12 max-w-4xl space-y-8 text-sm leading-7 text-slate-600">
+            <div>
+              <h3 className="mb-2 text-base font-bold text-slate-900">ポイントの使い方</h3>
+              <p>
+                各プランには、毎月使えるポイントが含まれています。ポイントは1対1セッションや、英文メール・面接回答・プレゼン資料などのレビューに使えます。
+              </p>
+              <ul className="mt-2 list-disc pl-5">
+                <li>1対1セッション：2pt</li>
+                <li>英文レビュー／面接回答レビュー／資料チェック：1pt〜</li>
+              </ul>
+              <p className="mt-2">
+                「今月は会話練習を多めに」「面接前は回答レビューを多めに」など、目的に合わせて柔軟に利用できます。
+              </p>
+            </div>
+            <div>
+              <h3 className="mb-2 text-base font-bold text-slate-900">入会金について</h3>
+              <p>入会金 ¥11,000。開業記念キャンペーン中につき、現在は無料です。</p>
+            </div>
+            <p className="italic">
+              ※48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
+            </p>
+          </div>
         </div>
       </section>
 
