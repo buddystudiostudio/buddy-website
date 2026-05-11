@@ -34,23 +34,23 @@ export default function BuddyEnglishStudioWebsite() {
   const comparisonData = [
   {
     feature: "講師の特徴",
-    buddy: "TOEIC 990点満点の講師が担当",
-    others: "スクールにより講師経験や専門領域はばらばら",
+    buddy: "TOEIC 990点満点・米国勤務経験をもとにサポート",
+    others: "講師により経験や専門領域が異なる",
   },
   {
     feature: "レッスン内容",
-    buddy: "目的に合わせた個別設計・実務にも対応",
+    buddy: "目的・レベル・生活リズムに合わせて個別設計",
     others: "固定カリキュラムを中心に進行",
   },
   {
     feature: "伴走スタイル",
-    buddy: "1対1で目的整理から学習方針まで伴走",
+    buddy: "レッスン外の学習方針まで一緒に整理",
     others: "レッスン時間内の学習が中心",
   },
   {
     feature: "相談しやすさ",
     buddy: "LINE・メールで気軽に相談可能",
-    others: "問い合わせ方法や手続きがサービスにより異なる",
+    others: "問い合わせ方法や対応範囲はサービスにより異なる",
   },
 ];
 
@@ -841,9 +841,9 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section className="bg-white py-14 lg:py-24" aria-labelledby="features-heading">
         <div className="mx-auto max-w-5xl px-5">
           <div className="mb-12 text-center">
-            <p className={sectionLabelClass}>FEATURES</p>
-            <h2 id="features-heading" className="text-3xl font-black text-slate-900">
-  沖縄の英語コーチングとして選ばれる理由
+            <p className={sectionLabelClass}>COMPARE</p>
+<h2 id="features-heading" className="text-3xl font-black text-slate-900">
+  Buddy English Studioと一般的な英語スクールの違い
 </h2>
           </div>
           <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-lg">
@@ -857,7 +857,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           Buddy English Studio
         </th>
         <th className="min-w-[300px] p-5 font-bold">
-          一般的なスクールで多い形
+          一般的な英語スクールの例
         </th>
       </tr>
     </thead>
