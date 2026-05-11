@@ -15,8 +15,8 @@ export const blogPosts = [
     relatedPosts: [
       "toeic-score-not-improving",
       "toeic-600-study-method",
-      "toeic-self-study-vs-coaching",
       "toeic-listening-beginner",
+      "adult-english-relearning-start",
     ],
     cta: {
       title: "英語学習で何から始めるか迷っている方へ",
@@ -130,8 +130,8 @@ export const blogPosts = [
     relatedPosts: [
       "toeic-beginner-study-method",
       "toeic-score-not-improving",
-      "toeic-self-study-vs-coaching",
       "toeic-listening-beginner",
+      "english-study-continuation-tips",
     ],
     cta: {
       title: "TOEIC600点を目指している方へ",
@@ -199,8 +199,8 @@ export const blogPosts = [
     relatedPosts: [
       "toeic-beginner-study-method",
       "toeic-score-not-improving",
-      "toeic-600-study-method",
-      "toeic-listening-beginner",
+      "adult-english-relearning-start",
+      "english-study-continuation-tips",
     ],
     cta: {
       title: "自分に合うTOEIC学習法を相談したい方へ",
@@ -271,7 +271,7 @@ export const blogPosts = [
       "toeic-beginner-study-method",
       "toeic-600-study-method",
       "toeic-score-not-improving",
-      "toeic-self-study-vs-coaching",
+      "english-conversation-words-not-coming-out",
     ],
     cta: {
       title: "TOEICリスニングで悩んでいる方へ",
@@ -343,9 +343,9 @@ export const blogPosts = [
     heroImageCaption: "英語を学び直すのに、遅すぎることはありません。",
     relatedPosts: [
       "english-relearning-for-beginners",
+      "english-study-continuation-tips",
       "english-conversation-words-not-coming-out",
       "toeic-beginner-study-method",
-      "toeic-listening-beginner",
       "toeic-self-study-vs-coaching",
     ],
     cta: {
@@ -417,12 +417,12 @@ export const blogPosts = [
     heroImageAlt: "英語が苦手な社会人でも相談しやすい雰囲気の写真",
     heroImageCaption: "英語が苦手でも大丈夫。まずは安心して始められる形を一緒に考えましょう。",
     relatedPosts: [
-      "english-conversation-words-not-coming-out",
       "adult-english-relearning-start",
+      "english-study-continuation-tips",
+      "english-conversation-words-not-coming-out",
       "toeic-beginner-study-method",
-      "toeic-score-not-improving",
       "toeic-self-study-vs-coaching",
-    ],
+    ], 
     cta: {
       title: "英語が苦手でも相談したい方へ",
       body:
@@ -478,7 +478,7 @@ export const blogPosts = [
     ],
   },
 
-    {
+   {
     slug: "english-conversation-words-not-coming-out",
     title:
       "英会話で言葉が出てこない理由｜大人が話せるようになる練習法",
@@ -487,15 +487,16 @@ export const blogPosts = [
     date: "2026-05-13",
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
-      readingTime: "約5分",
-      heroImage: "/english-speaking-practice.jpeg",
+    readingTime: "約5分",
+    heroImage: "/english-speaking-practice.jpeg",
       heroImageAlt: "英会話で言葉が出てこない悩みと話す練習をイメージした写真",
       heroImageCaption: "英会話は、完璧な英語よりも、短くても口に出す練習から始まります。",
       relatedPosts: [
         "english-relearning-for-beginners",
         "adult-english-relearning-start",
+        "english-study-continuation-tips",
+        "toeic-listening-beginner",
         "toeic-beginner-study-method",
-        "toeic-self-study-vs-coaching",
       ],
     cta: {
       title: "英会話で言葉が出てこない方へ",
@@ -548,6 +549,80 @@ export const blogPosts = [
         heading: "Buddy English Studioでサポートできること",
         body:
           "Buddy English Studioでは、英会話で言葉が出てこない方に向けて、現在地の整理からサポートしています。基礎英語の学び直し、英会話の練習、TOEIC対策、ビジネス英語、英語メール、面接・プレゼン準備など、目的に合わせて1対1で進め方を考えます。TOEIC990点満点の知見に加えて、米国勤務経験や外資系企業で英語を使ってきた実務経験をもとに、ただ知識を増やすだけでなく、実際に使える英語につなげることを大切にしています。沖縄での対面レッスンにも、オンラインレッスンにも対応しています。",
+      },
+    ],
+  },
+  {
+    slug: "english-study-continuation-tips",
+    title:
+      "英語学習が続かない人へ｜忙しい社会人が無理なく続けるコツ",
+    description:
+      "英語学習が続かない社会人・大人向けに、忙しくても無理なく英語を続けるための考え方と習慣化のコツをわかりやすく解説します。",
+    date: "2026-05-14",
+    category: "大人の英語学び直し",
+    cluster: "大人の英語学び直し",
+    readingTime: "約5分",
+    heroImage: "/english-study-continuation.jpeg",
+    heroImageAlt: "忙しい社会人が英語学習を無理なく続けるイメージの写真",
+    heroImageCaption: "英語学習は、気合いよりも「続けられる形」を作ることが大切です。",
+    relatedPosts: [
+      "adult-english-relearning-start",
+      "english-relearning-for-beginners",
+      "english-conversation-words-not-coming-out",
+      "toeic-600-study-method",
+      "toeic-self-study-vs-coaching",
+    ],
+    cta: {
+      title: "英語学習を無理なく続けたい方へ",
+      body:
+        "Buddy English Studioでは、大人・社会人の英語学習を、現在地や生活リズムに合わせて1対1でサポートしています。TOEIC対策、英語の学び直し、英会話、ビジネス英語まで、無理なく続けられる学習設計を一緒に考えます。",
+      buttonText: "まずはLINEで相談してみる",
+    },
+    content: [
+      {
+        heading: "英語学習が続かないのは、意志が弱いからではない",
+        body:
+          "英語を勉強しようと思っても、なかなか続かない。最初はやる気があったのに、仕事が忙しくなったり、数日空いてしまったりして、そのまま止まってしまう。社会人の英語学習では、とてもよくある悩みです。ただ、英語学習が続かないのは、必ずしも意志が弱いからではありません。多くの場合、今の生活に合わない計画を立てていたり、最初から頑張りすぎていたりすることが原因です。",
+      },
+      {
+        heading: "忙しい社会人ほど、完璧な計画を立てすぎない",
+        body:
+          "英語学習を始める時、『毎日1時間勉強しよう』『単語帳を1冊終わらせよう』『毎日リスニングをしよう』と考える方は多いです。もちろん目標を持つことは大切です。ただ、仕事や家事、家族の予定がある中で、最初から完璧な計画を立てると続けるハードルが高くなります。忙しい社会人ほど、まずは小さく始めることが大切です。1日10分でも、週に数回でも、続けられる形にするほうが結果につながりやすくなります。",
+      },
+      {
+        heading: "最初の目標は『勉強量』より『再開しやすさ』",
+        body:
+          "英語学習で大切なのは、毎日完璧に続けることではありません。途中で止まっても、また戻ってこられる形にしておくことです。仕事が忙しい時期や体調が悪い時期があるのは自然なことです。そのたびに『また続かなかった』と落ち込むと、英語そのものが嫌になってしまいます。大切なのは、空いてしまった日を失敗と考えず、また短い時間から再開することです。英語学習は、止まらないことよりも、戻ってこられることが大切です。",
+      },
+      {
+        heading: "英語学習を生活の中に小さく入れる",
+        body:
+          "英語を続けるためには、特別な時間を作ろうとしすぎないことも大切です。通勤時間、昼休み、寝る前の10分、朝のコーヒーの時間など、すでにある生活の流れに英語を少しだけ入れてみましょう。例えば、単語を5個見る、短い英文を1つ音読する、リスニングを3分だけ聞く。それだけでも、英語に触れる習慣は少しずつ作れます。大きな努力よりも、小さな接触回数を増やすことが継続につながります。",
+      },
+      {
+        heading: "教材を増やしすぎない",
+        body:
+          "英語学習が続かない方によくあるのが、教材を増やしすぎてしまうことです。単語帳、文法書、アプリ、YouTube、オンライン教材など、選択肢が多すぎると、何をやればいいのかわからなくなります。最初は教材を絞ることが大切です。単語はこれ、文法はこれ、リスニングはこれ、というように使うものを少なくすると、迷う時間が減ります。英語学習では、教材の数よりも、同じ教材を何度も使うことのほうが効果的な場合があります。",
+      },
+      {
+        heading: "目的があいまいだと、途中で止まりやすい",
+        body:
+          "英語学習を続けるためには、目的をはっきりさせることも大切です。TOEICのスコアを上げたいのか、仕事で英語を使いたいのか、英会話で言葉が出るようになりたいのか、海外旅行を楽しみたいのか。目的によって、必要な勉強は変わります。目的があいまいなままだと、勉強している意味を感じにくくなり、途中で止まりやすくなります。まずは『自分は英語を何に使いたいのか』を整理してみましょう。",
+      },
+      {
+        heading: "一人で続けにくい時は、伴走してくれる相手を持つ",
+        body:
+          "英語学習は一人でも進められますが、一人だと続けにくいこともあります。特に社会人の場合、忙しい日が続くと英語の優先順位が下がりやすくなります。そんな時に、学習の方向性を一緒に整理したり、進み具合を確認したりできる相手がいると、続けやすくなります。大切なのは、厳しく管理されることではなく、無理なく戻ってこられる環境を作ることです。",
+      },
+      {
+        heading: "英語学習は、細く長く続けるほうが強い",
+        body:
+          "英語は短期間で一気に変わるものというより、少しずつ積み重ねていくものです。もちろん、試験前や転職前など、集中して勉強する時期が必要なこともあります。ただ、長い目で見ると、無理なく続けられる形を作ることがとても大切です。毎日完璧にできなくても大丈夫です。少しずつでも英語に触れ続けることで、単語、文法、リスニング、英会話の感覚は少しずつ戻ってきます。",
+      },
+      {
+        heading: "Buddy English Studioでサポートできること",
+        body:
+          "Buddy English Studioでは、英語学習が続かない方に向けて、現在地や生活リズムに合わせた学習設計をサポートしています。TOEIC対策、英語の学び直し、英会話、ビジネス英語、英語メール、面接・プレゼン準備など、一人ひとりの目的に合わせて、無理なく続けられる形を一緒に考えます。TOEIC990点満点の知見に加えて、米国勤務経験や外資系企業で英語を使ってきた実務経験をもとに、資格だけで終わらない英語学習をサポートします。沖縄での対面レッスンにも、オンラインレッスンにも対応しています。",
       },
     ],
   },
