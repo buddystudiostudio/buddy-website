@@ -453,7 +453,7 @@ const buddyLogo = "/buddy-logo.png";
   </span>
 
   {/* Tablet / Desktop */}
-<span className="hidden leading-[1.12] sm:block sm:text-[2.6rem] lg:text-[2.75rem] xl:text-[2.85rem]">
+<span className="hidden leading-[1.15] sm:block sm:text-[2.6rem] lg:text-[2.75rem] xl:text-[2.85rem]">
     英語を、もう一度
     <br />
     学びたい方へ。
