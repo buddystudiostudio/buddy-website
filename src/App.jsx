@@ -330,7 +330,7 @@ const buddyLogo = "/buddy-logo.png";
 
   <div className="hidden sm:block">
     <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500">
-      沖縄・オンライン対応の英語レッスン／英語コーチング
+      沖縄・オンライン対応｜英語コーチング・英語レッスン
     </p>
   </div>
 </a>
