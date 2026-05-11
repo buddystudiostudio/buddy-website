@@ -157,7 +157,7 @@ const seoKeywords = [
       price: "¥3,500",
       sub: "50分",
       description:
-        "英語学習の方向性を整理したい方へ。現在地・目標・弱点を確認し、30〜90日間の学習ロードマップとおすすめプランをご提案します。初回診断のみのご利用も可能です。無理な勧誘はありません。",
+        "英語学習の方向性を整理したい方へ。現在地・目標・弱点を確認し、30〜90日間の学習ロードマップをご提案します。",
       badge: "まずはここから",
       highlight: false,
     },
@@ -167,7 +167,7 @@ const seoKeywords = [
       sub: "月4pt利用可",
       note: "目安：月2回の1対1セッション",
       description:
-        "英語学習を再スタートしたい方向け。最初の3か月で、目標・弱点・学習リズムを整理し、Buddy Method Foundationsを作ります。",
+        "英語学習を再スタートしたい方向け。最初の3か月で、目標・弱点・学習リズムを整理します。",
       badge: "",
       highlight: false,
     },
@@ -177,7 +177,7 @@ const seoKeywords = [
       sub: "月8pt利用可 + Blueprint",
       note: "目安：週1回ペースの1対1セッション",
       description:
-        "継続して伸ばしたい社会人向け。毎月の進捗と次の打ち手を見える化しながら、TOEIC・仕事・キャリアにつながる英語力を育てます。",
+        "継続して伸ばしたい社会人向け。毎月の進捗と次の打ち手を見える化しながら進めます。",
       badge: "おすすめ",
       highlight: true,
     },
@@ -197,7 +197,7 @@ const seoKeywords = [
       sub: "月12pt利用可",
       note: "目安：週1〜2回ペースで集中的に対策",
       description:
-        "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して集中的に進めます。",
+        "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して進めます。",
       badge: "短期集中",
       highlight: false,
     },
@@ -949,7 +949,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     </div>
   </div>
 </section>
-      <section id="price" className="bg-white py-14 lg:py-24" aria-labelledby="price-heading">
+      <section id="price" className="bg-white py-14 pb-32 lg:py-24" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-4xl text-center lg:mb-16">
             <p className={sectionLabelClass}>PRICE / PLANS</p>
@@ -957,29 +957,29 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
               料金・プラン
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600">
-              英語を、スコアにも仕事にもつなげる。目的・現在地・弱点に合わせて最適な学習プランをご提案します。まずは初回診断セッションで、30〜90日間の進め方を一緒に整理します。
+              英語を、スコアにも仕事にもつなげる。目的・現在地・弱点に合わせて、30〜90日間の進め方を一緒に整理します。
             </p>
           </div>
           {/* Pricing cards */}
-          <div className="mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto grid gap-5 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
               <div
                 key={plan.name}
-                className={`flex flex-col justify-between rounded-[2rem] p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
+                className={`flex flex-col justify-between rounded-[1.75rem] p-6 sm:rounded-[2rem] sm:p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
               >
                 <div>
-                  <div className="mb-2 flex items-center justify-between">
-                    <h3 className="text-xl font-bold">{plan.name}</h3>
+                  <div className="mb-3 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <h3 className="text-xl font-black tracking-tight">{plan.name}</h3>
                     {plan.badge && (
                       <span
-                        className={`ml-2 rounded-full px-3 py-1 text-xs font-bold ${plan.highlight ? "bg-blue-700 text-white" : "bg-blue-100 text-blue-800"}`}
+                        className={`rounded-full px-3 py-1 text-xs font-bold ${plan.highlight ? "bg-blue-700 text-white" : "bg-blue-100 text-blue-800"}`}
                       >
                         {plan.badge}
                       </span>
                     )}
                   </div>
                   <div className="mb-3">
-                    <p className="text-3xl font-black">{plan.price}</p>
+                    <p className="text-[2rem] font-black leading-tight sm:text-3xl">{plan.price}</p>
                     {plan.sub && (
                       <p className={`mt-1 text-sm font-bold ${plan.highlight ? "text-slate-400" : "text-slate-600"}`}>{plan.sub}</p>
                     )}
@@ -993,17 +993,17 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                   href={lineUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`mt-auto block w-full rounded-full py-4 text-center font-bold ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
+                  className={`mt-auto hidden w-full rounded-full py-4 text-center font-bold sm:block ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
                 >
-                  LINEで相談する
+                  このプランを相談する
                 </a>
               </div>
             ))}
           </div>
           {/* Point and membership notes */}
-          <div className="mx-auto mt-12 max-w-4xl space-y-8 text-sm leading-7 text-slate-600">
-            <div>
-              <h3 className="mb-2 text-base font-bold text-slate-900">ポイントの使い方</h3>
+          <div className="mx-auto mt-10 grid max-w-4xl gap-5 text-sm leading-7 text-slate-600 sm:mt-12">
+            <div className="rounded-[1.75rem] bg-slate-50 p-6 ring-1 ring-slate-200">
+              <h3 className="mb-2 text-base font-black text-slate-900">ポイントの使い方</h3>
               <p>
                 各プランには、毎月使えるポイントが含まれています。ポイントは1対1セッションや、英文メール・面接回答・プレゼン資料などのレビューに使えます。
               </p>
@@ -1015,13 +1015,13 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                 「今月は会話練習を多めに」「面接前は回答レビューを多めに」など、目的に合わせて柔軟に利用できます。
               </p>
             </div>
-            <div>
-              <h3 className="mb-2 text-base font-bold text-slate-900">入会金について</h3>
+            <div className="rounded-[1.75rem] bg-blue-50 p-6 ring-1 ring-blue-100">
+              <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
               <p>入会金 ¥11,000。開業記念キャンペーン中につき、現在は無料です。</p>
+              <p className="mt-3 text-xs font-bold text-blue-700">
+                ※48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
+              </p>
             </div>
-            <p className="italic">
-              ※48時間以内に月額プランへお申し込みの場合、診断料¥3,500を初月料金に充当します。
-            </p>
           </div>
         </div>
       </section>
@@ -1284,12 +1284,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </footer>
 
 {/* Floating Mobile CTA */}
-<div className="fixed bottom-3 left-0 right-0 z-50 px-4 md:hidden">
+<div className="fixed bottom-2 left-0 right-0 z-50 px-5 md:hidden">
   <a
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
+    className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
   >
     まずはLINEで相談
   </a>
