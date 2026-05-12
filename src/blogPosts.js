@@ -13,10 +13,11 @@ export const blogPosts = [
     heroImageAlt: "英語学習のスタートをイメージした道の写真",
     heroImageCaption: "英語学習は、現在地を知るところから始まります。",
     relatedPosts: [
-      "toeic-score-not-improving",
       "toeic-600-study-method",
+      "toeic-score-not-improving",
       "toeic-listening-beginner",
       "adult-english-relearning-start",
+      "english-study-continuation-tips",
     ],
     cta: {
       title: "英語学習で何から始めるか迷っている方へ",
@@ -71,6 +72,7 @@ export const blogPosts = [
       "toeic-600-study-method",
       "toeic-self-study-vs-coaching",
       "toeic-listening-beginner",
+      "english-study-continuation-tips",
     ],
     cta: {
       title: "TOEICの勉強法で迷っている方へ",
@@ -131,6 +133,7 @@ export const blogPosts = [
       "toeic-beginner-study-method",
       "toeic-score-not-improving",
       "toeic-listening-beginner",
+      "toeic-self-study-vs-coaching",
       "english-study-continuation-tips",
     ],
     cta: {
@@ -197,8 +200,9 @@ export const blogPosts = [
     heroImageAlt: "TOEICの独学と英語コーチングの選び方をイメージした道の写真",
     heroImageCaption: "大切なのは、独学かコーチングかではなく「今の自分に合っているか」です。",
     relatedPosts: [
-      "toeic-beginner-study-method",
       "toeic-score-not-improving",
+      "toeic-beginner-study-method",
+      "toeic-600-study-method",
       "adult-english-relearning-start",
       "english-study-continuation-tips",
     ],
@@ -272,6 +276,7 @@ export const blogPosts = [
       "toeic-600-study-method",
       "toeic-score-not-improving",
       "english-conversation-words-not-coming-out",
+      "toeic-self-study-vs-coaching",
     ],
     cta: {
       title: "TOEICリスニングで悩んでいる方へ",
@@ -343,10 +348,10 @@ export const blogPosts = [
     heroImageCaption: "英語を学び直すのに、遅すぎることはありません。",
     relatedPosts: [
       "english-relearning-for-beginners",
+      "english-learning-40s-50s",
       "english-study-continuation-tips",
       "english-conversation-words-not-coming-out",
       "toeic-beginner-study-method",
-      "toeic-self-study-vs-coaching",
     ],
     cta: {
       title: "英語を学び直したい・レッスンを検討している方へ",
@@ -418,10 +423,10 @@ export const blogPosts = [
     heroImageCaption: "英語が苦手でも大丈夫。まずは安心して始められる形を一緒に考えましょう。",
     relatedPosts: [
       "adult-english-relearning-start",
+      "english-learning-40s-50s",
       "english-study-continuation-tips",
       "english-conversation-words-not-coming-out",
       "toeic-beginner-study-method",
-      "toeic-self-study-vs-coaching",
     ], 
     cta: {
       title: "英語が苦手でも相談したい方へ",
@@ -494,9 +499,9 @@ export const blogPosts = [
       relatedPosts: [
         "english-relearning-for-beginners",
         "adult-english-relearning-start",
-        "english-study-continuation-tips",
         "toeic-listening-beginner",
-        "toeic-beginner-study-method",
+        "english-study-continuation-tips",
+        "english-learning-40s-50s",
       ],
     cta: {
       title: "英会話で言葉が出てこない方へ",
@@ -568,8 +573,8 @@ export const blogPosts = [
     relatedPosts: [
       "adult-english-relearning-start",
       "english-relearning-for-beginners",
+      "english-learning-40s-50s",
       "english-conversation-words-not-coming-out",
-      "toeic-600-study-method",
       "toeic-self-study-vs-coaching",
     ],
     cta: {
@@ -652,7 +657,7 @@ export const blogPosts = [
         "Buddy English Studioでは、大人・社会人の英語学び直しを目的や生活に合わせてサポートしています。人生経験や仕事の背景を活かしながら、無理なく学習を続けられるよう伴走します。",
       buttonText: "まずはLINEで相談してみる",
     },
-      content: [
+    content: [
     {
       heading: "40代・50代から英語を始めるのは遅い？",
       body:
