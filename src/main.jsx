@@ -7,16 +7,18 @@ import ScrollToTop from "./ScrollToTop";
 import BuddyEnglishStudioWebsite from "./App.jsx";
 import Blog from "./Blog.jsx";
 import BlogPost from "./BlogPost.jsx";
+import FAQPage from "./FAQPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-<BrowserRouter>
-  <ScrollToTop />
+    <BrowserRouter>
+      <ScrollToTop />
 
-  <Routes>
+      <Routes>
         <Route path="/" element={<BuddyEnglishStudioWebsite />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/faq" element={<FAQPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
