@@ -696,6 +696,59 @@ const buddyLogo = "/buddy-logo.png";
     </div>
   </div>
 </section>
+
+{/* Okinawa English Coaching SEO Section */}
+<section className="bg-white py-14 lg:py-20">
+  <div className="mx-auto max-w-5xl px-5">
+    <p className={sectionLabelClass}>
+      OKINAWA ENGLISH COACHING
+    </p>
+
+    <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
+      沖縄で英語コーチングを探している方へ
+    </h2>
+
+    <p className="mt-5 leading-8 text-slate-600">
+      沖縄で英語コーチングや英語レッスンを選ぶ際は、
+      対面・オンライン対応、目的に合った学習設計、
+      TOEIC対策、ビジネス英語、英会話への対応範囲を確認することが大切です。
+      Buddy English Studioでは、TOEIC 990点満点・米国勤務経験・
+      外資IT／コンサルでの実務・マネジメント経験をもとに、
+      沖縄県内の対面相談とオンラインの両方で、
+      一人ひとりの目的に合わせた1対1の英語コーチングを行っています。
+    </p>
+
+    <div className="mt-8 grid gap-4 md:grid-cols-3">
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+        <h3 className="font-black text-slate-900">
+          沖縄・オンライン対応
+        </h3>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          沖縄県内での対面相談に加え、オンラインでも受講できます。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+        <h3 className="font-black text-slate-900">
+          目的別の学習設計
+        </h3>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          TOEIC対策、英会話、ビジネス英語など、目的から逆算して進めます。
+        </p>
+      </div>
+
+      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+        <h3 className="font-black text-slate-900">
+          1対1で伴走
+        </h3>
+        <p className="mt-3 text-sm leading-7 text-slate-600">
+          現在地・弱点・学習リズムを整理しながら、無理なく続けられる形にします。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+      
 {/* Social Proof / Trust Section */}
 <section className="bg-slate-50 px-5 py-14 lg:py-16">
   <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
