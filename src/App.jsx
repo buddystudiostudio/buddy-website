@@ -401,18 +401,18 @@ const buddyLogo = "/buddy-logo.png";
 <div>
 
 <h1 className="font-black tracking-tight text-slate-900">
-  <span className="block text-[2.3rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
+  <span className="block text-[2.15rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
     英語を、<br />
     もう一度学びたい方へ。
   </span>
 
-  <span className="mt-3 block text-[2rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
+  <span className="mt-3 block text-[1.85rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
     TOEICも、<br />
     仕事の英語も、<br />
     英会話も。
   </span>
 
-  <span className="mt-3 block text-[1.8rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
+  <span className="mt-3 block text-[1.65rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
     目的に合わせて、<br />
     1対1でサポートします。
   </span>
