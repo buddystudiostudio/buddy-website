@@ -399,57 +399,17 @@ const buddyLogo = "/buddy-logo.png";
         <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
 <div>
-  <div className="mb-5 inline-flex rounded-2xl bg-gradient-to-r from-blue-50 to-orange-50 px-3.5 py-2 text-xs font-bold leading-6 text-blue-800 ring-1 ring-blue-100 sm:rounded-full sm:px-4 sm:text-sm">
-    ⚡ 英語コーチング｜TOEIC 990点満点 × 米国勤務経験
-  </div>
-  <h1 className="font-black tracking-tight text-slate-900">
-  {/* Mobile */}
-  <span className="block text-[2rem] leading-[1.12] sm:hidden">
-    英語を、<br />
-    もう一度学びたい方へ。
-    <br />
-    <span className="text-blue-600">
-      TOEICも、<br />
-      仕事の英語も、<br />
-      英会話も。
-    </span>
-    <br />
-    目的に合わせて、<br />
-    1対1でサポートします。
-  </span>
 
-  {/* Tablet / Desktop */}
-<span className="hidden leading-[1.15] sm:block sm:text-[2.6rem] lg:text-[2.75rem] xl:text-[2.85rem]">
-    英語を、もう一度
+  <h1 className="font-black tracking-tight text-slate-900">
+  <span className="block text-[2.8rem] leading-[1.05] sm:text-[4rem] lg:text-[4.8rem]">
+    BUDDY
     <br />
-    学びたい方へ。
-    <br />
-    <span className="text-blue-600">
-      TOEICも、
-      <br />
-      仕事の英語も、
-      <br />
-      英会話も。
-    </span>
-    <br />
-    目的に合わせて、
-    <br />
-    1対1でサポートします。
+    ENGLISH STUDIO
   </span>
 </h1>
 
-<p className="mt-4 text-base font-semibold text-blue-600">
-  TOEIC990点満点・米国勤務経験・外資IT／コンサルでの実務経験をもとに、
-  英語を「資格・仕事・人生」に活かすための学習をサポートします。
-</p>
-
-<p className="mt-3 text-base leading-8 text-slate-600">
-  英語に苦手意識がある方や、学び直しの方も安心してご相談ください。
-</p>
-<p className="mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-  TOEIC対策・英会話・ビジネス英語まで、
-  目的や現在地を整理しながら、
-  沖縄・オンラインで無理なく続けられる学習設計を行います。
+<p className="mt-6 text-xl font-semibold text-slate-700 sm:text-2xl">
+  英語を、人生の力に。
 </p>
 
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
