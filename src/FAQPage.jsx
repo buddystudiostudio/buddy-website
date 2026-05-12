@@ -85,10 +85,9 @@ export default function FAQPage() {
             </a>
           </div>
         </div>
-      </section>
-    </main>
+            </section>
 
-    <footer className="border-t border-slate-200 bg-white py-10">
+      <footer className="border-t border-slate-200 bg-white py-10">
   <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 px-5 md:flex-row">
     <p className="text-sm text-slate-500">
       © 2026 Buddy English Studio. All rights reserved.
@@ -126,7 +125,7 @@ export default function FAQPage() {
       </a>
     </div>
   </div>
-</footer>
-    
+      </footer>
+    </main>
   );
 }
