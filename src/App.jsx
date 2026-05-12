@@ -523,6 +523,10 @@ const buddyLogo = "/buddy-logo.png";
   </span>
 
   <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
+    実務・マネジメント経験
+  </span>
+
+  <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
     沖縄・オンライン対応
   </span>
 </div>
@@ -530,11 +534,6 @@ const buddyLogo = "/buddy-logo.png";
   <p className="flex items-start gap-2">
     <span className="mt-0.5 text-green-500">✓</span>
     初回体験・診断セッション 3,500円 / 50分・無理な勧誘なし
-  </p>
-
-  <p className="flex items-start gap-2">
-    <span className="mt-0.5 text-green-500">✓</span>
-    TOEIC990点満点・米国勤務経験・外資IT/外資コンサルでの実務・マネジメント経験
   </p>
 
   <p className="flex items-start gap-2">
