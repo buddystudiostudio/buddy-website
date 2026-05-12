@@ -1402,29 +1402,34 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </div>
     </div>
 
-    <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
-      <a href="/blog" className="transition hover:text-blue-600">
-        Blog
-      </a>
+   <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
+  <a href="/blog" className="transition hover:text-blue-600">
+    Blog
+  </a>
 
-      <a
-        href={instagramUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="transition hover:text-blue-600"
-      >
-        Instagram
-      </a>
+  <a href="/faq" className="transition hover:text-blue-600">
+    FAQ
+  </a>
 
-      <a
-        href={lineUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="transition hover:text-blue-600"
-      >
-        LINE
-      </a>
-    </div>
+  <a
+    href={instagramUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-blue-600"
+  >
+    Instagram
+  </a>
+
+  <a
+    href={lineUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-blue-600"
+  >
+    LINE
+  </a>
+</div>
+    
   </div>
 </footer>
 
