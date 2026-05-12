@@ -626,7 +626,6 @@ export const blogPosts = [
       },
     ],
   },
-  },
 
   {
     slug: "english-learning-40s-50s",
