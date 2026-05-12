@@ -641,8 +641,8 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "",
-    heroImageAlt: "",
+    heroImage: "/english-learning-40s-50s-Ocean.jpeg",
+    heroImageAlt: "40代・50代から英語学習を始める一歩をイメージした海へ続く道の写真",
     heroImageCaption: "",
     relatedPosts: [
       "adult-english-relearning-start",
