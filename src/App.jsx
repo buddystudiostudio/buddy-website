@@ -1348,6 +1348,23 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
               </details>
             ))}
           </div>
+
+                              <div className="mt-10 text-center">
+            <p className="text-sm leading-7 text-slate-600">
+              その他のご質問も、LINEでお気軽にご相談いただけます。
+              「初回体験希望」または「相談したい」と送るだけで大丈夫です。
+            </p>
+
+            <a
+              href={lineUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+            >
+              LINEで質問する
+            </a>
+          </div>
+          
         </div>
       </section>
 
