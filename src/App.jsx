@@ -368,9 +368,6 @@ const buddyLogo = "/buddy-logo.png";
       <a href="#price" onClick={() => setMenuOpen(false)}>
         料金について
       </a>
-<a href="/plans" onClick={() => setMenuOpen(false)}>
-  料金プラン詳細
-</a>
       
       <a href="#profile" onClick={() => setMenuOpen(false)}>
         プロフィール
