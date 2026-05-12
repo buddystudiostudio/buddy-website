@@ -376,7 +376,10 @@ const buddyLogo = "/buddy-logo.png";
       <a href="/blog" onClick={() => setMenuOpen(false)}>
         ブログ
       </a>
-
+      
+      <a href="/faq" onClick={() => setMenuOpen(false)}>
+        よくある質問
+      </a>
     </nav>
 
     <a
