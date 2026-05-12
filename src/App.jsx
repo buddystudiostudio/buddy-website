@@ -401,24 +401,20 @@ const buddyLogo = "/buddy-logo.png";
 <div>
 
 <h1 className="font-black tracking-tight text-slate-900">
-  <span className="block text-[2.15rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
-    英語を、<br />
-    もう一度学びたい方へ。
+  <span className="block text-[2rem] leading-[1.05] sm:text-[3.5rem] lg:text-[4.2rem]">
+    英語を、もう一度学びたい方へ。
   </span>
 
-  <span className="mt-3 block text-[1.85rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
-    TOEICも、<br />
-    仕事の英語も、<br />
-    英会話も。
+  <span className="mt-4 block text-[1.65rem] leading-[1.12] text-blue-600 sm:text-[2.7rem] lg:text-[3.1rem]">
+    TOEICも、仕事の英語も、英会話も。
   </span>
 
-  <span className="mt-3 block text-[1.65rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
-    目的に合わせて、<br />
-    1対1でサポートします。
+  <span className="mt-4 block text-[1.45rem] leading-[1.18] sm:text-[2.4rem] lg:text-[2.8rem]">
+    目的に合わせて、1対1でサポートします。
   </span>
 </h1>
 
-<div className="mt-10 flex flex-col gap-4 sm:flex-row">
+<div className="mt-12 flex flex-col gap-4 sm:flex-row">
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]">
   まずは初回体験を相談してみる
 </a>
@@ -439,7 +435,7 @@ const buddyLogo = "/buddy-logo.png";
           </div>
 
 <div className="relative">
-  <div className="aspect-[16/10] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
+  <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
     <img
       src={heroImage}
       alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
