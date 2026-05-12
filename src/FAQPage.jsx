@@ -87,5 +87,46 @@ export default function FAQPage() {
         </div>
       </section>
     </main>
+
+    <footer className="border-t border-slate-200 bg-white py-10">
+  <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 px-5 md:flex-row">
+    <p className="text-sm text-slate-500">
+      © 2026 Buddy English Studio. All rights reserved.
+    </p>
+
+    <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
+      <a href="/" className="transition hover:text-blue-600">
+        トップ
+      </a>
+
+      <a href="/blog" className="transition hover:text-blue-600">
+        ブログ
+      </a>
+
+      <a href="/faq" className="transition hover:text-blue-600">
+        よくある質問
+      </a>
+
+      <a
+        href="https://www.instagram.com/buddyenglishstudio/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="transition hover:text-blue-600"
+      >
+        Instagram
+      </a>
+
+      <a
+        href="https://lin.ee/t4d7Mdw"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="transition hover:text-blue-600"
+      >
+        LINE相談
+      </a>
+    </div>
+  </div>
+</footer>
+    
   );
 }
