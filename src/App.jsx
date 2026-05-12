@@ -401,18 +401,18 @@ const buddyLogo = "/buddy-logo.png";
 <div>
 
 <h1 className="font-black tracking-tight text-slate-900">
-  <span className="block text-[2.6rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
+  <span className="block text-[2.3rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
     英語を、<br />
     もう一度学びたい方へ。
   </span>
 
-  <span className="mt-5 block text-[2.2rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
+  <span className="mt-3 block text-[2rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
     TOEICも、<br />
     仕事の英語も、<br />
     英会話も。
   </span>
 
-  <span className="mt-5 block text-[2rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
+  <span className="mt-3 block text-[1.8rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
     目的に合わせて、<br />
     1対1でサポートします。
   </span>
@@ -435,15 +435,6 @@ const buddyLogo = "/buddy-logo.png";
     「初回体験希望」「相談したい」だけでLINE相談OK
   </p>
 
-  <p className="flex items-start gap-2">
-    <span className="mt-0.5 text-blue-500">✓</span>
-    英語が苦手な方・学び直しの方からのご相談も増えています
-  </p>
-
-  <p className="flex items-start gap-2">
-    <span className="mt-0.5 text-orange-500">✓</span>
-    1対1で丁寧に対応するため、初回体験枠には限りがあります
-  </p>
 </div>
           </div>
 
@@ -497,12 +488,16 @@ const buddyLogo = "/buddy-logo.png";
       
       <p>
         Buddy English Studioは、英語が得意な人だけの場所ではありません。
+        
         学び直したい方、TOEICを伸ばしたい方、仕事で英語が必要になった方が、
         安心して相談できる身近な伴走者でありたいと思っています。
       </p>
     </div>
 
+    <div className="mt-10 h-px w-24 bg-slate-200 mx-auto" />
+
   </div>
+
 </section>
 
       
@@ -603,14 +598,18 @@ const buddyLogo = "/buddy-logo.png";
     </h2>
 
     <p className="mt-5 leading-8 text-slate-600">
-      沖縄で英語コーチングや英語レッスンを選ぶ際は、
-      対面・オンライン対応、目的に合った学習設計、
-      TOEIC対策、ビジネス英語、英会話への対応範囲を確認することが大切です。
-      Buddy English Studioでは、TOEIC 990点満点・米国勤務経験・
-      外資IT／コンサルでの実務・マネジメント経験をもとに、
-      沖縄県内の対面相談とオンラインの両方で、
-      一人ひとりの目的に合わせた1対1の英語コーチングを行っています。
-    </p>
+  英語を学び直したい方、
+  TOEICを伸ばしたい方、
+  仕事で英語が必要になった方へ。
+
+  Buddy English Studioでは、
+  沖縄での対面レッスンとオンラインの両方に対応し、
+  一人ひとりの目的や現在地に合わせて、
+  英語学習を1対1でサポートしています。
+
+  TOEIC対策・ビジネス英語・英会話まで、
+  「今の自分に必要な英語」を一緒に整理しながら進めます。
+</p>
 
     <div className="mt-8 grid gap-4 md:grid-cols-3">
       <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
@@ -670,7 +669,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     <div className="mt-8 grid gap-4 md:grid-cols-3">
       <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
         <p className="mb-3 text-sm font-black text-blue-600">
-          Case 01
+          TOEICを伸ばしたい方へ
         </p>
         <p className="font-black text-slate-900">
           TOEIC対策
@@ -682,7 +681,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
       <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
         <p className="mb-3 text-sm font-black text-blue-600">
-          Case 02
+          英語を学び直したい方へ
         </p>
         <p className="font-black text-slate-900">
           英語の学び直し
@@ -694,7 +693,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
       <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
         <p className="mb-3 text-sm font-black text-blue-600">
-          Case 03
+          仕事で英語が必要な方へ
         </p>
         <p className="font-black text-slate-900">
           ビジネス英語
@@ -921,7 +920,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
-      英語学習を通じて、少しずつ変わっていけること
+      英語を通じて、少しずつ前に進むために
     </h2>
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
