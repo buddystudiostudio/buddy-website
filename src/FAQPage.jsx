@@ -19,6 +19,12 @@ const faqStructuredData = {
   
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqStructuredData),
+  }}
+/>
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="/" className="flex items-center gap-3">
