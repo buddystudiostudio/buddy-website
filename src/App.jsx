@@ -280,7 +280,16 @@ const seoKeywords = [
       a: "現在、キャンペーンとして入会金は無料です。",
     },
   ];
-
+const homepageFaqs = faqs.filter((item) =>
+  [
+    "英語がかなり苦手でも大丈夫ですか？",
+    "沖縄で対面の英語レッスンはできますか？",
+    "オンライン英語レッスンにも対応していますか？",
+    "TOEIC対策と英会話を両方見てもらえますか？",
+    "ビジネス英語や英文メールの相談もできますか？",
+    "初回体験後にすぐ申し込む必要はありますか？",
+  ].includes(item.q)
+);
 const lineUrl = "https://lin.ee/t4d7Mdw";
 const emailAddress = "buddyenglishstudio@gmail.com";
 const instagramUrl = "https://www.instagram.com/buddyenglishstudio/";
@@ -1327,7 +1336,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             <h2 id="faq-heading" className="text-3xl font-black text-slate-900">よくあるご質問</h2>
           </div>
           <div className="space-y-4">
-            {faqs.map((item) => (
+            {homepageFaqs.map((item) => (
               <details key={item.q} className="group rounded-2xl bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200 open:ring-blue-500">
                 <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-900">
                   <span>Q. {item.q}</span>
