@@ -1404,11 +1404,11 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
    <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
   <a href="/blog" className="transition hover:text-blue-600">
-    Blog
+    ブログ
   </a>
 
   <a href="/faq" className="transition hover:text-blue-600">
-    FAQ
+    よくある質問
   </a>
 
   <a
@@ -1426,7 +1426,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     rel="noopener noreferrer"
     className="transition hover:text-blue-600"
   >
-    LINE
+    LINE相談
   </a>
 </div>
     
