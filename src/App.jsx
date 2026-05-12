@@ -1116,36 +1116,28 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             </div>
           </div>
 
-          {/* 4. Supporting explanation cards */}
-          <div className="mx-auto mt-10 grid max-w-5xl gap-5 text-sm leading-7 text-slate-600 lg:grid-cols-3">
-            <div className="rounded-[1.75rem] bg-slate-50 p-6 ring-1 ring-slate-200">
-              <h3 className="mb-2 text-base font-black text-slate-900">ポイントの使い方</h3>
-              <p>
-                各プランには、毎月使えるポイントが含まれています。ポイントは1対1セッションや、英文メール・面接回答・プレゼン資料などのレビューに使えます。
-              </p>
-              <ul className="mt-2 list-disc pl-5">
-                <li>1対1セッション：2pt</li>
-                <li>英文レビュー／面接回答レビュー／資料チェック：1pt〜</li>
-              </ul>
-              <p className="mt-2">
-                「今月は会話練習を多めに」「面接前は回答レビューを多めに」など、目的に合わせて柔軟に利用できます。
-              </p>
-            </div>
-<div className="rounded-[1.75rem] bg-blue-50 p-6 ring-1 ring-blue-100">
-  <h3 className="mb-2 text-base font-black text-slate-900">学習の見える化</h3>
+          {/* 4. Pricing notes */}
+<div className="mx-auto mt-10 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-sm leading-7 text-slate-600 ring-1 ring-slate-200 sm:p-7">
+  <h3 className="mb-3 text-base font-black text-slate-900">
+    ポイント・入会金について
+  </h3>
+
   <p>
-    目標・進め方・復習内容を、受講者専用の学習ページ「Buddy Vault」に整理します。
-    レッスン内で進捗を確認しながら、次に取り組むことを一緒に明確にします。
+    各プランのポイントは、1対1セッション、英文レビュー、英語面接回答レビュー、
+    プレゼン資料チェックなどに利用できます。目的に合わせて柔軟に組み合わせ可能です。
   </p>
-  <p className="mt-3 text-xs font-bold text-blue-700">
-    英文レビューなどの非同期サポートは、通常、決まったレビュー時間内に対応します。
+
+  <p className="mt-3">
+    学習内容や復習ポイントは、受講者専用の学習ページ「Buddy Vault」に整理し、
+    レッスン内で進捗を確認しながら次に取り組むことを明確にします。
+  </p>
+
+  <p className="mt-3 font-bold text-blue-700">
+    現在、キャンペーンとして入会金は無料です。詳しいポイントの使い方や最適なプランは、
+    初回体験・診断セッションまたはLINEでご案内します。
   </p>
 </div>
-<div className="rounded-[1.75rem] bg-slate-50 p-6 ring-1 ring-slate-200">
-  <h3 className="mb-2 text-base font-black text-slate-900">入会金について</h3>
-  <p>現在、キャンペーンとして入会金は無料です。</p>
-</div>
-          </div>
+
         </div>
       </section>
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
