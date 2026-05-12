@@ -368,7 +368,10 @@ const buddyLogo = "/buddy-logo.png";
       <a href="#price" onClick={() => setMenuOpen(false)}>
         料金について
       </a>
-
+<a href="/plans" onClick={() => setMenuOpen(false)}>
+  料金プラン詳細
+</a>
+      
       <a href="#profile" onClick={() => setMenuOpen(false)}>
         プロフィール
       </a>
@@ -1137,7 +1140,14 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     初回体験・診断セッションまたはLINEでご案内します。
   </p>
 </div>
-
+<div className="mt-10 text-center">
+  <a
+    href="/plans"
+    className="inline-block rounded-full bg-white px-8 py-4 font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-slate-50"
+  >
+    料金プランを詳しく見る
+  </a>
+</div>
         </div>
       </section>
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
@@ -1402,6 +1412,10 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     ブログ
   </a>
 
+     <a href="/plans" className="transition hover:text-blue-600">
+  料金プラン
+</a>
+     
   <a href="/faq" className="transition hover:text-blue-600">
     よくある質問
   </a>
