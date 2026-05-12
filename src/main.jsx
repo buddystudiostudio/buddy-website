@@ -8,6 +8,7 @@ import BuddyEnglishStudioWebsite from "./App.jsx";
 import Blog from "./Blog.jsx";
 import BlogPost from "./BlogPost.jsx";
 import FAQPage from "./FAQPage.jsx";
+import PlansPage from "./PlansPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/faq" element={<FAQPage />} />
+        <Route path="/plans" element={<PlansPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
