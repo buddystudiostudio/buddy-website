@@ -1,11 +1,32 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { blogPosts } from "./blogPosts";
 import { faqs } from "./faqs";
 
 export default function BuddyEnglishStudioWebsite() {
   const [portraitLoaded, setPortraitLoaded] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showFloatingCta, setShowFloatingCta] = useState(false);
+useEffect(() => {
+  const handleScroll = () => {
+    const hero = document.querySelector('[aria-labelledby="hero-heading"]');
 
+    if (!hero) {
+      setShowFloatingCta(window.scrollY > 500);
+      return;
+    }
+
+    const heroBottom = hero.offsetTop + hero.offsetHeight;
+    setShowFloatingCta(window.scrollY > heroBottom - 80);
+  };
+
+  handleScroll();
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+  
   const sectionLabelClass =
     "mb-4 text-xs font-bold uppercase tracking-[0.28em] text-blue-600";
   const darkSectionLabelClass =
@@ -410,8 +431,9 @@ const buddyLogo = "/buddy-logo.png";
   </span>
 
   <span className="mt-4 block text-[1.45rem] leading-[1.18] sm:text-[2.4rem] lg:text-[2.8rem]">
-    目的に合わせて、1対1でサポートします。
-  </span>
+  目的に合わせて、<br />
+  1対1で伴走します。
+</span>
 </h1>
 
 <div className="mt-12 flex flex-col gap-4 sm:flex-row">
@@ -1390,16 +1412,18 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </footer>
 
 {/* Floating Mobile CTA */}
-<div className="fixed bottom-2 left-0 right-0 z-50 px-5 md:hidden">
-  <a
-    href={lineUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
-  >
-    まずは初回体験を相談
-  </a>
-</div>
+{showFloatingCta && (
+  <div className="fixed bottom-2 left-0 right-0 z-50 px-5 md:hidden">
+    <a
+      href={lineUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
+    >
+      LINEで初回体験を相談
+    </a>
+  </div>
+)}
 
     </main>
   );
