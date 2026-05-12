@@ -416,9 +416,6 @@ const buddyLogo = "/buddy-logo.png";
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]">
   まずは初回体験を相談してみる
 </a>
-             <a href="#flow" className="whitespace-nowrap rounded-full bg-white px-7 py-3.5 text-center text-base font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-orange-50 hover:ring-orange-200 focus:outline-none focus:ring-4 focus:ring-orange-100 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[250px]">
-  体験までの流れを見る
-</a>
             </div>
 <div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-bold text-slate-500 sm:mt-8 sm:gap-3 sm:text-sm">
   <span className="rounded-full bg-slate-100 px-3 py-1.5 sm:px-4 sm:py-2">
