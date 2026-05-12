@@ -501,11 +501,6 @@ const buddyLogo = "/buddy-logo.png";
   沖縄・オンラインで無理なく続けられる学習設計を行います。
 </p>
 
-<p className="mt-3 max-w-xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-  TOEIC対策・英会話・ビジネス英語まで、
-  目的に合わせてマンツーマンで対応します。
-</p>
-
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]">
   まずは初回体験を相談してみる
@@ -1295,36 +1290,58 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         </div>
       </section>
 
-<section className="bg-white py-14 lg:py-20">
-  <div className="mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
-<div>
-  <p className={sectionLabelClass}>
-    LINE CONTACT
-  </p>
+      <section className="relative overflow-hidden bg-slate-900 py-16 text-white lg:py-24">
+  <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
 
-      <h2 className="text-3xl font-black text-slate-900">
-        初回体験・ご相談はLINEから
-      </h2>
-
-      <p className="mt-4 leading-8 text-slate-600">
-        スマホの方はLINEボタンをタップ、PCの方はQRコードを読み取ってご連絡ください。
-        「初回体験希望」または「相談したい」と送るだけで大丈夫です。
-        目的やレベルがまだはっきりしていなくても、お気軽にご相談ください。
+  <div className="relative z-10 mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
+    <div className="text-center md:text-left">
+      <p className={darkSectionLabelClass}>
+        CONTACT
       </p>
 
-      <a
-        href={lineUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-6 mx-auto block w-fit rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 md:mx-0"
-      >
-        LINEで相談する
-      </a>
+      <h2 className="mb-6 text-3xl font-black leading-tight sm:text-4xl">
+        沖縄・オンラインの英語コーチングで、<br />
+        英語学習の悩みを一緒に整理しませんか？
+      </h2>
+
+      <p className="mb-6 max-w-2xl text-lg leading-8 text-slate-200">
+        まずは50分の初回体験・診断セッションで、
+        「何から始めるべきか」を一緒に明確にします。
+      </p>
+
+      <p className="mb-8 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold leading-7 text-slate-200">
+        LINEでは、1対1で必要な内容だけご案内します。
+        「初回体験希望」または「相談したい」と送るだけで大丈夫です。
+        目的や現在のレベルがはっきりしていなくても、一緒に整理します。
+      </p>
+
+      <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40"
+        >
+          初回体験をLINEで相談する
+        </a>
+
+        <a
+          href={`mailto:${emailAddress}`}
+          className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20"
+        >
+          メールで問い合わせる
+        </a>
+      </div>
     </div>
 
-    <div className="mx-auto text-center">
-      <div className="rounded-3xl bg-slate-50 p-5 shadow-lg ring-1 ring-slate-200">
-        <a href={lineUrl} target="_blank" rel="noopener noreferrer" aria-label="Buddy English Studio LINEを開く">
+    <div className="hidden text-center md:block">
+      <div className="rounded-3xl bg-white p-5 shadow-xl">
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Buddy English Studio LINEを開く"
+        >
           <img
             src={lineQrCode}
             alt="LINEでBuddy English Studioに問い合わせるためのQRコード"
@@ -1332,35 +1349,13 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           />
         </a>
       </div>
-      <p className="mt-4 text-sm font-bold text-slate-500">
-        QRコードを読み取ってLINEを追加
+
+      <p className="mt-4 text-sm font-bold text-slate-300">
+        PCの方はQRコードからLINE追加
       </p>
     </div>
   </div>
 </section>
-
-      <section className="relative overflow-hidden bg-slate-900 py-16 lg:py-24 text-white">
-        <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
-        <div className="relative z-10 mx-auto max-w-4xl px-5 text-center">
-          <h2 className="mb-8 text-3xl font-black sm:text-4xl">
-            沖縄・オンラインの英語コーチングで、<br />英語学習の悩みを一緒に整理しませんか？
-          </h2>
-          <p className="mx-auto mb-8 max-w-2xl text-lg leading-8 text-slate-200">
-            まずは50分の初回体験・診断セッションで、「何から始めるべきか」を一緒に明確にします。
-          </p>
-          <p className="mx-auto mb-12 max-w-2xl rounded-2xl bg-white/10 px-5 py-4 text-sm font-bold text-slate-200">
-          LINE追加後は「初回体験希望」または「相談したい」と送るだけで大丈夫です。目的や現在のレベルがはっきりしていなくても、一緒に整理します。現在は1対1で丁寧に対応しているため、初回体験枠には限りがあります。
-          </p>
-          <div className="flex flex-col justify-center gap-4 sm:flex-row">
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40">
-              初回体験をLINEで相談する
-            </a>
-            <a href={`mailto:${emailAddress}`} className="rounded-full bg-white/10 px-9 py-5 text-base font-bold ring-1 ring-white/20 transition hover:-translate-y-1 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20">
-              メールで問い合わせる
-            </a>
-          </div>
-        </div>
-      </section>
 
 <footer className="border-t border-slate-200 bg-white py-12">
   <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 md:flex-row">
