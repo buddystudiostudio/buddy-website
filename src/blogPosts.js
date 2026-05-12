@@ -641,9 +641,9 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/english-learning-40s-50s.jpeg",
-    heroImageAlt: "40代・50代の方が英語を学び始める様子の写真",
-    heroImageCaption: "英語は、何歳からでも少しずつ始められます。",
+    heroImage: "",
+    heroImageAlt: "",
+    heroImageCaption: "",
     relatedPosts: [
       "adult-english-relearning-start",
       "english-relearning-for-beginners",
