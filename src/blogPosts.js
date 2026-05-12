@@ -643,7 +643,7 @@ export const blogPosts = [
     readingTime: "約5分",
     heroImage: "/english-learning-40s-50s.jpeg",
     heroImageAlt: "40代・50代の方が英語を学び始める様子の写真",
-    heroImageCaption: "落ち着いた雰囲気の中で英語に取り組む大人のイメージ。",
+    heroImageCaption: "英語は、何歳からでも少しずつ始められます。",
     relatedPosts: [
       "adult-english-relearning-start",
       "english-relearning-for-beginners",
