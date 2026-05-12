@@ -400,17 +400,23 @@ const buddyLogo = "/buddy-logo.png";
         <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
 <div>
 
-  <h1 className="font-black tracking-tight text-slate-900">
-  <span className="block text-[2.8rem] leading-[1.05] sm:text-[4rem] lg:text-[4.8rem]">
-    BUDDY
-    <br />
-    ENGLISH STUDIO
+<h1 className="font-black tracking-tight text-slate-900">
+  <span className="block text-[2.6rem] leading-[1.08] sm:text-[4rem] lg:text-[4.8rem]">
+    英語を、<br />
+    もう一度学びたい方へ。
+  </span>
+
+  <span className="mt-5 block text-[2.2rem] leading-[1.1] text-blue-600 sm:text-[3.2rem] lg:text-[3.8rem]">
+    TOEICも、<br />
+    仕事の英語も、<br />
+    英会話も。
+  </span>
+
+  <span className="mt-5 block text-[2rem] leading-[1.15] sm:text-[3rem] lg:text-[3.4rem]">
+    目的に合わせて、<br />
+    1対1でサポートします。
   </span>
 </h1>
-
-<p className="mt-6 text-xl font-semibold text-slate-700 sm:text-2xl">
-  英語を、人生の力に。
-</p>
 
 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]">
