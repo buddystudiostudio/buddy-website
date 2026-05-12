@@ -4,7 +4,19 @@ import { faqs } from "./faqs";
 export default function FAQPage() {
   const lineUrl = "https://lin.ee/t4d7Mdw";
   const buddyLogo = "/buddy-logo.png";
-
+const faqStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+  
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white">
