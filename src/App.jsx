@@ -1130,9 +1130,9 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     </div>
   </div>
 </section>
-      <section id="price" className="bg-white pt-14 pb-32 lg:py-24" aria-labelledby="price-heading">
+      <section id="price" className="bg-white pt-12 pb-20 lg:py-16" aria-labelledby="price-heading">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-10 max-w-4xl text-center lg:mb-14">
+          <div className="mx-auto mb-8 max-w-4xl text-center lg:mb-10">
             <p className={sectionLabelClass}>PRICE / PLANS</p>
             <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
               料金・プラン
@@ -1175,7 +1175,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           </div>
 
           {/* 2. Monthly plan comparison */}
-          <div className="mx-auto mt-14 max-w-4xl text-center">
+          <div className="mx-auto mt-10 max-w-4xl text-center">
             <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-600">
   MONTHLY PLANS
 </p>
