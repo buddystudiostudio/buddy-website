@@ -1130,115 +1130,143 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     </div>
   </div>
 </section>
-      <section id="price" className="bg-white pt-12 pb-20 lg:py-16" aria-labelledby="price-heading">
-        <div className="mx-auto max-w-7xl px-5">
-          <div className="mx-auto mb-8 max-w-4xl text-center lg:mb-10">
-            <p className={sectionLabelClass}>PRICE / PLANS</p>
-            <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              料金・プラン
-            </h2>
-            <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-              英語を、スコアにも仕事にもつなげる。目的・現在地・弱点に合わせて、30〜90日間の進め方を一緒に整理します。
-            </p>
+    <section id="price" className="bg-white py-12 lg:py-16" aria-labelledby="price-heading">
+  <div className="mx-auto max-w-7xl px-5">
+    <div className="mx-auto mb-8 max-w-4xl text-center">
+      <p className={sectionLabelClass}>PRICE / PLANS</p>
+
+      <h2 id="price-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
+        料金・プラン
+      </h2>
+
+      <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
+        まずは初回体験で現在地を整理し、継続する場合は目的に合わせてプランを選べます。
+      </p>
+    </div>
+
+    <div className="mx-auto grid max-w-6xl gap-5 lg:grid-cols-3 lg:items-stretch">
+      {/* Step 1 */}
+      <div className="flex flex-col justify-between rounded-[2rem] bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm ring-1 ring-blue-100 sm:p-7">
+        <div>
+          <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
+            STEP 1
+          </span>
+
+          <h3 className="text-xl font-black text-slate-900">
+            {diagnosticPlan.name}
+          </h3>
+
+          <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <p className="text-3xl font-black text-slate-900">{diagnosticPlan.price}</p>
+            <p className="text-sm font-bold text-slate-600">{diagnosticPlan.sub}</p>
           </div>
 
-          {/* 1. Diagnostic gateway */}
-          <div className="mx-auto max-w-5xl rounded-[2rem] bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm ring-1 ring-blue-100 sm:p-8 lg:p-10">
-            <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
-              <div>
-                <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
-                  {diagnosticPlan.badge}
-                </span>
-                <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                  {diagnosticPlan.name}
-                </h3>
-                <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <p className="text-3xl font-black text-slate-900 sm:text-4xl">{diagnosticPlan.price}</p>
-                  <p className="text-sm font-bold text-slate-600">{diagnosticPlan.sub}</p>
-                </div>
-                <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-                  {diagnosticPlan.description}
-                </p>
-                <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-xs font-bold leading-6 text-blue-700 ring-1 ring-blue-100 sm:text-sm">
-                  48時間以内に月額プランへお申し込みの場合、初回体験料¥3,500を初月料金に充当します。
-                </p>
-              </div>
-              <a
-                href={lineUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex justify-center rounded-full bg-blue-600 px-7 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
-              >
-                まずは初回体験を相談する
-              </a>
-            </div>
-          </div>
+          <p className="mt-4 text-sm leading-7 text-slate-600">
+            現在地・目標・弱点を整理し、30〜90日間の進め方をご提案します。
+          </p>
 
-          {/* 2. Monthly plan comparison */}
-          <div className="mx-auto mt-10 max-w-4xl text-center">
-            <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-600">
-  MONTHLY PLANS
-</p>
-
-<h3 className="mt-3 text-2xl font-black text-slate-900 sm:text-3xl">
-  継続プラン
-</h3>
-            <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-slate-600">
-              継続して学びたい方向けの基本プランです。
-              迷った場合はスタンダードプラン、仕事で英語を使う方にはビジネス実践プランがおすすめです。
-            </p>
-          </div>
-
-          <div className="mx-auto mt-8 grid max-w-5xl gap-5 lg:grid-cols-2 lg:items-stretch">
-            {monthlyPlans.map((plan) => (
-              <div
-                key={plan.name}
-                className={`relative flex flex-col justify-between rounded-[1.75rem] p-6 sm:rounded-[2rem] sm:p-8 ${plan.highlight ? "bg-slate-900 text-white shadow-2xl lg:-mt-4 lg:scale-[1.03]" : "bg-slate-50 text-slate-900 ring-1 ring-slate-200"}`}
-              >
-                <div>
-                  {plan.badge && (
-                    <span className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-black ${plan.highlight ? "bg-blue-600 text-white" : "bg-blue-100 text-blue-800"}`}>
-                      {plan.badge}
-                    </span>
-                  )}
-                  <h4 className="text-xl font-black tracking-tight">{plan.name}</h4>
-                  <div className="mt-3">
-                    <p className="text-[2rem] font-black leading-tight sm:text-3xl">{plan.price}</p>
-                    <p className={`mt-1 text-sm font-bold ${plan.highlight ? "text-slate-300" : "text-slate-600"}`}>{plan.sub}</p>
-                    <p className={`mt-1 text-xs italic ${plan.highlight ? "text-slate-400" : "text-slate-500"}`}>{plan.note}</p>
-                  </div>
-                  <p className={`mt-5 text-sm leading-7 ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>{plan.description}</p>
-                </div>
-                <a
-                  href={lineUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`mt-8 hidden w-full rounded-full py-4 text-center font-black sm:block ${plan.highlight ? "bg-blue-600 text-white hover:bg-blue-700" : "bg-slate-900 text-white hover:bg-slate-800"}`}
-                >
-                  {plan.cta}
-                </a>
-              </div>
-            ))}
-          </div>
-
-
-          <div className="mx-auto mt-10 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-center ring-1 ring-slate-200 sm:p-7">
-  <p className="text-sm font-bold leading-7 text-slate-600">
-    目的やペースに合わせて、他のプランもご用意しています。
-    <br className="hidden sm:block" />
-    ライトに始めたい方向けのプランや、短期集中プランの詳しい比較は、
-    料金・プラン詳細ページでご確認いただけます。
-  </p>
-
-  <a
-    href="/plans"
-    className="mt-5 inline-flex items-center justify-center rounded-full bg-slate-900 px-7 py-4 text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
-  >
-    料金・プラン詳細を見る
-  </a>
-</div>
+          <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-xs font-bold leading-6 text-blue-700 ring-1 ring-blue-100">
+            初回体験のみのご利用も可能です。無理な勧誘はありません。
+          </p>
         </div>
-      </section>
+
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex w-full justify-center rounded-full bg-blue-600 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+        >
+          初回体験を相談する
+        </a>
+      </div>
+
+      {/* Step 2 */}
+      <div className="flex flex-col justify-between rounded-[2rem] bg-slate-900 p-6 text-white shadow-xl sm:p-7">
+        <div>
+          <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
+            STEP 2 / 迷ったらこちら
+          </span>
+
+          <h3 className="text-xl font-black">
+            スタンダードプラン
+          </h3>
+
+          <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <p className="text-3xl font-black">¥44,000 / 月</p>
+            <p className="text-sm font-bold text-slate-300">月8pt利用可 + Blueprint</p>
+          </div>
+
+          <p className="mt-4 text-sm leading-7 text-slate-300">
+            週1回ペースで進捗を確認しながら、無理なく継続したい方向けです。
+          </p>
+
+          <p className="mt-4 rounded-2xl bg-white/10 px-4 py-3 text-xs font-bold leading-6 text-slate-200 ring-1 ring-white/10">
+            TOEIC対策・英会話・学び直しなど、幅広い目的に対応できます。
+          </p>
+        </div>
+
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex w-full justify-center rounded-full bg-blue-600 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+        >
+          スタンダードについて相談する
+        </a>
+      </div>
+
+      {/* Work-focused */}
+      <div className="flex flex-col justify-between rounded-[2rem] bg-slate-50 p-6 shadow-sm ring-1 ring-slate-200 sm:p-7">
+        <div>
+          <span className="mb-4 inline-flex rounded-full bg-blue-100 px-3 py-1 text-xs font-black text-blue-800">
+            仕事で使う方向け
+          </span>
+
+          <h3 className="text-xl font-black text-slate-900">
+            ビジネス実践プラン
+          </h3>
+
+          <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <p className="text-3xl font-black text-slate-900">¥54,000 / 月</p>
+            <p className="text-sm font-bold text-slate-600">月8pt利用可</p>
+          </div>
+
+          <p className="mt-4 text-sm leading-7 text-slate-600">
+            会議・メール・面接・プレゼンなど、実務に合わせて使える英語をサポートします。
+          </p>
+
+          <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-xs font-bold leading-6 text-slate-600 ring-1 ring-slate-200">
+            仕事で英語を使う場面が明確な方におすすめです。
+          </p>
+        </div>
+
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex w-full justify-center rounded-full bg-slate-900 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
+        >
+          このプランを相談する
+        </a>
+      </div>
+    </div>
+
+    <div className="mx-auto mt-8 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-center ring-1 ring-slate-200 sm:p-7">
+      <p className="text-sm font-bold leading-7 text-slate-600">
+        ライトに始めたい方向けのスタートプランや、期限がある方向けの短期集中プランもご用意しています。
+        <br className="hidden sm:block" />
+        詳しい比較は、料金・プラン詳細ページでご確認いただけます。
+      </p>
+
+      <a
+        href="/plans"
+        className="mt-5 inline-flex items-center justify-center rounded-full bg-slate-900 px-7 py-4 text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
+      >
+        料金・プラン詳細を見る
+      </a>
+    </div>
+  </div>
+</section>
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
         <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
           <div className="relative">
