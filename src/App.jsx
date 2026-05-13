@@ -356,6 +356,91 @@ return (
   name="twitter:image"
   content="https://www.buddyco.jp/og-image.jpg"
 />
+
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: "Buddy English Studio",
+    alternateName: "Buddy English Studio Okinawa",
+    url: "https://www.buddyco.jp/",
+    logo: "https://www.buddyco.jp/buddy-logo.png",
+    image: "https://www.buddyco.jp/hero-image.png",
+    description:
+      "沖縄・オンライン対応の英語コーチング・英語レッスン。TOEIC対策、ビジネス英語、英会話、大人の英語学び直しを1対1でサポートします。",
+    areaServed: [
+      {
+        "@type": "AdministrativeArea",
+        name: "沖縄県",
+      },
+      {
+        "@type": "Country",
+        name: "日本",
+      },
+      {
+        "@type": "VirtualLocation",
+        url: "https://www.buddyco.jp/",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "沖縄県",
+      addressCountry: "JP",
+    },
+    email: "buddyenglishstudio@gmail.com",
+    sameAs: [
+      "https://www.instagram.com/buddyenglishstudio/",
+    ],
+    founder: {
+      "@type": "Person",
+      name: "Tada",
+      description:
+        "TOEIC990点満点・米国勤務経験・外資系IT企業および外資系コンサルティング企業での実務経験を持つ英語コーチ。",
+    },
+    knowsAbout: [
+      "TOEIC対策",
+      "ビジネス英語",
+      "英会話",
+      "英語学び直し",
+      "英文メール",
+      "英語面接対策",
+      "沖縄 英語コーチング",
+      "オンライン英語レッスン",
+    ],
+    offers: {
+      "@type": "OfferCatalog",
+      name: "英語コーチング・英語レッスン",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          name: "初回体験・診断セッション",
+          price: "3500",
+          priceCurrency: "JPY",
+          description:
+            "50分で現在の英語力、目標、弱点を整理し、30〜90日間の学習ロードマップを提案します。",
+        },
+        {
+          "@type": "Offer",
+          name: "TOEIC対策",
+          description:
+            "目標スコアから逆算して、弱点分析・学習計画・演習をサポートします。",
+        },
+        {
+          "@type": "Offer",
+          name: "ビジネス英語",
+          description:
+            "英文メール、会議、面接、プレゼンなど、実務で使う英語をサポートします。",
+        },
+        {
+          "@type": "Offer",
+          name: "大人の英語学び直し・英会話",
+          description:
+            "基礎文法の整理から英会話練習まで、目的に合わせてサポートします。",
+        },
+      ],
+    },
+  })}
+</script>      
     </Helmet>
 
     <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
