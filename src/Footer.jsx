@@ -100,7 +100,7 @@ export default function Footer() {
               </a>
 
               <a href="#profile" className="block hover:text-blue-600">
-                講師プロフィール
+                代表プロフィール
               </a>
             </div>
           </div>
