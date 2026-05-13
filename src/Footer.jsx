@@ -54,11 +54,11 @@ export default function Footer() {
 
           {/* Learn English */}
           <div>
-            <h3 className="mb-2.5 text-sm font-black uppercase tracking-[0.12em] text-slate-900 md:mb-4">
-              Learn English
-            </h3>
+            <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-900 md:mb-4">
+  Learn English
+</h3>
 
-            <div className="space-y-1.5 text-sm text-slate-600 md:space-y-3">
+            <div className="space-y-2 text-sm text-slate-600 md:space-y-3">
               <a href="/blog" className="block hover:text-blue-600">
                 TOEIC対策
               </a>
