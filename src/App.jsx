@@ -1292,10 +1292,14 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
 <h2
   id="profile-heading"
-  className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
+  className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-[2.25rem] xl:text-[2.45rem]"
 >
-  <span className="block">外資IT・外資コンサル・米国勤務経験を活かした、</span>
-  <span className="block">実践型ビジネス英語レッスン</span>
+  <span className="block whitespace-nowrap">
+    外資IT・外資コンサル・米国勤務経験を活かした、
+  </span>
+  <span className="block">
+    実践型ビジネス英語レッスン
+  </span>
 </h2>
             <div className="space-y-5 text-base leading-8 text-slate-600 sm:text-lg">
   <p>
