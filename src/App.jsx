@@ -1353,12 +1353,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 </p>
 
       <h2 className="text-3xl font-black text-slate-900">
-        英語学習のお悩み別ガイド
+        英語学習コラム
       </h2>
 
       <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
         TOEIC、英会話、ビジネス英語、英語の学び直しなど、
-        よくある悩みへの考え方をわかりやすくまとめています。
+        大人の英語学習に役立つ考え方やヒントを発信しています。
       </p>
     </div>
 
