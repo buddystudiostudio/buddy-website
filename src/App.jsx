@@ -1264,8 +1264,10 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       >
         料金・プラン詳細を見る
       </a>
-    </div>
+        </div>
   </div>
+</section>
+
 <section id="profile" className="bg-slate-50 py-14 lg:py-20" aria-labelledby="profile-heading">
   <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
     <div className="relative">
