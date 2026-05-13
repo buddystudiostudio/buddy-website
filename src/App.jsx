@@ -1279,11 +1279,11 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             </div>
           </div>
           <div>
-<p className={sectionLabelClass}>
+<p className="mb-2 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
   FOUNDER PROFILE
 </p>
 
-<div className="mt-3 mb-5 inline-flex items-center gap-3">
+<div className="mb-5 inline-flex items-center gap-3">
   <span className="h-px w-8 bg-blue-600/50" />
   <p className="text-sm font-black tracking-[0.18em] text-slate-500">
     by Tada
