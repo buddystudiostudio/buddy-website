@@ -340,6 +340,22 @@ return (
         property="og:url"
         content="https://www.buddyco.jp/"
       />
+      <meta name="twitter:card" content="summary_large_image" />
+
+<meta
+  name="twitter:title"
+  content="Buddy English Studio｜沖縄・オンライン対応の英語コーチング"
+/>
+
+<meta
+  name="twitter:description"
+  content="TOEIC990点満点・米国勤務経験を持つ講師による英語コーチング・英語レッスン。"
+/>
+
+<meta
+  name="twitter:image"
+  content="https://www.buddyco.jp/og-image.jpg"
+/>
     </Helmet>
 
     <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
