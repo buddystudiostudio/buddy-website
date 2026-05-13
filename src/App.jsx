@@ -1140,7 +1140,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </h2>
 
       <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-        まずは初回体験で現在地を整理し、継続する場合は目的に合わせてプランを選べます。
+        まずは初回体験で現在地を整理し、継続する場合は目的に合わせて無理なく進められます。
       </p>
     </div>
 
@@ -1149,7 +1149,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <div className="flex flex-col justify-between rounded-[2rem] bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm ring-1 ring-blue-100 sm:p-7">
         <div>
           <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
-            STEP 1
+            まずはここから
           </span>
 
           <h3 className="text-xl font-black text-slate-900">
@@ -1184,7 +1184,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <div className="flex flex-col justify-between rounded-[2rem] bg-slate-900 p-6 text-white shadow-xl sm:p-7">
         <div>
           <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
-            STEP 2 / 迷ったらこちら
+            基本プラン / 迷ったらこちら
           </span>
 
           <h3 className="text-xl font-black">
