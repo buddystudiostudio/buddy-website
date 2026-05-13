@@ -1238,50 +1238,29 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </section>
 
       {/* English Relearning Hub Section */}
-<section className="bg-white py-14 lg:py-20">
-  <div className="mx-auto max-w-5xl px-5">
-    <div className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200 sm:p-12">
+<section className="bg-white py-10 lg:py-12">
+  <div className="mx-auto max-w-4xl px-5">
+    <div className="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
 
-      <p className={sectionLabelClass}>
-        ENGLISH RELEARNING GUIDE
+      <p className="text-xs font-bold uppercase tracking-[0.22em] text-blue-600">
+        ENGLISH RELEARNING
       </p>
 
-      <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
+      <h2 className="mt-3 text-2xl font-black text-slate-900">
         大人の英語学び直しガイド
       </h2>
 
-      <p className="mt-6 max-w-3xl leading-8 text-slate-600">
-        40代・50代からの英語学習、
-        英語が苦手な方の学び直し、
-        TOEIC対策、
-        英会話の始め方、
-        続け方のコツなどを、
-        TOEIC990点満点・米国勤務経験をもとに整理しています。
+      <p className="mt-4 leading-7 text-slate-600">
+        英語を学び直したい社会人向けに、
+        TOEIC・英会話・ビジネス英語の始め方や、
+        続け方のコツをブログで発信しています。
       </p>
-
-      <div className="mt-8 flex flex-wrap gap-3">
-        {[
-          "英語学び直し",
-          "TOEIC初心者",
-          "40代・50代の英語",
-          "ビジネス英語",
-          "英会話",
-          "英語が苦手な方向け",
-        ].map((item) => (
-          <span
-            key={item}
-            className="rounded-full bg-white px-4 py-2 text-sm font-bold text-slate-700 ring-1 ring-slate-200"
-          >
-            #{item}
-          </span>
-        ))}
-      </div>
 
       <a
         href="/english-relearning"
-        className="mt-8 inline-flex items-center font-bold text-blue-600 transition hover:underline"
+        className="mt-5 inline-flex items-center text-sm font-bold text-blue-600 hover:underline"
       >
-        英語学び直しガイドを見る →
+        学び直しガイドを見る →
       </a>
 
     </div>
