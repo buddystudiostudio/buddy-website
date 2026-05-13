@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import { blogPosts } from "./blogPosts";
+import { blogPosts } from "./blogPosts.jsx";
 
 export default function BlogPost() {
   const { slug } = useParams();
