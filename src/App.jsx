@@ -1266,41 +1266,38 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </a>
     </div>
   </div>
-</section>
-      <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
-        <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.48fr_0.52fr] lg:items-center">
-          <div className="relative">
-            <div className="aspect-[4.5/5.2] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
-              <InstructorVisual />
-            </div>
-            <div className="absolute -bottom-6 right-4 rounded-2xl bg-blue-600 p-5 text-white shadow-xl">
-              <p className="text-xs font-bold uppercase tracking-widest opacity-80">Experience</p>
-              <p className="text-2xl font-black">15+ Years</p>
-            </div>
-          </div>
-          <div>
-<p className="mb-2 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
-  FOUNDER PROFILE
-</p>
+<section id="profile" className="bg-slate-50 py-14 lg:py-20" aria-labelledby="profile-heading">
+  <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
+    <div className="relative">
+      <div className="aspect-[4/5] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
+        <InstructorVisual />
+      </div>
 
-<div className="mb-5 inline-flex items-center gap-3">
-  <span className="h-px w-8 bg-blue-600/50" />
-  <p className="text-sm font-black tracking-[0.18em] text-slate-500">
-    by Tada
-  </p>
-</div>
+      <div className="absolute -bottom-6 right-4 rounded-2xl bg-blue-600 p-5 text-white shadow-xl">
+        <p className="text-xs font-bold uppercase tracking-widest opacity-80">Experience</p>
+        <p className="text-2xl font-black">15+ Years</p>
+      </div>
+    </div>
 
-<h2
-  id="profile-heading"
-  className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-[2.25rem] xl:text-[2.45rem]"
->
-  <span className="block sm:whitespace-nowrap">
-    外資IT・外資コンサル・米国勤務経験を活かした、
-  </span>
-  <span className="block">
-    実践型ビジネス英語レッスン
-  </span>
-</h2>
+    <div>
+      <p className="mb-2 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
+        FOUNDER PROFILE
+      </p>
+
+      <div className="mb-5 inline-flex items-center gap-3">
+        <span className="h-px w-8 bg-blue-600/50" />
+        <p className="text-sm font-black tracking-[0.18em] text-slate-500">
+          by Tada
+        </p>
+      </div>
+
+      <h2
+        id="profile-heading"
+        className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
+      >
+        外資IT・コンサル・米国勤務経験を活かした、<br />
+        実践型ビジネス英語レッスン
+      </h2>
             <div className="space-y-5 text-base leading-8 text-slate-600 sm:text-lg">
   <p>
     海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。
