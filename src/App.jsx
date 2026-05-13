@@ -1294,12 +1294,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       </div>
 
       <h2
-        id="profile-heading"
-        className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
-      >
-        外資IT・外資コンサル・米国勤務経験を活かした、<br />
-        実践型ビジネス英語レッスン
-      </h2>
+  id="profile-heading"
+  className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
+>
+  外資IT・外資コンサル・米国勤務経験を活かした、<br />
+  実践型ビジネス英語レッスン
+</h2>
             <div className="space-y-4 text-base leading-8 text-slate-600 sm:text-lg">
   <p>
     海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。
