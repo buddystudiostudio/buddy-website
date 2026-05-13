@@ -747,27 +747,29 @@ return (
 {/* Okinawa English Coaching SEO Section */}
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5">
-    <p className={sectionLabelClass}>
-      OKINAWA ENGLISH COACHING
-    </p>
+    <div className="mx-auto max-w-3xl text-center">
+      <p className={sectionLabelClass}>
+        OKINAWA ENGLISH COACHING
+      </p>
 
-    <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
-      沖縄で英語コーチングを探している方へ
-    </h2>
+      <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
+        沖縄で英語コーチングを探している方へ
+      </h2>
 
-    <p className="mt-5 leading-8 text-slate-600">
-  英語を学び直したい方、
-  TOEICを伸ばしたい方、
-  仕事で英語が必要になった方へ。
+      <p className="mt-5 leading-8 text-slate-600">
+        英語を学び直したい方、
+        TOEICを伸ばしたい方、
+        仕事で英語が必要になった方へ。
 
-  Buddy English Studioでは、
-  沖縄での対面レッスンとオンラインの両方に対応し、
-  一人ひとりの目的や現在地に合わせて、
-  英語学習を1対1でサポートしています。
+        Buddy English Studioでは、
+        沖縄での対面レッスンとオンラインの両方に対応し、
+        一人ひとりの目的や現在地に合わせて、
+        英語学習を1対1でサポートしています。
 
-  TOEIC対策・ビジネス英語・英会話まで、
-  「今の自分に必要な英語」を一緒に整理しながら進めます。
-</p>
+        TOEIC対策・ビジネス英語・英会話まで、
+        「今の自分に必要な英語」を一緒に整理しながら進めます。
+      </p>
+    </div>
 
     <div className="mt-8 grid gap-4 md:grid-cols-3">
       <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
