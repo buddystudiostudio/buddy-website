@@ -772,7 +772,7 @@ return (
     </div>
 
     <div className="mt-8 grid gap-4 md:grid-cols-3">
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <h3 className="font-black text-slate-900">
           沖縄・オンライン対応
         </h3>
@@ -781,7 +781,7 @@ return (
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <h3 className="font-black text-slate-900">
           目的別の学習設計
         </h3>
@@ -790,7 +790,7 @@ return (
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-200">
+      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <h3 className="font-black text-slate-900">
           1対1で伴走
         </h3>
