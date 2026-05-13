@@ -1297,7 +1297,8 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   id="profile-heading"
   className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
 >
-  外資IT・外資コンサル・米国勤務経験を活かした、<br />
+  外資IT・外資コンサル・<br />
+  米国勤務経験を活かした、<br />
   実践型ビジネス英語レッスン
 </h2>
             <div className="space-y-4 text-base leading-8 text-slate-600 sm:text-lg">
