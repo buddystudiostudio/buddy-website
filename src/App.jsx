@@ -1268,7 +1268,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </div>
 </section>
 
-<section id="profile" className="bg-slate-50 py-14 lg:py-20" aria-labelledby="profile-heading">
+<section id="profile" className="bg-slate-50 py-12 lg:py-16" aria-labelledby="profile-heading">
   <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
     <div className="relative">
       <div className="aspect-[4/5] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
@@ -1300,7 +1300,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         外資IT・コンサル・米国勤務経験を活かした、<br />
         実践型ビジネス英語レッスン
       </h2>
-            <div className="space-y-5 text-base leading-8 text-slate-600 sm:text-lg">
+            <div className="space-y-4 text-base leading-8 text-slate-600 sm:text-lg">
   <p>
     海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。
     営業・コンサルティング業務・マネジメントまで幅広く経験し、個人として英語を使う場面だけでなく、
@@ -1323,16 +1323,21 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
     沖縄の海や文化が好きで、これまで世界各地でもスキューバダイビングを経験してきました。
     英語は、仕事の可能性だけでなく、旅先での出会いや人生の選択肢も広げてくれるものだと感じています。
   </p>
-              <div className="grid gap-3 rounded-[2rem] bg-white p-5 ring-1 ring-slate-200 sm:grid-cols-2">
-                {profileHighlights.map((item) => (
-                  <p key={item} className="flex items-center gap-2 text-sm font-bold text-slate-700">
-                    <span className="text-blue-600">✓</span> {item}
-                  </p>
-                ))}
-              </div>
-              <p className="border-l-4 border-blue-600 py-2 pl-5 text-sm font-bold italic leading-7 text-slate-900 sm:text-base">
-  「一人で悩まずに相談できる、身近な伴走者でありたい。」
-</p>
+              <div className="rounded-[2rem] bg-white p-4 ring-1 ring-slate-200">
+  <div className="grid gap-2 sm:grid-cols-2">
+    {profileHighlights.map((item) => (
+      <p key={item} className="flex items-center gap-2 text-sm font-bold text-slate-700">
+        <span className="text-blue-600">✓</span> {item}
+      </p>
+    ))}
+  </div>
+
+  <div className="mt-4 border-t border-slate-200 pt-4">
+    <p className="border-l-4 border-blue-600 pl-4 text-sm font-bold italic leading-7 text-slate-900 sm:text-base">
+      「一人で悩まずに相談できる、身近な伴走者でありたい。」
+    </p>
+  </div>
+</div>
             </div>
       
           </div>
