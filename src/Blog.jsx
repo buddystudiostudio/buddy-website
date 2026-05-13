@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { blogPosts } from "./blogPosts";
+import { blogPosts } from "./blogPosts.jsx";
 
 export default function Blog() {
   return (
