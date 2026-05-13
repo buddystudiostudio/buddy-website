@@ -1282,9 +1282,21 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 <p className={sectionLabelClass}>
   FOUNDER PROFILE
 </p>
-            <h2 id="profile-heading" className="mb-8 text-3xl font-black text-slate-900 sm:text-4xl">
-              外資IT・外資コンサル・米国勤務経験を活かした、<br />実践型ビジネス英語レッスン
-            </h2>
+
+<div className="mt-3 mb-5 inline-flex items-center gap-3">
+  <span className="h-px w-8 bg-blue-600/50" />
+  <p className="text-sm font-black tracking-[0.18em] text-slate-500">
+    by Tada
+  </p>
+</div>
+
+<h2
+  id="profile-heading"
+  className="mb-8 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
+>
+  <span className="block">外資IT・外資コンサル・米国勤務経験を活かした、</span>
+  <span className="block">実践型ビジネス英語レッスン</span>
+</h2>
             <div className="space-y-6 text-lg leading-8 text-slate-600">
   <p>
     海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。
