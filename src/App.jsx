@@ -1294,7 +1294,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   id="profile-heading"
   className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-[2.25rem] xl:text-[2.45rem]"
 >
-  <span className="block whitespace-nowrap">
+  <span className="block sm:whitespace-nowrap">
     外資IT・外資コンサル・米国勤務経験を活かした、
   </span>
   <span className="block">
