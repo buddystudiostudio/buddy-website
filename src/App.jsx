@@ -940,11 +940,18 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       <section className="bg-white py-14 lg:py-24" aria-labelledby="features-heading">
         <div className="mx-auto max-w-5xl px-5">
           <div className="mb-12 text-center">
-            <p className={sectionLabelClass}>COMPARE</p>
-<h2 id="features-heading" className="text-3xl font-black text-slate-900">
-  Buddy English Studioと一般的な英語スクールの違い
-</h2>
-          </div>
+  <p className={sectionLabelClass}>COMPARE</p>
+
+  <h2 id="features-heading" className="text-3xl font-black text-slate-900">
+    Buddy English Studioと一般的な英語スクールの違い
+  </h2>
+
+  <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
+    英語スクールにはそれぞれ良さがあります。
+    Buddy English Studioでは、大人数の決まったカリキュラムではなく、
+    一人ひとりの目的・現在地・生活リズムに合わせた1対1のサポートを大切にしています。
+  </p>
+</div>
           <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-lg">
   <table className="w-full min-w-[840px] border-collapse text-left">
     <thead>
@@ -1111,9 +1118,14 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
-    <h2 className="text-3xl font-black text-slate-900 mb-10">
+    <h2 className="mb-5 text-3xl font-black text-slate-900">
       英語を通じて、少しずつ前に進むために
     </h2>
+
+    <p className="mx-auto mb-10 max-w-2xl leading-8 text-slate-600">
+      英語学習は、完璧を目指すよりも、今の自分に合った一歩を積み重ねることが大切です。
+      目的や生活リズムに合わせて、無理なく続けられる形を一緒に整えていきます。
+    </p>
 
     <div className="grid gap-6 md:grid-cols-3 text-left">
       <div className="rounded-2xl bg-slate-50 p-6">
