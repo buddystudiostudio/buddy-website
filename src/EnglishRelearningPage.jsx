@@ -1,8 +1,46 @@
 import Footer from "./Footer";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 export default function EnglishRelearningPage() {
   return (
+  <>
+    <Helmet>
+      <title>
+        大人の英語学び直しガイド｜40代・50代からの英語コーチング
+      </title>
+
+      <meta
+        name="description"
+        content="40代・50代からの英語学び直し、TOEIC対策、英会話、ビジネス英語について、TOEIC990点満点・米国勤務経験をもとにわかりやすく解説します。"
+      />
+
+      <link
+        rel="canonical"
+        href="https://www.buddyco.jp/english-relearning"
+      />
+
+      <meta
+        property="og:title"
+        content="大人の英語学び直しガイド｜Buddy English Studio"
+      />
+
+      <meta
+        property="og:description"
+        content="40代・50代からの英語学び直し、TOEIC対策、英会話、ビジネス英語について解説。"
+      />
+
+      <meta
+        property="og:type"
+        content="website"
+      />
+
+      <meta
+        property="og:url"
+        content="https://www.buddyco.jp/english-relearning"
+      />
+    </Helmet>
+
     <main className="bg-white text-slate-900">
 
       {/* Hero */}
@@ -250,5 +288,6 @@ export default function EnglishRelearningPage() {
 
       <Footer />
     </main>
+      </>
   );
 }
