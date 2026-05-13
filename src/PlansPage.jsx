@@ -121,6 +121,18 @@ export default function PlansPage() {
     },
   ];
 
+  const trialPlan = plans.find(
+    (plan) => plan.name === "初回体験・診断セッション"
+  );
+
+  const monthlyPlans = plans.filter((plan) =>
+    ["スタートプラン", "スタンダードプラン", "ビジネス実践プラン"].includes(
+      plan.name
+    )
+  );
+
+  const sprintPlan = plans.find((plan) => plan.name === "短期集中プラン");
+  
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white">
@@ -207,73 +219,198 @@ export default function PlansPage() {
         </div>
       </section>
 
-      <section className="py-14 lg:py-20">
+      <section className="bg-white py-12 lg:py-14">
         <div className="mx-auto max-w-6xl px-5">
-          <div className="grid gap-6 lg:grid-cols-2">
-            {plans.map((plan) => (
-              <div
-                key={plan.name}
-                className={`rounded-[2rem] p-6 shadow-sm ring-1 sm:p-8 ${
-                  plan.recommended
-                    ? "bg-slate-900 text-white ring-slate-900"
-                    : "bg-white text-slate-900 ring-slate-200"
-                }`}
-              >
-                <span
-                  className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-black ${
+          {/* Entry plan */}
+          <div className="mb-10">
+            <div className="mb-5 text-center">
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
+                FIRST STEP
+              </p>
+
+              <h2 className="text-2xl font-black text-slate-900 sm:text-3xl">
+                まずは現在地を整理したい方へ
+              </h2>
+            </div>
+
+            {trialPlan && (
+              <div className="rounded-[2rem] bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm ring-1 ring-blue-100 sm:p-8">
+                <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
+                  <div>
+                    <span className="mb-4 inline-flex rounded-full bg-blue-600 px-3 py-1 text-xs font-black text-white">
+                      {trialPlan.badge}
+                    </span>
+
+                    <h3 className="text-2xl font-black text-slate-900">
+                      {trialPlan.name}
+                    </h3>
+
+                    <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <p className="text-3xl font-black text-slate-900">
+                        {trialPlan.price}
+                      </p>
+                      <p className="text-sm font-bold text-slate-600">
+                        {trialPlan.sub}
+                      </p>
+                    </div>
+
+                    <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+                      現在地・目的・弱点を整理し、30〜90日間の進め方とおすすめプランをご提案します。
+                      初回体験のみのご利用も可能です。
+                    </p>
+
+                    <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+                      {trialPlan.points.map((point) => (
+                        <li
+                          key={point}
+                          className="flex gap-2 text-sm font-bold leading-6 text-slate-700"
+                        >
+                          <span className="text-blue-600">✓</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <a
+                    href={lineUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex justify-center rounded-full bg-blue-600 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
+                  >
+                    初回体験をLINEで相談する
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Monthly plans */}
+          <div className="mt-12">
+            <div className="mb-8 text-center">
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
+                MONTHLY PLANS
+              </p>
+
+              <h2 className="text-2xl font-black text-slate-900 sm:text-3xl">
+                継続プラン
+              </h2>
+
+              <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-slate-600">
+                多くの方には、週1回ペースで進められるスタンダードプランをおすすめしています。
+              </p>
+            </div>
+
+            <div className="grid gap-5 lg:grid-cols-3">
+              {monthlyPlans.map((plan) => (
+                <div
+                  key={plan.name}
+                  className={`flex flex-col justify-between rounded-[2rem] p-6 shadow-sm ring-1 sm:p-7 ${
                     plan.recommended
-                      ? "bg-blue-600 text-white"
-                      : "bg-blue-100 text-blue-800"
+                      ? "bg-slate-900 text-white ring-slate-900 lg:-mt-3"
+                      : "bg-slate-50 text-slate-900 ring-slate-200"
                   }`}
                 >
-                  {plan.badge}
-                </span>
+                  <div>
+                    <span
+                      className={`mb-4 inline-flex rounded-full px-3 py-1 text-xs font-black ${
+                        plan.recommended
+                          ? "bg-blue-600 text-white"
+                          : "bg-blue-100 text-blue-800"
+                      }`}
+                    >
+                      {plan.badge}
+                    </span>
 
-                <h2 className="text-2xl font-black">{plan.name}</h2>
+                    <h3 className="text-xl font-black">{plan.name}</h3>
 
-                <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <p className="text-3xl font-black">{plan.price}</p>
-                  <p
-                    className={`text-sm font-bold ${
-                      plan.recommended ? "text-slate-300" : "text-slate-600"
+                    <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <p className="text-3xl font-black">{plan.price}</p>
+                      <p
+                        className={`text-sm font-bold ${
+                          plan.recommended ? "text-slate-300" : "text-slate-600"
+                        }`}
+                      >
+                        {plan.sub}
+                      </p>
+                    </div>
+
+                    <p
+                      className={`mt-4 text-sm leading-7 ${
+                        plan.recommended ? "text-slate-300" : "text-slate-600"
+                      }`}
+                    >
+                      {plan.description}
+                    </p>
+
+                    <ul className="mt-5 space-y-2">
+                      {plan.points.map((point) => (
+                        <li
+                          key={point}
+                          className="flex gap-2 text-sm font-bold leading-6"
+                        >
+                          <span className="text-blue-500">✓</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <a
+                    href={lineUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`mt-7 inline-block rounded-full px-6 py-3.5 text-center text-sm font-black shadow-lg transition hover:-translate-y-1 ${
+                      plan.recommended
+                        ? "bg-blue-600 text-white hover:bg-blue-700"
+                        : "bg-slate-900 text-white hover:bg-slate-800"
                     }`}
                   >
-                    {plan.sub}
+                    このプランをLINEで相談する
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Sprint plan */}
+          {sprintPlan && (
+            <div className="mt-8 rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
+              <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
+                <div>
+                  <span className="mb-4 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
+                    期限がある方向け
+                  </span>
+
+                  <h3 className="text-2xl font-black text-slate-900">
+                    {sprintPlan.name}
+                  </h3>
+
+                  <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <p className="text-3xl font-black text-slate-900">
+                      {sprintPlan.price}
+                    </p>
+                    <p className="text-sm font-bold text-slate-600">
+                      {sprintPlan.sub}
+                    </p>
+                  </div>
+
+                  <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+                    {sprintPlan.description}
                   </p>
                 </div>
-
-                <p
-                  className={`mt-5 leading-8 ${
-                    plan.recommended ? "text-slate-300" : "text-slate-600"
-                  }`}
-                >
-                  {plan.description}
-                </p>
-
-                <ul className="mt-6 space-y-3">
-                  {plan.points.map((point) => (
-                    <li key={point} className="flex gap-3 text-sm font-bold leading-7">
-                      <span className="mt-0.5 text-blue-500">✓</span>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
 
                 <a
                   href={lineUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`mt-8 inline-block rounded-full px-7 py-4 text-center font-black shadow-lg transition hover:-translate-y-1 ${
-                    plan.recommended
-                      ? "bg-blue-600 text-white hover:bg-blue-700"
-                      : "bg-slate-900 text-white hover:bg-slate-800"
-                  }`}
+                  className="inline-flex justify-center rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
                 >
-                  このプランをLINEで相談する
+                  短期集中について相談する
                 </a>
               </div>
-            ))}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -285,7 +422,7 @@ export default function PlansPage() {
             </p>
 
             <h2 className="text-3xl font-black text-slate-900">
-          目的に合わせて使えるポイント制
+              目的に合わせて使えるポイント制
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
