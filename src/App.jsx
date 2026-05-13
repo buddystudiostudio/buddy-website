@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import React, { useEffect, useState } from "react";
 import { blogPosts } from "./blogPosts";
 import { faqs } from "./faqs";
@@ -1357,59 +1358,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </div>
 </section>
 
-<footer className="border-t border-slate-200 bg-white py-12">
-  <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 md:flex-row">
-    <div className="flex items-center gap-3 text-center md:text-left">
-      <img
-        src={buddyLogo}
-        alt="Buddy English Studio logo"
-        className="h-12 w-auto object-contain"
-      />
-
-      <div>
-        <p className="text-sm font-bold text-slate-500">
-          沖縄・オンライン対応｜英語コーチング・英語レッスン
-        </p>
-        <p className="mt-2 text-sm text-slate-500">
-          © 2026 Buddy English Studio. All rights reserved.
-        </p>
-      </div>
-    </div>
-
-   <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-bold text-slate-500">
-  <a href="/blog" className="transition hover:text-blue-600">
-    ブログ
-  </a>
-
-     <a href="/plans" className="transition hover:text-blue-600">
-  料金プラン
-</a>
-     
-  <a href="/faq" className="transition hover:text-blue-600">
-    よくある質問
-  </a>
-
-  <a
-    href={instagramUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition hover:text-blue-600"
-  >
-    Instagram
-  </a>
-
-  <a
-    href={lineUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="transition hover:text-blue-600"
-  >
-    LINE相談
-  </a>
-</div>
-    
-  </div>
-</footer>
+<Footer />
 
 {/* Floating Mobile CTA */}
 {showFloatingCta && (
