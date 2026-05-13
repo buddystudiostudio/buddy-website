@@ -13,8 +13,8 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[2.4fr_1fr_1fr_1fr]">
 
           {/* Brand */}
-          <div className="lg:col-span-2">
-            <div className="flex items-center gap-3">
+          <div>
+            <div className="flex items-center gap-4">
               <img
                 src={buddyLogo}
                 alt="Buddy English Studio logo"
@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <p className="mt-6 max-w-md text-sm leading-7 text-slate-600">
+            <p className="mt-6 max-w-lg text-sm leading-7 text-slate-600">
               TOEIC対策、ビジネス英語、英会話、英語の学び直しまで。
               TOEIC 990点満点・米国勤務経験をもとに、
               沖縄・オンラインで1対1の英語コーチングを提供しています。
@@ -61,7 +61,7 @@ export default function Footer() {
               Learn English
             </h3>
 
-            <div className="space-y-3 text-sm font-medium text-slate-600">
+            <div className="space-y-3 text-sm text-slate-600">
               <a href="/blog" className="block hover:text-blue-600">
                 TOEIC対策
               </a>
@@ -86,7 +86,7 @@ export default function Footer() {
               Popular Pages
             </h3>
 
-            <div className="space-y-3 text-sm font-medium text-slate-600">
+            <div className="space-y-3 text-sm text-slate-600">
               <a href="/plans" className="block hover:text-blue-600">
                 料金プラン
               </a>
@@ -111,7 +111,7 @@ export default function Footer() {
               Contact
             </h3>
 
-            <div className="space-y-3 text-sm font-medium text-slate-600">
+            <div className="space-y-3 text-sm text-slate-600">
               <a
                 href={lineUrl}
                 target="_blank"
@@ -148,7 +148,7 @@ export default function Footer() {
               © 2026 Buddy English Studio. All rights reserved.
             </p>
 
-            <div className="flex flex-wrap gap-5 text-sm font-medium text-slate-500">
+            <div className="flex flex-wrap gap-5 text-sm text-slate-500">
               <a href="/faq" className="hover:text-blue-600">
                 FAQ
               </a>
