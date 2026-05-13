@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Footer from "./Footer";
 import React, { useEffect, useState } from "react";
 import { blogPosts } from "./blogPosts";
@@ -300,10 +301,47 @@ const buddyLogo = "/buddy-logo.png";
   );
 
   const latestBlogPosts = [...blogPosts]
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 3);
-  
-  return (
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 3);
+
+return (
+  <>
+    <Helmet>
+      <title>
+        沖縄の英語コーチング・英語レッスン｜Buddy English Studio
+      </title>
+
+      <meta
+        name="description"
+        content="沖縄・オンライン対応の英語コーチング・英語レッスン。TOEIC990点満点・米国勤務経験を持つ講師が、英語学び直し・ビジネス英語・英会話を1対1でサポート。"
+      />
+
+      <link
+        rel="canonical"
+        href="https://www.buddyco.jp/"
+      />
+
+      <meta
+        property="og:title"
+        content="Buddy English Studio｜沖縄・オンライン対応の英語コーチング"
+      />
+
+      <meta
+        property="og:description"
+        content="TOEIC990点満点・米国勤務経験を持つ講師による英語コーチング・英語レッスン。"
+      />
+
+      <meta
+        property="og:type"
+        content="website"
+      />
+
+      <meta
+        property="og:url"
+        content="https://www.buddyco.jp/"
+      />
+    </Helmet>
+
     <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4">
@@ -1425,6 +1463,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 )}
 
     </main>
-  );
+</>
+);
 }
 
