@@ -1268,9 +1268,9 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </div>
 </section>
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
-        <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.48fr_0.52fr] lg:items-center">
           <div className="relative">
-            <div className="aspect-[5/5.4] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
+            <div className="aspect-[4.5/5.2] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
               <InstructorVisual />
             </div>
             <div className="absolute -bottom-6 right-4 rounded-2xl bg-blue-600 p-5 text-white shadow-xl">
