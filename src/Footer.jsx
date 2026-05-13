@@ -74,9 +74,9 @@ export default function Footer() {
                 英会話
               </a>
 
-              <a href="/blog" className="block hover:text-blue-600">
-                英語学び直し
-              </a>
+              <a href="/english-relearning">
+  英語学び直し
+</a>
             </div>
           </div>
 
