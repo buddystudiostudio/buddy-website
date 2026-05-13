@@ -196,51 +196,30 @@ const seoKeywords = [
       "事前アンケートをもとに、現在地・目標・弱点を50分で整理します。30〜90日間の学習ロードマップとおすすめプランをご提案します。初回体験のみのご利用も可能です。",
   };
 
-  const monthlyPlans = [
-    {
-      name: "スタートプラン",
-      price: "¥28,000 / 月",
-      sub: "月4pt利用可",
-      note: "目安：月2回の1対1セッション",
-      description:
-        "英語学習を再スタートしたい方向け。最初の3か月で、目標・弱点・学習リズムを整理します。",
-      badge: "基礎から整える",
-      highlight: false,
-      cta: "このプランを相談する",
-    },
-    {
-      name: "スタンダードプラン",
-      price: "¥44,000 / 月",
-      sub: "月8pt利用可 + Blueprint",
-      note: "目安：週1回ペースの1対1セッション",
-      description:
-        "継続して伸ばしたい社会人向け。レッスン内で進捗を確認しながら、次にやることを明確にして進めます。",
-      badge: "迷ったらこちら",
-      highlight: true,
-      cta: "スタンダードについて相談する",
-    },
-    {
-      name: "ビジネス実践プラン",
-      price: "¥54,000 / 月",
-      sub: "月8pt利用可",
-      note: "目安：4回の実践セッション、または8回の英文レビュー、または組み合わせ",
-      description:
-        "会議・メール・面接・プレゼン・英文資料など、実務に合わせて使える英語をサポートします。",
-      badge: "実務で使う方向け",
-      highlight: false,
-      cta: "このプランを相談する",
-    },
-  ];
-
-  const intensivePlan = {
-    name: "短期集中プラン",
-    price: "¥74,000 / 月",
-    sub: "月12pt利用可",
-    note: "目安：週1〜2回ペースで集中的に対策",
+const monthlyPlans = [
+  {
+    name: "スタンダードプラン",
+    price: "¥44,000 / 月",
+    sub: "月8pt利用可 + Blueprint",
+    note: "目安：週1回ペースの1対1セッション",
     description:
-      "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して集中的に進めます。",
-    badge: "集中して進めたい方へ",
-  };
+      "継続して伸ばしたい社会人向け。レッスン内で進捗を確認しながら、次にやることを明確にして進めます。",
+    badge: "迷ったらこちら",
+    highlight: true,
+    cta: "スタンダードについて相談する",
+  },
+  {
+    name: "ビジネス実践プラン",
+    price: "¥54,000 / 月",
+    sub: "月8pt利用可",
+    note: "目安：4回の実践セッション、または8回の英文レビュー、または組み合わせ",
+    description:
+      "会議・メール・面接・プレゼン・英文資料など、実務に合わせて使える英語をサポートします。",
+    badge: "実務で使う方向け",
+    highlight: false,
+    cta: "このプランを相談する",
+  },
+];
 
 const homepageFaqs = faqs.filter((item) =>
   [
@@ -1201,22 +1180,16 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   MONTHLY PLANS
 </p>
 
-<a
-  href="/plans"
-  className="mt-4 inline-block text-sm font-bold text-blue-600 hover:underline"
->
-  詳細なプラン比較・ポイント利用例を見る →
-</a>
-
 <h3 className="mt-3 text-2xl font-black text-slate-900 sm:text-3xl">
   継続プラン
 </h3>
             <p className="mx-auto mt-4 max-w-2xl text-sm font-bold leading-7 text-slate-600">
-              迷ったら、まずはスタンダードプランがおすすめです。レッスン内で進捗と次の一歩を確認しながら、無理なく継続できます。
+              継続して学びたい方向けの基本プランです。
+              迷った場合はスタンダードプラン、仕事で英語を使う方にはビジネス実践プランがおすすめです。
             </p>
           </div>
 
-          <div className="mx-auto mt-8 grid gap-5 lg:grid-cols-3 lg:items-stretch">
+          <div className="mx-auto mt-8 grid max-w-5xl gap-5 lg:grid-cols-2 lg:items-stretch">
             {monthlyPlans.map((plan) => (
               <div
                 key={plan.name}
@@ -1248,59 +1221,20 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
             ))}
           </div>
 
-          {/* 3. Intensive sprint */}
-          <div className="mx-auto mt-10 max-w-5xl rounded-[2rem] bg-slate-50 p-6 ring-1 ring-slate-200 sm:p-8">
-            <div className="grid gap-5 lg:grid-cols-[1fr_auto] lg:items-center">
-              <div>
-                <span className="mb-3 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
-                  {intensivePlan.badge}
-                </span>
-                <h3 className="text-2xl font-black text-slate-900">{intensivePlan.name}</h3>
-                <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <p className="text-3xl font-black text-slate-900">{intensivePlan.price}</p>
-                  <p className="text-sm font-bold text-slate-600">{intensivePlan.sub}</p>
-                </div>
-                <p className="mt-1 text-xs italic text-slate-500">{intensivePlan.note}</p>
-                <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">{intensivePlan.description}</p>
-              </div>
-              <a
-                href={lineUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 sm:inline-flex"
-              >
-                このプランを相談する
-              </a>
-            </div>
-          </div>
 
-          {/* 4. Pricing notes */}
-<div className="mx-auto mt-10 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-sm leading-7 text-slate-600 ring-1 ring-slate-200 sm:p-7">
-  <h3 className="mb-3 text-base font-black text-slate-900">
-    ポイント・入会金について
-  </h3>
-
-  <p>
-    各プランのポイントは、1対1セッション、英文レビュー、英語面接回答レビュー、
-    プレゼン資料チェックなどに利用できます。目的に合わせて柔軟に組み合わせ可能です。
+          <div className="mx-auto mt-10 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-center ring-1 ring-slate-200 sm:p-7">
+  <p className="text-sm font-bold leading-7 text-slate-600">
+    目的やペースに合わせて、他のプランもご用意しています。
+    <br className="hidden sm:block" />
+    ライトに始めたい方向けのプランや、短期集中プランの詳しい比較は、
+    料金・プラン詳細ページでご確認いただけます。
   </p>
 
-  <p className="mt-3">
-    学習内容や復習ポイントは、受講者専用の学習ページ「Buddy Vault」に整理し、
-    レッスン内で進捗を確認しながら次に取り組むことを明確にします。
-  </p>
-
-  <p className="mt-3 font-bold text-blue-700">
-    現在、キャンペーンとして入会金は無料です。詳しいポイントの使い方や最適なプランは、
-    初回体験・診断セッションまたはLINEでご案内します。
-  </p>
-</div>
-<div className="mt-10 text-center">
   <a
     href="/plans"
-    className="inline-block rounded-full bg-white px-8 py-4 font-bold text-slate-900 ring-1 ring-slate-200 transition hover:-translate-y-1 hover:bg-slate-50"
+    className="mt-5 inline-flex items-center justify-center rounded-full bg-slate-900 px-7 py-4 text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
   >
-    料金プランを詳しく見る
+    料金・プラン詳細を見る
   </a>
 </div>
         </div>
