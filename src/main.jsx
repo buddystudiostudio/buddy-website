@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+
 import "./style.css";
 import ScrollToTop from "./ScrollToTop";
 
@@ -13,22 +15,23 @@ import EnglishRelearningPage from "./EnglishRelearningPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ScrollToTop />
+    <HelmetProvider>
+      <BrowserRouter>
+        <ScrollToTop />
 
-      <Routes>
-        <Route path="/" element={<BuddyEnglishStudioWebsite />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:slug" element={<BlogPost />} />
-        <Route path="/faq" element={<FAQPage />} />
-        <Route path="/plans" element={<PlansPage />} />
+        <Routes>
+          <Route path="/" element={<BuddyEnglishStudioWebsite />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/faq" element={<FAQPage />} />
+          <Route path="/plans" element={<PlansPage />} />
 
-        {/* New Semantic Hub Page */}
-        <Route
-          path="/english-relearning"
-          element={<EnglishRelearningPage />}
-        />
-      </Routes>
-    </BrowserRouter>
+          <Route
+            path="/english-relearning"
+            element={<EnglishRelearningPage />}
+          />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   </React.StrictMode>
 );
