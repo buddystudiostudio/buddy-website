@@ -1083,7 +1083,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
             <p className={sectionLabelClass}>LESSON FLOW</p>
             <h2 id="lesson-flow-heading" className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-              初回体験までの流れ
+              相談から継続判断までの流れ
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
               初めての方でも迷わないように、相談から体験、継続判断までシンプルに進めます。
