@@ -1268,9 +1268,9 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
   </div>
 </section>
       <section id="profile" className="bg-slate-50 py-14 lg:py-24" aria-labelledby="profile-heading">
-        <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.42fr_0.58fr] lg:items-center">
           <div className="relative">
-            <div className="aspect-[4/5] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
+            <div className="aspect-[5/5.4] overflow-hidden rounded-[2rem] bg-slate-900 shadow-xl ring-1 ring-slate-200">
               <InstructorVisual />
             </div>
             <div className="absolute -bottom-6 right-4 rounded-2xl bg-blue-600 p-5 text-white shadow-xl">
@@ -1292,12 +1292,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
 
 <h2
   id="profile-heading"
-  className="mb-8 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
+  className="mb-6 text-3xl font-black leading-tight text-slate-900 sm:text-4xl"
 >
   <span className="block">外資IT・外資コンサル・米国勤務経験を活かした、</span>
   <span className="block">実践型ビジネス英語レッスン</span>
 </h2>
-            <div className="space-y-6 text-lg leading-8 text-slate-600">
+            <div className="space-y-5 text-base leading-8 text-slate-600 sm:text-lg">
   <p>
     海外留学・神戸大学卒業後、米国での勤務を経て、外資系IT企業・外資系コンサルティング企業で15年以上のキャリアを積んできました。
     営業・コンサルティング業務・マネジメントまで幅広く経験し、個人として英語を使う場面だけでなく、
@@ -1327,17 +1327,11 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
                   </p>
                 ))}
               </div>
-              <p className="border-l-4 border-blue-600 py-2 pl-6 font-bold italic text-slate-900">
-                「一人で悩まずに相談できる、身近な伴走者でありたい。」
-              </p>
+              <p className="border-l-4 border-blue-600 py-2 pl-5 text-sm font-bold italic leading-7 text-slate-900 sm:text-base">
+  「一人で悩まずに相談できる、身近な伴走者でありたい。」
+</p>
             </div>
-            <div className="mt-10 flex flex-wrap gap-3">
-              {["神戸大学卒", "米国勤務経験", "TOEIC 990", "沖縄・オンライン対応"].map((tag) => (
-                <span key={tag} className="rounded-full bg-white px-4 py-2 text-sm font-bold text-slate-700 ring-1 ring-slate-200">
-                  #{tag}
-                </span>
-              ))}
-            </div>
+      
           </div>
         </div>
       </section>
