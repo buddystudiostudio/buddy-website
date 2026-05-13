@@ -615,11 +615,7 @@ return (
   <div className="mx-auto max-w-4xl px-5 text-center">
 
 <p className={sectionLabelClass}>
-  MESSAGE
-</p>
-
-<p className="mb-3 text-sm font-bold uppercase tracking-[0.1em] text-slate-500">
-  Message from Tada
+  MESSAGE FROM TADA
 </p>
 
 <h2 className="text-3xl font-black leading-[1.15] text-slate-900 sm:text-4xl">
