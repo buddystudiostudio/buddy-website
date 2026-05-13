@@ -9,6 +9,7 @@ import Blog from "./Blog.jsx";
 import BlogPost from "./BlogPost.jsx";
 import FAQPage from "./FAQPage.jsx";
 import PlansPage from "./PlansPage.jsx";
+import EnglishRelearningPage from "./EnglishRelearningPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -21,6 +22,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/plans" element={<PlansPage />} />
+
+        {/* New Semantic Hub Page */}
+        <Route
+          path="/english-relearning"
+          element={<EnglishRelearningPage />}
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
