@@ -1007,7 +1007,77 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           </div>
         </div>
       </section>
+      
+<section
+  id="services"
+  className="bg-slate-900 py-14 text-white lg:py-24"
+  aria-labelledby="services-heading"
+>
+  <div className="mx-auto max-w-7xl px-5">
+    <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
+      <div className="max-w-2xl">
+        <p className={darkSectionLabelClass}>SERVICES</p>
 
+        <h2
+          id="services-heading"
+          className="text-3xl font-black tracking-tight sm:text-4xl"
+        >
+          目的別に選べる英語サポート
+        </h2>
+      </div>
+
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30"
+      >
+        LINEで相談する
+      </a>
+    </div>
+
+    <div className="grid gap-8 lg:grid-cols-3">
+      {services.map((service) => (
+        <div
+          key={service.title}
+          className="relative rounded-[2rem] bg-white/5 p-8 ring-1 ring-white/10 hover:bg-white/10"
+        >
+          <span className="mb-6 inline-block rounded-full bg-blue-400/10 px-3 py-1 text-[10px] font-black uppercase tracking-widest text-blue-300">
+            {service.tag}
+          </span>
+
+          <h3 className="mb-5 text-2xl font-bold">
+            {service.title}
+          </h3>
+
+          <p className="mb-8 leading-7 text-slate-300">
+            {service.text}
+          </p>
+
+          <p className="text-sm font-bold text-white">
+            <span className="text-blue-300">✓</span> {service.point}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <div className="mt-10 rounded-[2rem] bg-white/5 p-6 ring-1 ring-white/10">
+      <p className={darkSectionLabelClass}>OTHER TOPICS</p>
+
+      <div className="flex flex-wrap gap-3">
+        {serviceExamples.map((item) => (
+          <span
+            key={item}
+            className="rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-slate-200"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+      
       <section id="flow" className="bg-blue-50/50 py-14 lg:py-24" aria-labelledby="lesson-flow-heading">
         <div className="mx-auto max-w-7xl px-5">
           <div className="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
@@ -1038,45 +1108,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         </div>
       </section>
 
-      <section id="services" className="bg-slate-900 py-14 text-white lg:py-24" aria-labelledby="services-heading">
-        <div className="mx-auto max-w-7xl px-5">
-          <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
-            <div className="max-w-2xl">
-              <p className={darkSectionLabelClass}>SERVICES</p>
-              <h2 id="services-heading" className="text-3xl font-black tracking-tight sm:text-4xl">
-                TOEIC対策・ビジネス英語・英会話を目的別に学ぶ
-              </h2>
-            </div>
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30">
-              LINEで相談する
-            </a>
-          </div>
-          <div className="grid gap-8 lg:grid-cols-3">
-            {services.map((service) => (
-              <div key={service.title} className="relative rounded-[2rem] bg-white/5 p-8 ring-1 ring-white/10 hover:bg-white/10">
-                <span className="mb-6 inline-block rounded-full bg-blue-400/10 px-3 py-1 text-[10px] font-black uppercase tracking-widest text-blue-300">
-                  {service.tag}
-                </span>
-                <h3 className="mb-5 text-2xl font-bold">{service.title}</h3>
-                <p className="mb-8 leading-7 text-slate-300">{service.text}</p>
-<p className="text-sm font-bold text-white">
-  <span className="text-blue-300">✓</span> {service.point}
-</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-10 rounded-[2rem] bg-white/5 p-6 ring-1 ring-white/10">
-            <p className={darkSectionLabelClass}>OTHER TOPICS</p>
-            <div className="flex flex-wrap gap-3">
-              {serviceExamples.map((item) => (
-                <span key={item} className="rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-slate-200">
-                  {item}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
     <h2 className="text-3xl font-black text-slate-900 mb-10">
