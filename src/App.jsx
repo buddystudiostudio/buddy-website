@@ -1399,7 +1399,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
         href="/blog"
         className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
       >
-        英語学習ガイドを見る
+        コラムを見る
       </a>
     </div>
   </div>
