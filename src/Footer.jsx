@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t border-slate-200 bg-white">
       {/* Main Footer */}
       <div className="mx-auto max-w-7xl px-5 py-9 md:py-14">
-        <div className="grid gap-7 md:grid-cols-2 md:gap-10 lg:grid-cols-[2.4fr_1fr_1fr_1fr]">
+        <div className="grid gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-[2.4fr_1fr_1fr_1fr]">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 md:gap-4">
@@ -54,11 +54,11 @@ export default function Footer() {
 
           {/* Learn English */}
           <div>
-            <h3 className="mb-3 text-sm font-black uppercase tracking-[0.12em] text-slate-900 md:mb-4">
+            <h3 className="mb-2.5 text-sm font-black uppercase tracking-[0.12em] text-slate-900 md:mb-4">
               Learn English
             </h3>
 
-            <div className="space-y-2 text-sm text-slate-600 md:space-y-3">
+            <div className="space-y-1.5 text-sm text-slate-600 md:space-y-3">
               <a href="/blog" className="block hover:text-blue-600">
                 TOEIC対策
               </a>
