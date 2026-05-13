@@ -172,49 +172,51 @@ export default function PlansPage() {
         </div>
       </section>
 
-      <section className="bg-slate-50 py-12 lg:py-16">
-        <div className="mx-auto max-w-6xl px-5">
-          <div className="mx-auto mb-8 max-w-3xl text-center">
-            <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
+      <section className="bg-slate-50 py-10 lg:py-12">
+        <div className="mx-auto max-w-5xl px-5">
+          <div className="mx-auto mb-7 max-w-3xl text-center">
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-blue-600">
               HOW TO CHOOSE
             </p>
 
             <h2 className="text-2xl font-black leading-tight text-slate-900 sm:text-3xl">
-              迷ったら、この選び方がおすすめです
+              目的に合わせた選び方
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">
-              プラン選びで迷うのは自然なことです。目的や状況に合わせて、
-              まずは近いものから確認してみてください。
+              まずは近い目的から確認してみてください。プランは学習状況に合わせて見直しできます。
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {choiceGuide.map((item) => (
-              <div
-                key={item.title}
-                className="rounded-[1.5rem] bg-white p-5 shadow-sm ring-1 ring-slate-200"
-              >
-                <p className="text-xs font-black text-blue-600">
-                  {item.title}
-                </p>
+          <div className="rounded-[2rem] bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-6">
+            <div className="grid gap-3">
+              {choiceGuide.map((item) => (
+                <div
+                  key={item.title}
+                  className="grid gap-2 rounded-2xl bg-slate-50 px-4 py-4 sm:grid-cols-[180px_1fr] sm:items-center"
+                >
+                  <p className="text-sm font-black text-blue-600">
+                    {item.title}
+                  </p>
 
-                <h3 className="mt-3 text-base font-black leading-6 text-slate-900">
-                  {item.plan}
-                </h3>
+                  <div>
+                    <h3 className="text-base font-black text-slate-900">
+                      {item.plan}
+                    </h3>
 
-                <p className="mt-3 text-sm leading-7 text-slate-600">
-                  {item.text}
-                </p>
-              </div>
-            ))}
-          </div>
+                    <p className="mt-1 text-sm leading-6 text-slate-600">
+                      {item.text}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-          <div className="mx-auto mt-8 max-w-3xl rounded-[1.5rem] bg-blue-50 p-5 text-center ring-1 ring-blue-100">
-            <p className="text-sm font-bold leading-7 text-blue-800">
-              プランは目的や学習状況に合わせて見直し可能です。
-              どれが合うかわからない場合は、初回体験・診断セッションで一緒に整理します。
-            </p>
+            <div className="mt-5 rounded-2xl bg-blue-50 p-4 text-center ring-1 ring-blue-100">
+              <p className="text-sm font-bold leading-7 text-blue-800">
+                どれが合うかわからない場合は、初回体験・診断セッションで一緒に整理します。
+              </p>
+            </div>
           </div>
         </div>
       </section>
