@@ -454,8 +454,10 @@ export default function PlansPage() {
 
           <div className="mt-10 rounded-[1.75rem] bg-blue-50 p-6 text-sm leading-7 text-blue-800 ring-1 ring-blue-100 sm:p-7">
             <p className="font-bold">
-              現在、キャンペーンとして入会金は無料です。支払い方法、キャンセル・日程変更、
-              ポイントの具体的な使い方は、初回体験・診断セッションまたはLINEでわかりやすくご案内します。
+              現在、キャンペーンとして入会金は無料です。
+              未使用ポイントは、一定条件のもと翌月への繰り越しも可能です。
+              支払い方法、キャンセル・日程変更、ポイントの具体的な使い方は、
+              初回体験・診断セッションまたはLINEでわかりやすくご案内します。
             </p>
           </div>
         </div>
