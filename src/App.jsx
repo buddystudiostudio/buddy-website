@@ -1118,6 +1118,10 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
       
 <section className="bg-white py-14 lg:py-20">
   <div className="mx-auto max-w-5xl px-5 text-center">
+    <p className={sectionLabelClass}>
+      OUTCOME
+    </p>
+
     <h2 className="mb-5 text-3xl font-black text-slate-900">
       英語を通じて、少しずつ前に進むために
     </h2>
