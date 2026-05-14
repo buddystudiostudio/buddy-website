@@ -730,135 +730,83 @@ return (
   </div>
 </section>
 
-{/* Okinawa English Coaching SEO Section */}
+{/* Okinawa English Coaching / Learning Support Section */}
 <section className="bg-white py-14 lg:py-20">
-  <div className="mx-auto max-w-5xl px-5">
+  <div className="mx-auto max-w-6xl px-5">
     <div className="mx-auto max-w-3xl text-center">
       <p className={sectionLabelClass}>
         OKINAWA ENGLISH COACHING
       </p>
 
       <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-4xl">
-        沖縄で英語コーチングを探している方へ
+        沖縄・オンラインで、目的に合わせて英語学習をサポート
       </h2>
 
       <p className="mt-5 leading-8 text-slate-600">
-        英語を学び直したい方、
-        TOEICを伸ばしたい方、
-        仕事で英語が必要になった方へ。
+        英語を学び直したい方、TOEICを伸ばしたい方、仕事で英語が必要になった方へ。
+        Buddy English Studioでは、沖縄での対面レッスンとオンラインの両方に対応し、
+        一人ひとりの目的や現在地に合わせて、英語学習を1対1でサポートしています。
+      </p>
 
-        Buddy English Studioでは、
-        沖縄での対面レッスンとオンラインの両方に対応し、
-        一人ひとりの目的や現在地に合わせて、
-        英語学習を1対1でサポートしています。
-
-        TOEIC対策・ビジネス英語・英会話まで、
-        「今の自分に必要な英語」を一緒に整理しながら進めます。
+      <p className="mt-4 leading-8 text-slate-600">
+        TOEIC対策・ビジネス英語・英会話・大人の英語学び直しまで、
+        「今の自分に必要な英語」を一緒に整理しながら、無理なく続けられる形に整えていきます。
       </p>
     </div>
 
-    <div className="mt-8 grid gap-4 md:grid-cols-3">
-      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
-        <h3 className="font-black text-slate-900">
-          沖縄・オンライン対応
-        </h3>
-        <p className="mt-3 text-sm leading-7 text-slate-600">
-          沖縄県内での対面相談に加え、オンラインでも受講できます。
-        </p>
-      </div>
-
-      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
-        <h3 className="font-black text-slate-900">
-          目的別の学習設計
-        </h3>
-        <p className="mt-3 text-sm leading-7 text-slate-600">
-          TOEIC対策、英会話、ビジネス英語など、目的から逆算して進めます。
-        </p>
-      </div>
-
-      <div className="rounded-2xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
-        <h3 className="font-black text-slate-900">
-          1対1で伴走
-        </h3>
-        <p className="mt-3 text-sm leading-7 text-slate-600">
-          現在地・弱点・学習リズムを整理しながら、無理なく続けられる形にします。
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-      
-{/* Social Proof / Trust Section */}
-<section className="bg-slate-50 px-5 py-14 lg:py-16">
-  <div className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
-    <div className="text-center">
-<p className={sectionLabelClass}>
-  LEARNING SUPPORT
-</p>
-
-      <h2 className="text-3xl font-black leading-tight text-slate-900">
-        一人ひとりの目的に合わせて、<br className="hidden sm:block" />
-        学び方から一緒に整理します
-      </h2>
-
-      <p className="mx-auto mt-5 max-w-3xl leading-8 text-slate-600">
-Buddy English Studioでは、
-TOEIC対策・英語の学び直し・ビジネス英語など、
-目的や現在地に合わせて、
-必要な学習内容を一緒に整理します。
-
-受講生の声や学習事例も、
-許可をいただいたうえで順次ご紹介予定です。
-      </p>
-    </div>
-
-    <div className="mt-8 grid gap-4 md:grid-cols-3">
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+    <div className="mt-10 grid gap-5 md:grid-cols-3">
+      <div className="rounded-3xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <p className="mb-3 text-sm font-black text-blue-600">
           TOEICを伸ばしたい方へ
         </p>
-        <p className="font-black text-slate-900">
-          TOEIC対策
-        </p>
+
+        <h3 className="font-black text-slate-900">
+          目標スコアから逆算
+        </h3>
+
         <p className="mt-3 text-sm leading-7 text-slate-600">
           目標スコアと現在地を確認し、単語・文法・リスニング・演習の優先順位を整理します。
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+      <div className="rounded-3xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <p className="mb-3 text-sm font-black text-blue-600">
           英語を学び直したい方へ
         </p>
-        <p className="font-black text-slate-900">
-          英語の学び直し
-        </p>
+
+        <h3 className="font-black text-slate-900">
+          基礎から無理なく整理
+        </h3>
+
         <p className="mt-3 text-sm leading-7 text-slate-600">
-          英語が苦手な方でも、基礎の確認から会話練習まで、無理なく続けられる形に整えます。
+          英語が苦手な方でも、基礎の確認から会話練習まで、続けやすい形に整えます。
         </p>
       </div>
 
-      <div className="rounded-2xl bg-slate-50 p-6 ring-1 ring-slate-100">
+      <div className="rounded-3xl bg-slate-50 p-6 text-left ring-1 ring-slate-200">
         <p className="mb-3 text-sm font-black text-blue-600">
           仕事で英語が必要な方へ
         </p>
-        <p className="font-black text-slate-900">
-          ビジネス英語
-        </p>
+
+        <h3 className="font-black text-slate-900">
+          実務に合わせて練習
+        </h3>
+
         <p className="mt-3 text-sm leading-7 text-slate-600">
           メール・会議・面接・プレゼンなど、実際に英語を使う場面に合わせて練習します。
         </p>
       </div>
     </div>
 
-    <div className="mt-8 rounded-2xl bg-blue-50 px-6 py-5 text-center ring-1 ring-blue-100">
+    <div className="mx-auto mt-8 max-w-3xl rounded-2xl bg-blue-50 px-6 py-5 text-center ring-1 ring-blue-100">
       <p className="text-sm font-bold leading-7 text-blue-800">
         まずは初回体験・診断セッションで、現在の英語力・お悩み・目標を一緒に整理します。
       </p>
     </div>
   </div>
 </section>
-      
-      <section id="recommended" className="bg-white py-16 lg:py-20" aria-labelledby="recommended-heading">
+
+<section id="recommended" className="bg-white py-16 lg:py-20" aria-labelledby="recommended-heading">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <p className={sectionLabelClass}>RECOMMENDED FOR</p>
