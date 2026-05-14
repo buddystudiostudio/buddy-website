@@ -1192,7 +1192,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           </h3>
 
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <p className="text-3xl font-black">¥44,000 / 月</p>
+            <p className="text-3xl font-black">月額 44,000円</p>
             <p className="text-sm font-bold text-slate-300">月8pt利用可 + Blueprint</p>
           </div>
 
@@ -1227,7 +1227,7 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           </h3>
 
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <p className="text-3xl font-black text-slate-900">¥54,000 / 月</p>
+            <p className="text-3xl font-black text-slate-900">月額 54,000円</p>
             <p className="text-sm font-bold text-slate-600">月8pt利用可</p>
           </div>
 
