@@ -189,7 +189,7 @@ const seoKeywords = [
 
   const diagnosticPlan = {
     name: "初回体験・診断セッション",
-    price: "3,500円",
+    price: "3,500",
     sub: "50分",
     badge: "はじめての方へ",
     description:
@@ -199,7 +199,7 @@ const seoKeywords = [
 const monthlyPlans = [
   {
     name: "スタンダードプラン",
-    price: "月額 44,000円",
+    price: "月額 44,000",
     sub: "月8pt利用可 + Blueprint付き",
     note: "目安：週1回ペースの1対1セッション",
     description:
@@ -210,7 +210,7 @@ const monthlyPlans = [
   },
   {
     name: "ビジネス実践プラン",
-    price: "月額 54,000円",
+    price: "月額 54,000",
     sub: "月8pt利用可",
     note: "目安：4回の実践セッション、または8回の英文レビュー、または組み合わせ",
     description:
@@ -587,7 +587,7 @@ return (
       <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
         <p className="flex items-start gap-2">
           <span className="mt-0.5 text-green-500">✓</span>
-          初回体験・診断セッション 3,500円 / 50分・無理な勧誘なし
+          初回体験・診断セッション 3,500 / 50分・無理な勧誘なし
         </p>
 
         <p className="flex items-start gap-2">
@@ -1104,7 +1104,7 @@ return (
           </h3>
 
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <p className="text-3xl font-black">月額 44,000円</p>
+            <p className="text-3xl font-black">月額 44,000</p>
             <p className="text-sm font-bold text-slate-300">月8pt利用可 + Blueprint</p>
           </div>
 
@@ -1140,7 +1140,7 @@ return (
           </h3>
 
           <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <p className="text-3xl font-black text-slate-900">月額 54,000円</p>
+            <p className="text-3xl font-black text-slate-900">月額 54,000</p>
             <p className="text-sm font-bold text-slate-600">月8pt利用可</p>
           </div>
 
