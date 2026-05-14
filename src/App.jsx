@@ -189,7 +189,7 @@ const seoKeywords = [
 
   const diagnosticPlan = {
     name: "初回体験・診断セッション",
-    price: "¥3,500",
+    price: "3,500円",
     sub: "50分",
     badge: "はじめての方へ",
     description:
