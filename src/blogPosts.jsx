@@ -343,7 +343,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/road.jpeg",
+    heroImage: "/road.webp",
     heroImageAlt: "英語を学び直す道のりをイメージした写真",
     heroImageCaption: "英語を学び直すのに、遅すぎることはありません。",
     relatedPosts: [
@@ -498,7 +498,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/english-speaking-practice.jpeg",
+    heroImage: "/english-speaking-practice.webp",
       heroImageAlt: "英会話で言葉が出てこない悩みと話す練習をイメージした写真",
       heroImageCaption: "英会話は、完璧な英語よりも、短くても口に出す練習から始まります。",
       relatedPosts: [
@@ -572,7 +572,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/english-study-continuation-road2.jpeg",
+    heroImage: "/english-study-continuation-road2.webp",
     heroImageAlt: "忙しい社会人が英語学習を無理なく続けるイメージの写真",
     heroImageCaption: "英語学習は、気合いよりも「続けられる形」を作ることが大切です。",
     relatedPosts: [
