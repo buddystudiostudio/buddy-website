@@ -254,8 +254,8 @@ const buddyLogo = "/buddy-logo.png";
 
   const InstructorFallback = () => (
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-800 p-8 text-white">
-      <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-blue-500/25 blur-3xl" />
-      <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-cyan-300/10 blur-3xl" />
+      <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-blue-500/25 blur-xl" />
+      <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-cyan-300/10 blur-xl" />
       <div className="relative z-10 w-full max-w-sm rounded-[2rem] border border-white/15 bg-white/10 p-8 text-center shadow-2xl backdrop-blur-xl">
         <div className="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-blue-100 to-white text-5xl shadow-xl ring-4 ring-white/20">
           👤
@@ -435,7 +435,7 @@ return (
     </Helmet>
 
     <main className="min-h-screen bg-slate-50 pb-14 text-slate-900 selection:bg-orange-200 selection:text-slate-950">
-      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4">
 <a href="/" className="flex shrink-0 items-center gap-3">
   <img
@@ -552,8 +552,8 @@ return (
   className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12"
   aria-labelledby="hero-heading"
 >
-  <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
-  <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
+  <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-xl" />
+  <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-xl" />
 
   <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
     <div>
@@ -600,7 +600,7 @@ return (
     <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
       <img
         src={heroImage}
-        loading="eager"
+        fetchpriority="high"
         decoding="async"
         width="1600"
         height="1100"
@@ -1165,7 +1165,11 @@ return (
       </div>
     </div>
 
-    <div className="mx-auto mt-8 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-center ring-1 ring-slate-200 sm:p-7">
+    <p className="mt-4 text-center text-xs font-medium leading-6 text-slate-500">
+      ※表示価格はすべて税込・円表記です。
+    </p>
+
+    <div className="mx-auto mt-6 max-w-5xl rounded-[1.75rem] bg-slate-50 p-6 text-center ring-1 ring-slate-200 sm:p-7">
       <p className="text-sm font-bold leading-7 text-slate-600">
         ライトに始めたい方向けのスタートプランや、期限がある方向けの短期集中プランもご用意しています。
         <br className="hidden sm:block" />
@@ -1367,7 +1371,7 @@ return (
       </section>
 
       <section className="relative overflow-hidden bg-slate-900 py-16 text-white lg:py-24">
-  <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
+  <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-blue-600/20 blur-xl" />
 
   <div className="relative z-10 mx-auto grid max-w-5xl gap-10 px-5 md:grid-cols-[1fr_auto] md:items-center">
     <div className="text-center md:text-left">
