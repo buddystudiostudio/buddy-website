@@ -236,6 +236,16 @@ const emailAddress = "buddyenglishstudio@gmail.com";
 const instagramUrl = "https://www.instagram.com/buddyenglishstudio/";
 const lineQrCode = "/line-qr.png";
 
+const trackLineClick = (label = "LINE consultation button") => {
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "line_click", {
+      event_category: "engagement",
+      event_label: label,
+      page_path: window.location.pathname,
+    });
+  }
+};
+
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
 const instructorPhoto = "/instructor-portrait.webp";
@@ -465,6 +475,7 @@ return (
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
+    onClick={() => trackLineClick("Header CTA")}
     className="inline-flex shrink-0 whitespace-nowrap rounded-full bg-slate-900 px-4 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
   >
     LINEで相談する
@@ -528,6 +539,7 @@ return (
       href={lineUrl}
       target="_blank"
       rel="noopener noreferrer"
+        onClick={() => trackLineClick("Mobile menu CTA")}
       className="absolute bottom-8 left-6 right-6 rounded-full bg-blue-600 py-4 text-center text-base font-black text-white shadow-xl"
     >
       LINEで相談する
@@ -565,6 +577,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+            onClick={() => trackLineClick("Hero CTA")}
           className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]"
         >
           まずは初回体験を相談してみる
@@ -722,6 +735,7 @@ return (
         href={lineUrl}
         target="_blank"
         rel="noopener noreferrer"
+          onClick={() => trackLineClick("Challenges CTA")}
         className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
       >
         今の悩みをLINEで相談する
@@ -759,9 +773,15 @@ return (
                 </div>
               ))}
             </div>
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="mt-6 block rounded-full bg-blue-600 px-6 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              LINEで相談する
-            </a>
+            <a
+  href={lineUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => trackLineClick("Recommended CTA")}
+  className="mt-6 block rounded-full bg-blue-600 px-6 py-4 text-center text-base font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+>
+  LINEで相談する
+</a>
           </div>
         </div>
       </section>
@@ -896,6 +916,7 @@ return (
         href={lineUrl}
         target="_blank"
         rel="noopener noreferrer"
+          onClick={() => trackLineClick("Services CTA")}
         className="font-bold text-blue-200 underline-offset-4 transition hover:text-white hover:underline focus:outline-none focus:ring-4 focus:ring-blue-300/30"
       >
         LINEで相談する
@@ -967,9 +988,15 @@ return (
             ))}
           </div>
           <div className="mt-10 text-center">
-            <a href={lineUrl} target="_blank" rel="noopener noreferrer" className="inline-flex rounded-full bg-slate-900 px-8 py-4 text-base font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200">
-              LINEで相談する
-            </a>
+            <a
+  href={lineUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => trackLineClick("Flow CTA")}
+  className="inline-flex rounded-full bg-slate-900 px-8 py-4 text-base font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-blue-200"
+>
+  LINEで相談する
+</a>
           </div>
         </div>
       </section>
@@ -1058,6 +1085,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+            onClick={() => trackLineClick("Trial plan CTA")}
           className="mt-6 inline-flex w-full justify-center rounded-full bg-blue-600 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
         >
           初回体験を相談する
@@ -1093,6 +1121,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackLineClick("Standard plan CTA")}
           className="mt-6 inline-flex w-full justify-center rounded-full bg-blue-600 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
         >
           スタンダードについて相談する
@@ -1128,6 +1157,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+            onClick={() => trackLineClick("Business plan CTA")}
           className="mt-6 inline-flex w-full justify-center rounded-full bg-slate-900 px-6 py-3.5 text-center text-sm font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
         >
           このプランを相談する
@@ -1318,6 +1348,7 @@ return (
     href={lineUrl}
     target="_blank"
     rel="noopener noreferrer"
+      onClick={() => trackLineClick("FAQ CTA")}
     className="inline-block rounded-full bg-blue-600 px-8 py-4 font-bold text-white shadow-lg transition hover:-translate-y-1 hover:bg-blue-700"
   >
     LINEで質問する
@@ -1365,6 +1396,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+            onClick={() => trackLineClick("Final contact CTA")}
           className="rounded-full bg-blue-600 px-9 py-5 text-lg font-black transition hover:-translate-y-1 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300/40"
         >
           初回体験をLINEで相談する
@@ -1385,6 +1417,7 @@ return (
           href={lineUrl}
           target="_blank"
           rel="noopener noreferrer"
+            onClick={() => trackLineClick("LINE QR code")}
           aria-label="Buddy English Studio LINEを開く"
         >
           <img
@@ -1413,6 +1446,7 @@ return (
       href={lineUrl}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={() => trackLineClick("Floating mobile CTA")}
       className="flex items-center justify-center rounded-full bg-blue-600 px-5 py-2.5 text-sm font-black text-white shadow-xl transition hover:bg-blue-700"
     >
       LINEで初回体験を相談
