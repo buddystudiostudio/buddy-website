@@ -199,7 +199,7 @@ const seoKeywords = [
 const monthlyPlans = [
   {
     name: "スタンダードプラン",
-    price: "¥44,000 / 月",
+    price: "月額 44,000円",
     sub: "月8pt利用可 + Blueprint",
     note: "目安：週1回ペースの1対1セッション",
     description:
@@ -210,7 +210,7 @@ const monthlyPlans = [
   },
   {
     name: "ビジネス実践プラン",
-    price: "¥54,000 / 月",
+    price: "月額 54,000円",
     sub: "月8pt利用可",
     note: "目安：4回の実践セッション、または8回の英文レビュー、または組み合わせ",
     description:
