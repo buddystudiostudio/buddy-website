@@ -8,7 +8,7 @@ export default function PlansPage() {
   const plans = [
     {
       name: "初回体験・診断セッション",
-      price: "3,500円",
+      price: "3,500",
       sub: "50分",
       badge: "はじめての方へ",
       description:
@@ -22,7 +22,7 @@ export default function PlansPage() {
     },
     {
       name: "スタートプラン",
-      price: "月額 28,000円",
+      price: "月額 28,000",
       sub: "月4pt利用可",
       badge: "基礎から整える",
       description:
@@ -35,7 +35,7 @@ export default function PlansPage() {
     },
     {
       name: "スタンダードプラン",
-      price: "月額 44,000円",
+      price: "月額 44,000",
       sub: "月8pt利用可 + Blueprint",
       badge: "迷ったらこちら",
       recommended: true,
@@ -49,7 +49,7 @@ export default function PlansPage() {
     },
     {
       name: "ビジネス実践プラン",
-      price: "月額 54,000円",
+      price: "月額 54,000",
       sub: "月8pt利用可",
       badge: "実務で使う方向け",
       description:
@@ -62,7 +62,7 @@ export default function PlansPage() {
     },
     {
       name: "短期集中プラン",
-      price: "月額 74,000円",
+      price: "月額 74,000",
       sub: "月12pt利用可",
       badge: "集中して進めたい方へ",
       description:
