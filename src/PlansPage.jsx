@@ -68,9 +68,9 @@ export default function PlansPage() {
       description:
         "TOEIC、英語面接、プレゼン、転職準備など、明確な目標日から逆算して集中的に進めます。",
       points: [
-        "目安：週1〜2回ペースで集中的に対策",
-        "期限があるTOEIC・面接・プレゼン対策におすすめ",
-        "短期間で優先順位を絞って進める",
+        "目標日から逆算した学習設計",
+        "TOEIC・英語面接・プレゼン対策に対応",
+        "課題・回答・実践レビューにも活用可能",
       ],
     },
   ];
@@ -378,7 +378,7 @@ export default function PlansPage() {
           {/* Sprint plan */}
           {sprintPlan && (
             <div className="mt-8 rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
-              <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
+              <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-start">
                 <div>
                   <span className="mb-4 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
                     期限がある方向け
@@ -400,6 +400,17 @@ export default function PlansPage() {
                   <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
                     {sprintPlan.description}
                   </p>
+                  <ul className="mt-5 space-y-2">
+  {sprintPlan.points.map((point) => (
+    <li
+      key={point}
+      className="flex gap-2 text-sm font-bold leading-6 text-slate-700"
+    >
+      <span className="text-orange-500">✓</span>
+      <span>{point}</span>
+    </li>
+  ))}
+</ul>
                 </div>
 
                 <a
@@ -408,7 +419,7 @@ export default function PlansPage() {
                   rel="noopener noreferrer"
                   className="inline-flex justify-center rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
                 >
-                  短期集中について相談する
+                  このプランをLINEで相談する
                 </a>
               </div>
             </div>
