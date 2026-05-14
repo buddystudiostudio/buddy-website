@@ -234,7 +234,7 @@ const homepageFaqs = faqs.filter((item) =>
 const lineUrl = "https://lin.ee/t4d7Mdw";
 const emailAddress = "buddyenglishstudio@gmail.com";
 const instagramUrl = "https://www.instagram.com/buddyenglishstudio/";
-const lineQrCode = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Flin.ee%2Ft4d7Mdw";
+const lineQrCode = "/line-qr.png";
 
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
@@ -344,7 +344,7 @@ return (
     alternateName: "Buddy English Studio Okinawa",
     url: "https://www.buddyco.jp/",
     logo: "https://www.buddyco.jp/buddy-logo.png",
-    image: "https://www.buddyco.jp/hero-image.png",
+    image: "https://www.buddyco.jp/hero-image.webp",
     description:
       "沖縄・オンライン対応の英語コーチング・英語レッスン。TOEIC対策、ビジネス英語、英会話、大人の英語学び直しを1対1でサポートします。",
     areaServed: [
@@ -578,11 +578,12 @@ return (
 <div className="relative">
   <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
     <img
-      src={heroImage}
-      loading="eager"
-      alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
-      className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
-    />
+  src={heroImage}
+  loading="eager"
+  decoding="async"
+  alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
+  className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
+/>
   </div>
 </div>
         </div>
