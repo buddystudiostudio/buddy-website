@@ -200,7 +200,7 @@ const monthlyPlans = [
   {
     name: "スタンダードプラン",
     price: "月額 44,000円",
-    sub: "月8pt利用可 + Blueprint",
+    sub: "月8pt利用可 + Blueprint付き",
     note: "目安：週1回ペースの1対1セッション",
     description:
       "継続して伸ばしたい社会人向け。レッスン内で進捗を確認しながら、次にやることを明確にして進めます。",
