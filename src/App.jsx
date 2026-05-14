@@ -536,63 +536,67 @@ return (
   </div>
 )}
 
-      <section className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12" aria-labelledby="hero-heading">
-        <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
-        <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
-        <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
-<div>
+      <section
+  className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12"
+  aria-labelledby="hero-heading"
+>
+  <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-3xl" />
+  <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-3xl" />
 
-<h1 className="font-black tracking-tight text-slate-900">
-  <span className="block text-[2rem] leading-[1.05] sm:text-[3.5rem] lg:text-[4.2rem]">
-    英語を、もう一度学びたい方へ。
-  </span>
+  <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
+    <div>
+      <h1 className="font-black tracking-tight text-slate-900">
+        <span className="block text-[2rem] leading-[1.05] sm:text-[3.5rem] lg:text-[4.2rem]">
+          英語を、もう一度学びたい方へ。
+        </span>
 
-  <span className="mt-4 block text-[1.65rem] leading-[1.12] text-blue-600 sm:text-[2.7rem] lg:text-[3.1rem]">
-    TOEICも、仕事の英語も、英会話も。
-  </span>
+        <span className="mt-4 block text-[1.65rem] leading-[1.12] text-blue-600 sm:text-[2.7rem] lg:text-[3.1rem]">
+          TOEICも、仕事の英語も、英会話も。
+        </span>
 
-  <span className="mt-4 block text-[1.45rem] leading-[1.18] sm:text-[2.4rem] lg:text-[2.8rem]">
-  目的に合わせて、<br />
-  1対1で伴走します。
-</span>
-</h1>
+        <span className="mt-4 block text-[1.45rem] leading-[1.18] sm:text-[2.4rem] lg:text-[2.8rem]">
+          目的に合わせて、<br />
+          1対1で伴走します。
+        </span>
+      </h1>
 
-<div className="mt-12 flex flex-col gap-4 sm:flex-row">
-<a href={lineUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]">
-  まずは初回体験を相談してみる
-</a>
-            </div>
+      <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+        <a
+          href={lineUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whitespace-nowrap rounded-full bg-blue-600 px-7 py-3.5 text-center text-base font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-blue-700 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-200 sm:px-8 sm:py-4 sm:text-lg lg:min-w-[300px]"
+        >
+          まずは初回体験を相談してみる
+        </a>
+      </div>
 
-  <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
-  <p className="flex items-start gap-2">
-    <span className="mt-0.5 text-green-500">✓</span>
-    初回体験・診断セッション 3,500円 / 50分・無理な勧誘なし
-  </p>
+      <div className="mt-5 space-y-2 text-xs font-medium leading-6 text-slate-500 sm:mt-6 sm:text-sm">
+        <p className="flex items-start gap-2">
+          <span className="mt-0.5 text-green-500">✓</span>
+          初回体験・診断セッション 3,500円 / 50分・無理な勧誘なし
+        </p>
 
-  <p className="flex items-start gap-2">
-    <span className="mt-0.5 text-green-500">✓</span>
-    「初回体験希望」「相談したい」だけでLINE相談OK
-  </p>
+        <p className="flex items-start gap-2">
+          <span className="mt-0.5 text-green-500">✓</span>
+          「初回体験希望」「相談したい」だけでLINE相談OK
+        </p>
+      </div>
+    </div>
 
-</div>
-          </div>
-
-<div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
-  <img
-    src={heroImage}
-    loading="eager"
-    decoding="async"
-    width="1600"
-    height="1100"
-    alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
-    className="h-full w-full object-cover"
-  />
-</div>
-          
+    <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
+      <img
+        src={heroImage}
+        loading="eager"
+        decoding="async"
+        width="1600"
+        height="1100"
+        alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
+        className="h-full w-full object-cover"
+      />
+    </div>
   </div>
-</div>
-        </div>
-      </section>
+</section>
 
 
 {/* Founder Message Section */}
