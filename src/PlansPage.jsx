@@ -377,52 +377,51 @@ export default function PlansPage() {
 
           {/* Sprint plan */}
           {sprintPlan && (
-            <div className="mt-8 rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
-              <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-start">
-                <div>
-                  <span className="mb-4 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
-                    期限がある方向け
-                  </span>
+  <div className="mt-8 rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
+    <div>
+      <span className="mb-4 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-black text-orange-700">
+        期限がある方向け
+      </span>
 
-                  <h3 className="text-2xl font-black text-slate-900">
-                    {sprintPlan.name}
-                  </h3>
+      <h3 className="text-2xl font-black text-slate-900">
+        {sprintPlan.name}
+      </h3>
 
-                  <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <p className="text-3xl font-black text-slate-900">
-                      {sprintPlan.price}
-                    </p>
-                    <p className="text-sm font-bold text-slate-600">
-                      {sprintPlan.sub}
-                    </p>
-                  </div>
+      <div className="mt-3 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <p className="text-3xl font-black text-slate-900">
+          {sprintPlan.price}
+        </p>
+        <p className="text-sm font-bold text-slate-600">
+          {sprintPlan.sub}
+        </p>
+      </div>
 
-                  <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
-                    {sprintPlan.description}
-                  </p>
-                  <ul className="mt-5 space-y-2">
-  {sprintPlan.points.map((point) => (
-    <li
-      key={point}
-      className="flex gap-2 text-sm font-bold leading-6 text-slate-700"
-    >
-      <span className="text-orange-500">✓</span>
-      <span>{point}</span>
-    </li>
-  ))}
-</ul>
-                </div>
+      <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
+        {sprintPlan.description}
+      </p>
 
-                <a
-                  href={lineUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex justify-center rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
-                >
-                  このプランをLINEで相談する
-                </a>
-              </div>
-            </div>
+      <ul className="mt-5 space-y-2">
+        {sprintPlan.points.map((point) => (
+          <li
+            key={point}
+            className="flex gap-2 text-sm font-bold leading-6 text-slate-700"
+          >
+            <span className="text-orange-500">✓</span>
+            <span>{point}</span>
+          </li>
+        ))}
+      </ul>
+
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-7 inline-flex rounded-full bg-slate-900 px-7 py-4 text-center font-black text-white shadow-lg transition hover:-translate-y-1 hover:bg-slate-800"
+      >
+        このプランをLINEで相談する
+      </a>
+    </div>
+  </div>
           )}
         </div>
       </section>
