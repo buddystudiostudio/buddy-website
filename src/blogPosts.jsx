@@ -9,7 +9,7 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約4分",
-    heroImage: "/beginner-road-start.jpeg",
+    heroImage: "/beginner-road-start.webp",
     heroImageAlt: "英語学習のスタートをイメージした道の写真",
     heroImageCaption: "英語学習は、現在地を知るところから始まります。",
     relatedPosts: [
@@ -64,7 +64,7 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約5分",
-    heroImage: "/toeic-not-improving-reflect.jpeg",
+    heroImage: "/toeic-not-improving-reflect.webp",
     heroImageAlt: "TOEIC学習の伸び悩みを見直すイメージの写真",
     heroImageCaption: "伸び悩みは、努力不足ではなく「進め方」を見直すサインかもしれません。",
     relatedPosts: [
@@ -196,7 +196,7 @@ export const blogPosts = [
     category: "TOEIC対策",
     cluster: "TOEIC対策",
     readingTime: "約5分",
-    heroImage: "/toeic-self-study-coaching-road.jpeg",
+    heroImage: "/toeic-self-study-coaching-road.webp",
     heroImageAlt: "TOEICの独学と英語コーチングの選び方をイメージした道の写真",
     heroImageCaption: "大切なのは、独学かコーチングかではなく「今の自分に合っているか」です。",
     relatedPosts: [
@@ -423,7 +423,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/english-beginner-friendly.jpeg",
+    heroImage: "/english-beginner-friendly.webp",
     heroImageAlt: "英語が苦手な社会人でも相談しやすい雰囲気の写真",
     heroImageCaption: "英語が苦手でも大丈夫。まずは安心して始められる形を一緒に考えましょう。",
     relatedPosts: [
@@ -646,7 +646,7 @@ export const blogPosts = [
     category: "大人の英語学び直し",
     cluster: "大人の英語学び直し",
     readingTime: "約5分",
-    heroImage: "/english-learning-40s-50s-Ocean.jpeg",
+    heroImage: "/english-learning-40s-50s-Ocean.webp",
     heroImageAlt: "40代・50代から英語学習を始める一歩をイメージした海へ続く道の写真",
     heroImageCaption: "",
     relatedPosts: [
