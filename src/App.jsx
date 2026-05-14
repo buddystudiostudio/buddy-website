@@ -238,7 +238,7 @@ const lineQrCode = "/line-qr.png";
 
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
-const instructorPhoto = "/instructor-portrait.png";
+const instructorPhoto = "/instructor-portrait.webp";
 const heroImage = "/hero-image.webp";
 const buddyLogo = "/buddy-logo.png";
 
