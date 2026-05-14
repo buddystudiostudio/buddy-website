@@ -268,9 +268,11 @@ const buddyLogo = "/buddy-logo.png";
     portraitLoaded ? (
       <img
         src={instructorPhoto}
+        width="800"
+        height="1000"
         alt="沖縄で英語コーチングとTOEIC対策等を提供するBuddy English Studio講師"
         className="block h-full w-full object-cover object-center"
-        loading="eager"
+        loading="lazy"
         decoding="async"
         onError={() => setPortraitLoaded(false)}
       />
@@ -575,15 +577,18 @@ return (
 </div>
           </div>
 
-<div className="relative">
-  <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
-    <img
-  src={heroImage}
-  loading="eager"
-  decoding="async"
-  alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
-  className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
-/>
+<div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
+  <img
+    src={heroImage}
+    loading="eager"
+    decoding="async"
+    width="1600"
+    height="1100"
+    alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
+    className="h-full w-full object-cover"
+  />
+</div>
+          
   </div>
 </div>
         </div>
@@ -1506,10 +1511,12 @@ TOEIC対策・英語の学び直し・ビジネス英語など、
           aria-label="Buddy English Studio LINEを開く"
         >
           <img
-            src={lineQrCode}
-            alt="LINEでBuddy English Studioに問い合わせるためのQRコード"
-            className="h-44 w-44 object-contain"
-          />
+  src={lineQrCode}
+  alt="LINEでBuddy English Studioに問い合わせるためのQRコード"
+  className="h-44 w-44 object-contain"
+  loading="lazy"
+  decoding="async"
+/>
         </a>
       </div>
 
