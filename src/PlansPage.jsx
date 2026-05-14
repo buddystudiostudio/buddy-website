@@ -423,6 +423,10 @@ export default function PlansPage() {
     </div>
   </div>
           )}
+
+          <p className="mt-5 text-center text-xs font-medium leading-6 text-slate-500">
+            ※表示価格はすべて税込・円表記です。
+          </p>
         </div>
       </section>
 
