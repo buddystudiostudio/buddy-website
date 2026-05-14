@@ -239,7 +239,7 @@ const lineQrCode = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&dat
   // Put the portrait image file in your project at: public/instructor-portrait.png
   // In production, this will load as: /instructor-portrait.png
 const instructorPhoto = "/instructor-portrait.png";
-const heroImage = "/hero-image.png";
+const heroImage = "/hero-image.webp";
 const buddyLogo = "/buddy-logo.png";
 
   const InstructorFallback = () => (
@@ -579,6 +579,7 @@ return (
   <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
     <img
       src={heroImage}
+      loading="eager"
       alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
       className="h-full w-full object-cover transition duration-700 hover:scale-[1.03]"
     />
