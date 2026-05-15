@@ -502,12 +502,12 @@ export const blogPosts = [
       heroImageAlt: "英会話で言葉が出てこない悩みと話す練習をイメージした写真",
       heroImageCaption: "英会話は、完璧な英語よりも、短くても口に出す練習から始まります。",
       relatedPosts: [
-        "english-relearning-for-beginners",
-        "adult-english-relearning-start",
-        "toeic-listening-beginner",
-        "english-study-continuation-tips",
-        "english-learning-40s-50s",
-      ],
+  "english-meeting-speaking-tips",
+  "english-relearning-for-beginners",
+  "adult-english-relearning-start",
+  "toeic-listening-beginner",
+  "english-study-continuation-tips",
+],
     cta: {
       title: "英会話で言葉が出てこない方へ",
       body:
@@ -705,12 +705,12 @@ export const blogPosts = [
     heroImageAlt: "",
     heroImageCaption: "",
     relatedPosts: [
-      "business-email-basic-patterns",
-      "english-conversation-words-not-coming-out",
-      "english-study-continuation-tips",
-      "adult-english-relearning-start",
-      "toeic-self-study-vs-coaching",
-    ],
+  "business-email-basic-patterns",
+  "english-meeting-speaking-tips",
+  "english-conversation-words-not-coming-out",
+  "english-study-continuation-tips",
+  "toeic-self-study-vs-coaching",
+],
     cta: {
       title: "仕事で英語が必要になった方へ",
       body:
@@ -784,12 +784,12 @@ export const blogPosts = [
     heroImageAlt: "",
     heroImageCaption: "",
     relatedPosts: [
-      "business-english-where-to-start",
-      "english-conversation-words-not-coming-out",
-      "english-study-continuation-tips",
-      "adult-english-relearning-start",
-      "toeic-self-study-vs-coaching",
-    ],
+  "business-english-where-to-start",
+  "english-meeting-speaking-tips",
+  "english-conversation-words-not-coming-out",
+  "english-study-continuation-tips",
+  "toeic-self-study-vs-coaching",
+],
     cta: {
       title: "英文メールを改善したい方へ",
       body:
@@ -854,5 +854,90 @@ export const blogPosts = [
       },
     ],
   },
-  
+
+  {
+    slug: "english-meeting-speaking-tips",
+    title:
+      "英語会議で話せない理由｜準備すべきフレーズと考え方",
+    description:
+      "英語会議で発言できない社会人向けに、話せない理由、事前に準備すべきフレーズ、会議で一言話すための考え方をわかりやすく解説します。",
+    date: "2026-05-18",
+    category: "ビジネス英語・キャリア英語",
+    cluster: "ビジネス英語・キャリア英語",
+    readingTime: "約5分",
+    heroImage: "",
+    heroImageAlt: "",
+    heroImageCaption: "",
+    relatedPosts: [
+      "business-english-where-to-start",
+      "business-email-basic-patterns",
+      "english-conversation-words-not-coming-out",
+      "english-study-continuation-tips",
+      "toeic-listening-beginner",
+    ],
+    cta: {
+      title: "英語会議で話せるようになりたい方へ",
+      body:
+        "Buddy English Studioでは、英語会議での一言、自己紹介、確認・質問、プレゼン準備、ビジネス英語を、現在地や仕事の場面に合わせて1対1でサポートしています。完璧に話すことよりも、まずは仕事で必要な一言を言える状態を一緒に作っていきます。",
+      buttonText: "まずはLINEで相談してみる",
+    },
+    content: [
+      {
+        heading: "英語会議で話せないのは、英語力だけの問題ではない",
+        body:
+          "英語会議に参加しているのに、なかなか発言できない。言いたいことはあるのに、英語にしようとすると止まってしまう。相手の話を聞くだけで精一杯になり、気づいたら会議が終わっている。仕事で英語を使う社会人の方から、よく聞く悩みです。ただ、英語会議で話せないのは、必ずしも英語力だけの問題ではありません。準備の仕方、発言のハードル、会議中の考え方を変えることで、少しずつ話しやすくなります。",
+      },
+      {
+        heading: "理由1：全部を理解しようとしてしまう",
+        body:
+          "英語会議で話せなくなる理由の一つは、相手の話をすべて理解しようとしてしまうことです。もちろん内容を理解することは大切ですが、会議ではすべての単語を完璧に聞き取る必要はありません。大切なのは、議題、決定事項、自分に関係するポイント、次のアクションをつかむことです。全部を聞き取ろうとすると、聞くことだけで頭がいっぱいになり、自分が話す余裕がなくなってしまいます。",
+      },
+      {
+        heading: "理由2：完璧な英語で話そうとしている",
+        body:
+          "英語会議では、正しい文法で、自然な表現で、失礼のない英語を話さなければいけないと感じる方が多いです。その気持ちはとても自然です。ただ、完璧な英語を待っていると、発言のタイミングを逃してしまいます。実務では、ネイティブのような英語よりも、必要なことをシンプルに伝える力が大切です。短い一言でも、会議に参加している印象は変わります。",
+      },
+      {
+        heading: "理由3：使うフレーズを事前に準備していない",
+        body:
+          "英語会議で発言するには、その場でゼロから英文を作るよりも、よく使うフレーズを事前に準備しておくことが大切です。確認する、質問する、賛成する、少し待ってもらう、次のアクションを確認する。このような場面は、会議で何度も出てきます。毎回違う英語を考える必要はありません。自分が使いやすい短い表現をいくつか持っておくだけで、発言のハードルはかなり下がります。",
+      },
+      {
+        heading: "まず準備したいフレーズ1：確認する",
+        body:
+          "英語会議で最初に使いやすいのは、確認のフレーズです。例えば、Let me confirm one thing. Could you explain that again? Just to clarify, does that mean...? などがあります。確認の発言は、長く話す必要がなく、会議の流れにも自然に入りやすいです。わからないことをそのままにせず確認できることは、仕事ではとても大切です。英語が完璧でなくても、確認する姿勢は信頼につながります。",
+      },
+      {
+        heading: "まず準備したいフレーズ2：賛成・同意する",
+        body:
+          "会議でいきなり長い意見を言うのが難しい場合は、賛成や同意の一言から始めるのもおすすめです。I agree. That makes sense. I think that is a good idea. などの短い表現でも十分です。大切なのは、ただ黙って聞くだけではなく、自分が理解していることや、会議に参加していることを示すことです。短い一言を積み重ねることで、発言への抵抗感は少しずつ減っていきます。",
+      },
+      {
+        heading: "まず準備したいフレーズ3：質問する",
+        body:
+          "英語会議で質問できるようになると、参加感が大きく変わります。質問は難しい表現である必要はありません。What is the next step? When is the deadline? Who will own this task? など、実務でよく使う質問を準備しておくと便利です。質問は、自分の英語力を見せるためではなく、仕事を前に進めるためのものです。シンプルで具体的な質問ほど、相手にも伝わりやすくなります。",
+      },
+      {
+        heading: "まず準備したいフレーズ4：少し時間をもらう",
+        body:
+          "英語会議では、すぐに答えられない場面もあります。その時に黙ってしまうと、理解していないように見えたり、発言の機会を逃したりすることがあります。そんな時は、Let me think for a moment. Can I get back to you on that? I need to check internally. などの表現を使うと自然です。すぐに完璧な答えを出す必要はありません。考える時間を取る表現を持っておくと、会議中の安心感が増します。",
+      },
+      {
+        heading: "会議前に準備すべきこと",
+        body:
+          "英語会議で話せるようになるためには、会議前の準備がとても大切です。議題を確認する、自分に関係するポイントを整理する、言いそうなことを日本語で書き出す、それを短い英語にしておく。これだけでも会議中の負担はかなり減ります。特に、自分の担当領域、進捗、課題、次のアクションについては、事前に英語で一言言えるようにしておくと安心です。",
+      },
+      {
+        heading: "最初の目標は『流暢に話す』ではなく『一言発言する』",
+        body:
+          "英語会議で最初から流暢に話す必要はありません。まずは一つの会議で一言発言することを目標にしてみましょう。確認でも、賛成でも、質問でも構いません。小さな発言を重ねることで、英語会議への心理的なハードルは少しずつ下がります。話せるようになるためには、知識を増やすだけでなく、実際に声に出す経験を積むことが大切です。",
+      },
+      {
+        heading: "Buddy English Studioでサポートできること",
+        body:
+          "Buddy English Studioでは、英語会議で発言できない社会人の方に向けて、仕事で使うビジネス英語を1対1でサポートしています。会議での一言、確認・質問のフレーズ、自己紹介、進捗報告、プレゼン準備、英語メールなど、実際の業務に近い場面をもとに練習します。TOEIC990点満点の知見に加えて、米国勤務経験や外資系企業で英語を使ってきた実務経験をもとに、きれいな英語だけでなく、仕事で伝わる英語を一緒に整理します。",
+      },
+     ],
+  },
+
 ];
