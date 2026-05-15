@@ -599,14 +599,19 @@ return (
 
     <div className="aspect-[16/11] overflow-hidden rounded-[1.75rem] shadow-xl ring-1 ring-slate-200 sm:rounded-[2.5rem] sm:shadow-2xl">
       <img
-        src={heroImage}
-        fetchpriority="high"
-        decoding="async"
-        width="1600"
-        height="1100"
-        alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
-        className="h-full w-full object-cover"
-      />
+  src="/hero-image-mobile.webp"
+  srcSet="
+    /hero-image-mobile.webp 800w,
+    /hero-image.webp 1600w
+  "
+  sizes="(max-width: 768px) 100vw, 50vw"
+  fetchpriority="high"
+  decoding="async"
+  width="1600"
+  height="1100"
+  alt="沖縄の英語コーチング・英語レッスン・TOEIC対策に対応するBuddy English Studio"
+  className="h-full w-full object-cover"
+/>
     </div>
   </div>
 </section>
