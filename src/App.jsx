@@ -552,8 +552,8 @@ return (
   className="relative overflow-hidden bg-white pt-4 pb-8 lg:pt-6 lg:pb-12"
   aria-labelledby="hero-heading"
 >
-  <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-blue-100 blur-xl" />
-  <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-orange-100/70 blur-xl" />
+  <div className="absolute right-0 top-0 hidden h-72 w-72 rounded-full bg-blue-100 opacity-50 blur-2xl md:block" />
+<div className="absolute bottom-0 left-0 hidden h-72 w-72 rounded-full bg-orange-100/50 opacity-40 blur-2xl md:block" />
 
   <div className="relative mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-8">
     <div>
