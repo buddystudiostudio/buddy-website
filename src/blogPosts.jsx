@@ -707,8 +707,8 @@ export const blogPosts = [
     relatedPosts: [
   "business-email-basic-patterns",
   "english-meeting-speaking-tips",
+  "english-skills-for-foreign-company",
   "english-conversation-words-not-coming-out",
-  "english-study-continuation-tips",
   "toeic-self-study-vs-coaching",
 ],
     cta: {
@@ -786,9 +786,9 @@ export const blogPosts = [
     relatedPosts: [
   "business-english-where-to-start",
   "english-meeting-speaking-tips",
+  "english-skills-for-foreign-company",
   "english-conversation-words-not-coming-out",
   "english-study-continuation-tips",
-  "toeic-self-study-vs-coaching",
 ],
     cta: {
       title: "英文メールを改善したい方へ",
@@ -869,12 +869,12 @@ export const blogPosts = [
     heroImageAlt: "",
     heroImageCaption: "",
     relatedPosts: [
-      "business-english-where-to-start",
-      "business-email-basic-patterns",
-      "english-conversation-words-not-coming-out",
-      "english-study-continuation-tips",
-      "toeic-listening-beginner",
-    ],
+  "business-english-where-to-start",
+  "business-email-basic-patterns",
+  "english-skills-for-foreign-company",
+  "english-conversation-words-not-coming-out",
+  "toeic-listening-beginner",
+],
     cta: {
       title: "英語会議で話せるようになりたい方へ",
       body:
@@ -939,5 +939,89 @@ export const blogPosts = [
       },
      ],
   },
-
+  {
+    slug: "english-skills-for-foreign-company",
+    title:
+      "外資系企業で必要な英語力とは？TOEICだけでは足りない実務英語",
+    description:
+      "外資系企業や海外チームとの仕事で必要な英語力について、TOEICとの違い、英文メール・英語会議・説明力など実務で求められる英語を解説します。",
+    date: "2026-05-19",
+    category: "ビジネス英語・キャリア英語",
+    cluster: "ビジネス英語・キャリア英語",
+    readingTime: "約5分",
+    heroImage: "",
+    heroImageAlt: "",
+    heroImageCaption: "",
+    relatedPosts: [
+      "business-english-where-to-start",
+      "business-email-basic-patterns",
+      "english-meeting-speaking-tips",
+      "english-conversation-words-not-coming-out",
+      "toeic-self-study-vs-coaching",
+    ],
+    cta: {
+      title: "外資系・仕事で使う英語を伸ばしたい方へ",
+      body:
+        "Buddy English Studioでは、外資系企業や海外チームとの仕事で必要な英語を、現在地や業務内容に合わせて1対1でサポートしています。TOEIC対策だけでなく、英文メール、英語会議、自己紹介、説明力、プレゼン準備まで、実務で使える英語を一緒に整理します。",
+      buttonText: "まずはLINEで相談してみる",
+    },
+    content: [
+      {
+        heading: "外資系企業で必要な英語力とは？",
+        body:
+          "外資系企業で働くことを考えた時、多くの方がまず気にするのがTOEICの点数です。もちろんTOEICは、語彙力、リスニング力、英文を処理する力を示す一つの目安になります。ただし、外資系企業で実際に仕事をする時に必要な英語力は、TOEICの点数だけでは測れません。メールを書く、会議で確認する、自分の仕事を説明する、相手に依頼する、状況を共有する。こうした実務に近い英語力が必要になります。",
+      },
+      {
+        heading: "TOEICは土台になる。でも、それだけでは足りない",
+        body:
+          "TOEICの勉強は、外資系企業で働くための土台づくりとして役立ちます。単語力、文法力、リスニング力、英文を読むスピードは、仕事で英語を使ううえでも大切です。一方で、TOEICで高い点数を取れても、すぐに英語会議で発言できるとは限りません。TOEICは主に読む力と聞く力を測る試験ですが、実務では書く力、話す力、確認する力、相手とやりとりする力も求められます。",
+      },
+      {
+        heading: "実務英語1：英文メールを書く力",
+        body:
+          "外資系企業でまず必要になりやすいのが、英文メールを書く力です。メールは会話と違い、考える時間があるため、最初に伸ばしやすい実務英語でもあります。依頼する、確認する、お礼を伝える、日程を調整する、会議後にフォローアップする。このような基本パターンを覚えておくと、仕事で英語を使うハードルはかなり下がります。大切なのは、難しい英語を書くことではなく、相手がすぐに理解できる英語を書くことです。",
+      },
+      {
+        heading: "実務英語2：英語会議で一言発言する力",
+        body:
+          "外資系企業では、海外メンバーとの会議に参加する場面もあります。最初から流暢に話す必要はありませんが、確認する、質問する、賛成する、次のアクションを確認するなど、短い一言を言えることは大切です。会議で黙っている時間が長いと、理解していても伝わりにくいことがあります。まずは、Let me confirm one thing. や What is the next step? のような短い表現から準備しておくと、発言しやすくなります。",
+      },
+      {
+        heading: "実務英語3：自分の仕事を説明する力",
+        body:
+          "外資系企業では、自分が何を担当しているのか、今どんな課題があるのか、次に何をするのかを英語で説明する場面があります。ここで大切なのは、複雑な表現を使うことではありません。自分の担当業務、顧客、プロジェクト、課題、進捗、次のアクションを、短くわかりやすく伝える力です。自分の仕事に近い表現から練習すると、実務で使いやすい英語になりやすいです。",
+      },
+      {
+        heading: "実務英語4：わからない時に確認する力",
+        body:
+          "外資系企業で英語を使う時に大切なのは、わからないことをそのままにしないことです。英語が得意な人でも、相手の話をすべて完璧に理解できるわけではありません。大切なのは、理解できなかった時に確認できることです。Could you explain that again? Just to clarify, does that mean...? などの表現を使えると、認識のズレを防ぎやすくなります。確認する力は、英語力だけでなく仕事力にもつながります。",
+      },
+      {
+        heading: "実務英語5：シンプルに結論を伝える力",
+        body:
+          "外資系企業や海外チームとの仕事では、結論を先に伝えることが大切です。日本語では背景から丁寧に説明することも多いですが、英語のビジネスコミュニケーションでは、まず結論、次に理由、最後に必要なアクションを伝えるほうが理解されやすい場面があります。難しい単語を使うよりも、短く、明確に、誤解なく伝えることが重要です。きれいな英語よりも、仕事が前に進む英語を意識しましょう。",
+      },
+      {
+        heading: "外資系で求められるのは、ネイティブのような英語ではない",
+        body:
+          "外資系企業で働くために、ネイティブのような英語を話せる必要があると思っている方もいます。しかし実際には、さまざまな国の人が英語を第二言語として使っています。大切なのは、発音や表現が完璧であることよりも、必要な情報を伝え、確認し、相手と仕事を進められることです。完璧を目指しすぎると、発言すること自体が難しくなります。まずは、仕事で必要な場面から使える英語を増やしていきましょう。",
+      },
+      {
+        heading: "TOEIC学習と実務英語は、組み合わせると強い",
+        body:
+          "TOEICと実務英語は、どちらか一方だけを選ぶものではありません。TOEICで英語の土台を作りながら、実務に近い英文メール、会議フレーズ、仕事説明、確認表現を練習することで、資格にも仕事にもつながる英語力を作りやすくなります。特に外資系企業を目指す方や、すでに仕事で英語が必要になっている方は、点数だけでなく、実際に使う場面まで意識することが大切です。",
+      },
+      {
+        heading: "まずは、自分の仕事で英語を使う場面を整理する",
+        body:
+          "外資系企業で必要な英語力を伸ばすためには、まず自分がどんな場面で英語を使うのかを整理することが大切です。英文メールが中心なのか、会議で発言する必要があるのか、英語面接を受けるのか、海外チームに進捗を共有するのか。必要な場面によって、優先順位は変わります。すべてを一度に完璧にするのではなく、今の自分に必要な英語から順番に整えていきましょう。",
+      },
+      {
+        heading: "Buddy English Studioでサポートできること",
+        body:
+          "Buddy English Studioでは、外資系企業や海外チームとの仕事で英語が必要な方に向けて、ビジネス英語・キャリア英語を1対1でサポートしています。英文メール、英語会議、自己紹介、仕事説明、プレゼン準備、英語面接、TOEIC対策など、目的に合わせて優先順位を整理します。TOEIC990点満点の知見に加えて、米国勤務経験や外資系企業で英語を使ってきた実務経験をもとに、資格だけで終わらない、仕事で使える英語学習をサポートします。",
+      },
+    ],
+  },
+  
 ];
