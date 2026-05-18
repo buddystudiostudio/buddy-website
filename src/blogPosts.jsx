@@ -708,7 +708,7 @@ export const blogPosts = [
   "business-email-basic-patterns",
   "english-meeting-speaking-tips",
   "english-skills-for-foreign-company",
-  "english-conversation-words-not-coming-out",
+  "english-interview-preparation",
   "toeic-self-study-vs-coaching",
 ],
     cta: {
@@ -872,8 +872,8 @@ export const blogPosts = [
   "business-english-where-to-start",
   "business-email-basic-patterns",
   "english-skills-for-foreign-company",
+  "english-interview-preparation",
   "english-conversation-words-not-coming-out",
-  "toeic-listening-beginner",
 ],
     cta: {
       title: "英語会議で話せるようになりたい方へ",
@@ -953,12 +953,12 @@ export const blogPosts = [
     heroImageAlt: "",
     heroImageCaption: "",
     relatedPosts: [
-      "business-english-where-to-start",
-      "business-email-basic-patterns",
-      "english-meeting-speaking-tips",
-      "english-conversation-words-not-coming-out",
-      "toeic-self-study-vs-coaching",
-    ],
+  "business-english-where-to-start",
+  "business-email-basic-patterns",
+  "english-meeting-speaking-tips",
+  "english-interview-preparation",
+  "toeic-self-study-vs-coaching",
+],
     cta: {
       title: "外資系・仕事で使う英語を伸ばしたい方へ",
       body:
@@ -1023,5 +1023,98 @@ export const blogPosts = [
       },
     ],
   },
-  
+    {
+    slug: "english-interview-preparation",
+    title:
+      "英語面接の準備方法｜自己紹介・職務経歴・強みを英語で伝えるコツ",
+    description:
+      "英語面接を控えている社会人向けに、自己紹介、職務経歴、強み、志望理由を英語で伝えるための準備方法をわかりやすく解説します。",
+    date: "2026-05-20",
+    category: "ビジネス英語・キャリア英語",
+    cluster: "ビジネス英語・キャリア英語",
+    readingTime: "約5分",
+    heroImage: "",
+    heroImageAlt: "",
+    heroImageCaption: "",
+    relatedPosts: [
+      "english-skills-for-foreign-company",
+      "business-english-where-to-start",
+      "english-meeting-speaking-tips",
+      "business-email-basic-patterns",
+      "english-conversation-words-not-coming-out",
+    ],
+    cta: {
+      title: "英語面接を準備したい方へ",
+      body:
+        "Buddy English Studioでは、英語面接、外資系企業への転職準備、自己紹介、職務経歴、強みの伝え方を、現在地や応募ポジションに合わせて1対1でサポートしています。完璧な英語を暗記するのではなく、自分の経験を英語で自然に伝えられる形を一緒に整理します。",
+      buttonText: "まずはLINEで相談してみる",
+    },
+    content: [
+      {
+        heading: "英語面接は、英語力だけで決まるわけではない",
+        body:
+          "英語面接と聞くと、『流暢に話せないといけない』『ネイティブのような英語で答えないといけない』と感じる方は多いです。もちろん英語力は大切ですが、英語面接で見られているのは英語そのものだけではありません。これまでの経験、応募ポジションとの相性、仕事への考え方、コミュニケーションのわかりやすさも重要です。大切なのは、完璧な英語を話すことではなく、自分の経験や強みを相手に伝わる形で整理しておくことです。",
+      },
+      {
+        heading: "まず準備すべきは自己紹介",
+        body:
+          "英語面接で最初に準備したいのは、自己紹介です。Tell me about yourself. や Could you walk me through your background? と聞かれることはよくあります。この時に、名前や年数だけを話すのではなく、これまでの経験、得意領域、応募ポジションにつながるポイントを短くまとめることが大切です。自己紹介は長すぎると伝わりにくくなります。まずは60秒から90秒程度で、自分のキャリアの流れを説明できるようにしておきましょう。",
+      },
+      {
+        heading: "職務経歴は、時系列よりも『相手に伝えたい軸』で整理する",
+        body:
+          "英語面接では、職務経歴をただ時系列で話すだけでは印象に残りにくいことがあります。大切なのは、応募している仕事に対して、自分のどの経験が活かせるのかを整理することです。営業経験、カスタマーサクセス、プロジェクト管理、チームマネジメント、海外チームとの協業など、自分の経験の中で相手に伝えたい軸を決めましょう。英語では、複雑な説明よりも、結論を先にしてシンプルに伝えるほうが理解されやすくなります。",
+      },
+      {
+        heading: "強みは、抽象的な言葉だけで終わらせない",
+        body:
+          "英語面接でよく聞かれる質問に、What are your strengths? があります。この時に、I am a hard worker. や I am good at communication. だけで終わると、少し弱く聞こえることがあります。強みを伝える時は、強み、具体例、成果の順番で整理すると伝わりやすくなります。たとえば、I am good at aligning stakeholders. と伝えた後に、どのような状況で、誰と連携し、どんな結果につながったのかを短く説明できると、説得力が増します。",
+      },
+      {
+        heading: "志望理由は、会社への興味と自分の経験をつなげる",
+        body:
+          "Why are you interested in this role? や Why do you want to join our company? も、英語面接でよく聞かれる質問です。ここでは、会社が有名だから、外資系だから、英語を使いたいから、という理由だけでは少し浅く見えることがあります。会社の事業、ポジションの役割、自分の経験や今後伸ばしたい方向をつなげて話すことが大切です。自分のキャリアと応募ポジションの接点を整理しておくと、英語でも答えやすくなります。",
+      },
+      {
+        heading: "よく聞かれる質問を先に準備しておく",
+        body:
+          "英語面接では、ある程度よく聞かれる質問があります。Tell me about yourself. What are your strengths? Why are you interested in this role? Tell me about a challenge you faced. How do you work with cross-functional teams? などです。すべてを丸暗記する必要はありませんが、よく聞かれる質問に対して、自分の経験をもとに答えの方向性を準備しておくと安心です。準備しておくことで、本番で頭が真っ白になるリスクを減らせます。",
+      },
+      {
+        heading: "回答は丸暗記よりも、話す順番を決める",
+        body:
+          "英語面接の準備でよくある失敗は、回答文を丸暗記しようとすることです。丸暗記すると、少し質問の聞かれ方が変わっただけで答えにくくなります。おすすめは、全文を覚えるのではなく、話す順番を決めることです。結論、背景、具体例、成果、学び。このような型を持っておくと、質問が少し変わっても対応しやすくなります。英語面接では、完璧な文章よりも、筋道立てて伝える力が大切です。",
+      },
+      {
+        heading: "STAR形式を使うと、経験を説明しやすい",
+        body:
+          "英語面接で過去の経験を話す時は、STAR形式を使うと整理しやすくなります。STARとは、Situation、Task、Action、Resultの頭文字です。どんな状況だったのか、自分の役割は何だったのか、何をしたのか、その結果どうなったのか。この順番で話すと、相手に伝わりやすくなります。特に外資系企業やグローバル企業では、具体的な行動と成果を重視されることが多いため、数字や結果も入れられるとより強くなります。",
+      },
+      {
+        heading: "英語面接では、短く答える力も大切",
+        body:
+          "英語面接では、長く話せることが必ずしも良いわけではありません。長く話しすぎると、結論が見えにくくなることがあります。まずは質問に対する答えを短く伝え、その後に必要な説明を加えることを意識しましょう。日本語では丁寧に背景から説明したくなることもありますが、英語では最初に結論を言うほうが伝わりやすい場面が多いです。短く、明確に、相手が理解しやすい順番で話すことが大切です。",
+      },
+      {
+        heading: "発音よりも、聞き返しと確認の表現を準備する",
+        body:
+          "英語面接では、相手の質問が一度で聞き取れないこともあります。その時に黙ってしまうよりも、聞き返しや確認の表現を使えることが大切です。Could you repeat the question, please? Could you clarify what you mean by that? Let me make sure I understood your question. などの表現を準備しておくと安心です。面接では、聞き取れないこと自体よりも、落ち着いて確認できることが大切です。",
+      },
+      {
+        heading: "最後の質問も準備しておく",
+        body:
+          "英語面接の最後に、Do you have any questions for us? と聞かれることがあります。この時に何も質問がないと、関心が薄い印象になることがあります。仕事内容、チーム構成、成功する人の特徴、最初の90日で期待されることなど、応募ポジションに関係する質問を準備しておきましょう。質問は、自分が会社を見極めるためだけでなく、自分の関心や理解度を示す機会にもなります。",
+      },
+      {
+        heading: "英語面接は、一人で暗記するより練習したほうが早い",
+        body:
+          "英語面接の準備は、一人で原稿を作るだけでは不十分なことがあります。実際に声に出して話してみると、言いにくい表現、長すぎる回答、伝わりにくい順番に気づけます。特に自己紹介、職務経歴、強み、志望理由は、何度か口に出して練習することが大切です。完璧な英語を作るよりも、自分の経験を自然に説明できる状態を目指しましょう。",
+      },
+      {
+        heading: "Buddy English Studioでサポートできること",
+        body:
+          "Buddy English Studioでは、英語面接を準備したい社会人の方に向けて、自己紹介、職務経歴、強み、志望理由、想定質問への回答を1対1でサポートしています。外資系企業やグローバル企業への転職準備、英語でのキャリア説明、英語会議・ビジネス英語、TOEIC対策まで、一人ひとりの目的に合わせて優先順位を整理します。TOEIC990点満点の知見に加えて、米国勤務経験や外資系企業で英語を使ってきた実務経験をもとに、面接本番で伝わる英語を一緒に作っていきます。",
+      },
+    ],
+  },
 ];
